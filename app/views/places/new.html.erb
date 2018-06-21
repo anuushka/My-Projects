@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+
+<div class="center-container">
+    <div class="main">
+    <h1 class="w3layouts_head">Registration Form</h1>
+    <div class="w3layouts_main_grid">
+		<%= form_with scope: :place, url: places_path, local: true do |form| %>
+		
+		<div class="w3_agileits_main_grid w3l_main_grid">
+            <span class="agileits_grid">
+                <label>Төрөл</label> 
+                <select name="category">
+                  <option value="none" selected="" disabled="">Select category</option>
+                  <option value="Ph">Coffee Shop</option>
+                  <option value="Po">Cinema</option>
+                  <option value="So">Shopping center</option>
+                  <option value="Sp">Camp</option>
+                  <option value="Sw">Travel</option>
+                </select>
+            </span>
+        </div>
+
+		<div class="w3_agileits_main_grid w3l_main_grid">
+		  	<span class="agileits_grid">
+			    <label>Гарчиг</label>
+			    <%= form.text_field :title %>
+			</span>
+  		</div>
+
+		<div class="w3_agileits_main_grid w3l_main_grid">
+			<span class="agileits_grid">
+				<label>Зургийн файл</label>
+		  		<%= form.file_field  :image%> 
+		  	</span>
+		</div>
+		  
+		<div class="w3_agileits_main_grid w3l_main_grid">
+			<span class="agileits_grid">
+			    <label>Тайлбар</label>
+			    <%= form.text_area :description %>
+			</span>
+		</div>
+
+		<div class="w3_agileits_main_grid w3l_main_grid">
+			<span class="agileits_grid">
+		   		<label>Цагийн хуваарь</label>
+		     	<%= form.text_area :timetable %>
+		  	</span>
+		</div>
+
+		<div class="w3_agileits_main_grid w3l_main_grid">
+			<span class="agileits_grid">
+			    <label>Нээх цаг</label>
+			    <%= form.time_select :opentime %>
+			</span>
+		</div>
+
+		<div class="w3_agileits_main_grid w3l_main_grid">
+			<span class="agileits_grid">
+			    <label>Хаах цаг</label>
+			    <%= form.time_select :closetime %>
+		</span> 
+		</div>
+
+		<div class="w3_agileits_main_grid w3l_main_grid">
+			<span class="agileits_grid">
+			    <label>Үнэ өртөг</label>
+			    <%= form.text_field :price %>
+			</span>
+		</div>
+		  
+		<div class="w3_agileits_main_grid w3l_main_grid">
+			<span class="agileits_grid">
+			    <label>Хаяг байршил</label>
+			    <%= form.text_field :location%>
+			</span>
+		</div>
+
+		<div class="w3_agileits_main_grid w3l_main_grid">
+		  	<span class="agileits_grid">
+			    <label>Уртраг</label>
+			    <%= form.text_field :longitude%>
+			</span>
+		</div>
+
+		<div class="w3_agileits_main_grid w3l_main_grid">
+		  	<span class="agileits_grid">
+			    <label>Өргөрөг</label>
+			    <%= form.text_field :latitude  %>
+			</span>
+		</div>
+
+		<div class="w3_agileits_main_grid w3l_main_grid">
+			<span class="agileits_grid">
+			    <label>Холбогдох утас</label>
+			    <%= form.text_field :phone  %>
+			</span>
+		</div>
+
+	<div class="w3_main_grid">
+		<div class="w3_agileits_main_grid w3l_main_grid">
+		    <%= form.submit %>
+		</div>
+		<% end %>
+
+  </div>
+  <link rel="stylesheet" href="css/jquery-ui.css" />
+				<script src="js/jquery-ui.js"></script>
+					<script>
+						$(function() {
+							$( "#datepicker" ).datepicker();
+						});
+					</script>
+	</body>
+</html>

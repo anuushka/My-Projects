@@ -1,0 +1,60 @@
+ <%= render 'navbar' %>
+<div class = "container">
+
+<h5>Хамгийн их хандалттай</h5>
+
+
+ 
+
+ 
+
+
+<div class = "card-box container"> 
+  <div class="card-columns ">
+     <% @places.each do |place| %>
+       <div class="card" style="width: 18rem;" onclick="location.href='google.com'">
+        
+       <div class = "photo">
+          <img class="card-img-top" src="img\index.jpg" alt="hello" height="150px" width="100%">
+             <div class="glow-wrap">
+    <i class="glow"></i>
+      </div>
+       </div>
+       
+    <div class="card-body">
+    <h5 class="card-title"><%= link_to place.title, place_path(place) %></h5>
+        <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+    <p class="card-text card-option" ><%= place.image %></p>
+    
+<ul class="list-group list-group-flush">
+    <li class="list-group-item">
+    
+      
+       
+       <a href=""><span class="fa fa-facebook iconlogo"></span> </a>
+      
+      <a href=""><span class="fa fa-google logo iconlogo"></span></a>
+      <a href=""> <span class="fa fa-twitter iconlogo"></span></a>
+      
+    </li>
+  
+  </ul>
+  </div>
+  </div> 
+    
+     
+     
+    
+ <% end %>
+
+ 
+  
+   
+</div>
+  </div>
+
+</div>

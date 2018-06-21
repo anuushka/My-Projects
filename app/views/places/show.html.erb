@@ -1,0 +1,112 @@
+<div class = "container">
+  <div class = "row">
+      <h2 class="title"><%= @place.title %></h2>
+    </div>
+ 
+    <div class = "row">
+
+            <div class = "info">
+        <div class = "detail">
+         <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          
+         </div> 
+         <div class = "detail">
+              <p class="fa fa-eye " >Үзсэн тоо : <span class="badge badge-success"><%= @place.count %></span></p>
+
+         </div>
+         <div class = "detail">
+        <p class= "fa fa-money"> Төлбөр:<%= @place.price %></p>
+        </div>
+          </div>
+     <br></br>
+    </div>   
+    <div class = "picture1">
+      <img class="card-img-top img-fluid col-md-4" style="width:350px" src="<%= @place.image %>" alt="">
+      <%= @place.image %>
+    </div>
+
+    <div class="row">
+    <div class="col-sm-8" >
+    <div class = "picture1">
+  
+   </div>
+   <div class = "text">
+        <%= @place.description %>
+   </div>
+   
+
+       </div>
+
+    <div class="col-sm-4">
+      <h3> Нэмэлт мэдээлэл</h3>
+      <hr>
+        <div class="quote-container">
+  <i class="pin"></i>
+  <blockquote class="note yellow">
+     <P><b>Нээх цаг:</b> <%= @place.opentime %></p>
+      <hr>
+     <p><b>Хаах цаг:</b> <%= @place.closetime %> </p>
+     <hr>
+     <p><%= @place.timetable %></p>
+     <hr>
+    <cite class="author">Цагийн хуваарь </cite>
+  </blockquote>
+</div>
+    <div class="quote-container">
+  <i class="pin"></i>
+  <blockquote class="note yellow">
+      <p class = "fa fa-phone "> <%= @place.phone %> </p><br>
+     <p class = "fa fa-facebook"><a href="#"> Facebook</a></p><br>
+      <p class = "fa fa-google"><a href="#"> Google mail</a></p><br>
+      <p class = "fa fa-twitter"><a href="#"> Twitter</a></p><br>
+       <p class = "fa fa-laptop"><a href="#"> Вэб сайт</a></p>
+
+
+    <cite class="author">Холбоо барих</cite>
+  </blockquote>
+
+   
+</div>
+        <div id="map" > </div>
+           <p class = "fa fa-location-arrow " style ="font-size:28px"> <%= @place.location %> </p>
+
+  </div>
+
+    
+</div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+ 
+     <script>
+
+      function initialize() {
+        var fenway = {lat:<%= @place.latitude %>, lng: <%= @place.longitude %>};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: fenway,
+          zoom: 14
+        });
+        var panorama = new google.maps.StreetViewPanorama(
+            document.getElementById('pano'), {
+              position: fenway,
+              pov: {
+                heading: 34,
+                pitch: 10
+              }
+            });
+        map.setStreetView(panorama);
+      }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChQ-hiIk0MeSYiNK4uGxo3GVr_A_AsQ0c&callback=initialize">
+    </script>
+  </body>
+
+</div>
+
+
