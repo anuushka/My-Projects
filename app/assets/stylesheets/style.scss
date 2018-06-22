@@ -1,37 +1,8 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
-/* reset */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
-article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
-ol,ul{list-style:none;margin:0px;padding:0px;}
-blockquote,q{quotes:none;}
-blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
-table{border-collapse:collapse;border-spacing:0;}
-/* start editing from here */
-a{text-decoration:none;}
-.txt-rt{text-align:right;}/* text align right */
-.txt-lt{text-align:left;}/* text align left */
-.txt-center{text-align:center;}/* text align center */
-.float-rt{float:right;}/* float right */
-.float-lt{float:left;}/* float left */
-.clear{clear:both;}/* clear float */
-.pos-relative{position:relative;}/* Position Relative */
-.pos-absolute{position:absolute;}/* Position Absolute */
-.vertical-base{ vertical-align:baseline;}/* vertical align baseline */
-.vertical-top{  vertical-align:top;}/* vertical align top */
-nav.vertical ul li{ display:block;}/* vertical menu */
-nav.horizontal ul li{ display: inline-block;}/* horizontal menu */
-img{max-width:100%;}
-/*end reset*/
 body{
   margin:0;
   padding:0;
-  background-color: black;
-  background: url(../images/1.jpeg);
+  background: url(1.jpeg);
+   background-image: image-url('background/log.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -40,10 +11,17 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-   font-family: 'Times New Roman', sans-serif;
+   font-family: 'Roboto', sans-serif;
  }
+.background{
+   background-image: image-url('background/log.jpg');
+   width: 100%;
+   height: 100%;
+}
+
 h1,h2,h3,h4,h5,h6{
   margin:0; 
+
 } 
 p{
   margin:0;
@@ -89,15 +67,15 @@ input[type="submit"],a,.agileinfo_social_icons li{
   padding:5em 0;
 }
 .main h1{
-  text-align: center;
+    text-align: center;
     color: #090909;
     font-size: 3em;
     margin-bottom: 1em;
-  text-transform: uppercase;
-  letter-spacing:2px;
+    text-transform: uppercase;
+     letter-spacing:2px;
 }
 .w3layouts_main_grid{
-  width: 35%;
+    width: 35%;
     padding: 2em;
     margin:0 auto;
     background:rgba(120, 109, 118, 0.36);
@@ -107,7 +85,7 @@ input[type="submit"],a,.agileinfo_social_icons li{
     display: block;
 }
 .w3layouts_main_grid span label{
-    color: #ffff;
+    color: #FFFFFF;
     font-size: 14px;
     text-transform: uppercase;
     font-style: normal;
