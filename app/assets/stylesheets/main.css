@@ -140,7 +140,9 @@ transform: rotate(57.5deg);
   -o-transform-origin: 50% 100%;
 }
 .picture1{
-  margin-top: 20px;
+  margin-top:20px;
+  width: 100%;
+   
 }
  #map, #pano {
         margin-top: 20px;

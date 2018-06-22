@@ -24,16 +24,14 @@
           </div>
      <br></br>
     </div>   
-    <div class = "picture1">
-      <img class="card-img-top img-fluid col-md-4" style="width:350px" src="<%= @place.image %>" alt="">
-      <%= @place.image %>
-    </div>
+    
+   
 
     <div class="row">
     <div class="col-sm-8" >
     <div class = "picture1">
-  
-   </div>
+      <%= image_tag @place.image.to_s %>
+    </div>
    <div class = "text">
         <%= @place.description %>
    </div>
