@@ -10,11 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180620081823) do
+ActiveRecord::Schema.define(version: 20180622035927) do
 
   create_table "places", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
     t.string "title"
-    t.string "image"
     t.text "description"
     t.string "timetable"
     t.time "opentime"
@@ -27,6 +26,7 @@ ActiveRecord::Schema.define(version: 20180620081823) do
     t.integer "count"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "image"
   end
 
 end
