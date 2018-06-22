@@ -122,6 +122,16 @@ body{
     background: #C9302C !important;
     color: #FFFFFF;
 }
+.description{     
+  display: inline-block; /* <- Prevent <tr> in a display css */
+  
+  white-space: nowrap;
+  /* end */
+  padding: 10px;
+  width: 100%; /* Space size limit */
+  height: 300px;  
+  overflow: hidden;
+}
 
 
 
