@@ -20,16 +20,7 @@
 	margin: auto;
 	margin-left:30px;
 }
-body{
-  background: rgba(218,218,218,1)
-}
 
-
-
-.photo{
-  
-  
-}
 
 .photo img{
   width: 100%;
@@ -52,7 +43,7 @@ body{
   width: 100%;
   height: 100%;
   top: 0;
-  margin-top: -10px;
+  margin-top: -10px; 
 }
 
 .photo .glow{
@@ -72,10 +63,7 @@ body{
   transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.photo:hover img,
-.photo:hover img .glow-wrap{
-  
-}
+
 .card-option{
 	height:3.6em;
 }
@@ -123,15 +111,15 @@ body{
     color: #FFFFFF;
 }
 .description{     
-  display: inline-block; /* <- Prevent <tr> in a display css */
-  
-  white-space: nowrap;
-  /* end */
-  padding: 10px;
-  width: 100%; /* Space size limit */
-  height: 300px;  
-  overflow: hidden;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 16px;     /* fallback */
+   max-height: 40px;      /* fallback */
+   -webkit-line-clamp: 3; /* number of lines to show */
+   -webkit-box-orient: vertical;
+   font: 10px;
 }
-
-
-
+.link{
+   z-index: -1;
+}

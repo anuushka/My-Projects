@@ -1,0 +1,98 @@
+/*2 lines between text*
+/*talbariin nernuud*/
+.uploadTime{
+  margin-top: 30px;
+}
+.title{
+border-bottom: 2px inset;
+border-radius: 5px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.text{
+height: 60%;
+margin-top: 60px;
+font-size: 60px;
+font-family: ;
+text-align: justify;
+}
+.text p{
+  font-size: 24px;
+}
+.info{
+  margin-top: 20px;
+  font-size: 20px;
+}
+.info .detail{
+  float: left;
+  border-right: 0.5px solid;
+  border-color: grey;
+  padding-right: 10px;
+  padding-left: 10px;
+
+  height: 30px;
+}
+.additional{
+  margin-top: 42px; 
+}
+.additional b{
+  font-size: 20px;
+}
+.time{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.time p{
+    font-size: 17px;
+}
+.time b{
+    font-size: 17px;
+}
+
+.hr-sect {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: black;
+  margin: 8px 0px;
+}
+.hr-sect::before,
+.hr-sect::after {
+  content: "";
+  flex-grow: 1;
+  background: black;
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 0px 8px;
+}
+.contact{
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.contact p{
+    font-size: 17px;
+}
+.address{
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.address p{
+    font-size: 17px;
+}
+  #map {
+        border:1px solid;
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+.subtitle{
+  margin-top: -15px;
+}
+.picture1{
+  margin-top: 20px;
+}
+.picture1 img{
+    width:100%;
+    max-width:800px;
+}
