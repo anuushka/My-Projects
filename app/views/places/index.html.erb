@@ -4,25 +4,24 @@
     <div class="card-deck ">
       <% @places.each do |place| %>
         <div class="card" style="width: 18rem;">
-
           <div class = "photo">
             <%= image_tag place.image.to_s %>
-            <div class="glow-wrap">
+            <div class="glow-wrap link ">
               <i class="glow"></i>
             </div>
           </div>
 
           <div class="card-body">
-            <%= link_to place.title, place_path(place) %> 
+            <%= link_to place.title, place_path(place) %><br> 
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star"></span>
             <span class="fa fa-star"></span>
             <hr>
-            <p class="card-text card-option" >
-              <%= place.description%>
-            </p>
+             <div class = "description">
+                  <%= place.description%>
+             </div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
                 <a href="places/1"><span class="fa fa-facebook iconlogo"></span> </a>

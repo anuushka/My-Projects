@@ -1,86 +1,60 @@
 <div class = "container">
-  <div class = "row">
-      <h2 class="title"><%= @place.title %></h2>
-    </div>
- 
     <div class = "row">
-
-            <div class = "info">
-        <div class = "detail">
-         <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star"></span>
-          <span class="fa fa-star"></span>
-          
-         </div> 
-         <div class = "detail">
-              <p class="fa fa-eye " >Үзсэн тоо : <span class="badge badge-success"><%= @place.count %></span></p>
-
-         </div>
-         <div class = "detail">
-        <p class= "fa fa-money"> Төлбөр:<%= @place.price %></p>
-        </div>
+      <div class = "col-sm-8">
+          <div class = "uploadTime">
+            <div class="hr-sect"><%= @place.updated_at.strftime("%Y-%m-%d"); %></div>
           </div>
-     <br></br>
-    </div>   
-    
-   
+          <div class = "title">
+            <center><h2><%= @place.title %><h2></center>
+          </div>
+          <div class = "picture1 img-rounded">
+            <center>  <%= image_tag @place.image.to_s %></center>
+          </div> 
+          <div class = "detail">
+              <p class="fa fa-eye " >Үзсэн тоо :<span class="badge badge-dark"><%= @place.count %></span></p>
+          </div>
+          <div class = "text">
+            <p class = "p.ex1"><%= @place.description %></p>
+          </div>
 
-    <div class="row">
-    <div class="col-sm-8" >
-    <div class = "picture1">
-      <%= image_tag @place.image.to_s %>
+      </div>
+      <div class = "col-sm-4">
+        <div class = "additional">
+          <hr>
+           <center class = "subtitle"><h3> Нэмэлт мэдээлэл</h3></center>
+           <center>
+            
+              <div class="hr-sect"><p><b>Цагийн хуваарь</b></p></div>
+              
+            <div class = "time">
+                <center>
+                 <p> <b>Нээх цаг: </b><%= @place.opentime.strftime("%H:%M %p") %></p>
+                  <hr>
+                  <p> <b>Хаах цаг: </b><%= @place.closetime.strftime("%H:%M %p") %> </p>
+                  <hr>
+                  <p><%= @place.timetable %></p>
+                </center>
+              </div>
+            
+            <div class = "contact">
+              <div class="hr-sect"><p><b>Холбоо барих</b></p></div>
+              <p class = "fa fa-phone "><%= @place.phone %></p>
+              <hr> 
+            </div>
+            
+            <div class = "address">
+              <div class="hr-sect"><p><b>Хаяг</b></p></div>
+              <div id="map" > </div>
+              <hr>
+               <p class = "fa fa-location-arrow " style ="font-size:20px"><%= @place.location %></p>
+            </div>
+           </center>
+        </div>
+      </div>
     </div>
-   <div class = "text">
-        <%= @place.description %>
-   </div>
-   
-
-       </div>
-
-    <div class="col-sm-4">
-      <h3> Нэмэлт мэдээлэл</h3>
-      <hr>
-        <div class="quote-container">
-  <i class="pin"></i>
-  <blockquote class="note yellow">
-     <P><b>Нээх цаг:</b> <%= @place.opentime %></p>
-      <hr>
-     <p><b>Хаах цаг:</b> <%= @place.closetime %> </p>
-     <hr>
-     <p><%= @place.timetable %></p>
-     <hr>
-    <cite class="author">Цагийн хуваарь </cite>
-  </blockquote>
-</div>
-    <div class="quote-container">
-  <i class="pin"></i>
-  <blockquote class="note yellow">
-      <p class = "fa fa-phone "> <%= @place.phone %> </p><br>
-     <p class = "fa fa-facebook"><a href="#"> Facebook</a></p><br>
-      <p class = "fa fa-google"><a href="#"> Google mail</a></p><br>
-      <p class = "fa fa-twitter"><a href="#"> Twitter</a></p><br>
-       <p class = "fa fa-laptop"><a href="#"> Вэб сайт</a></p>
+  </div> 
 
 
-    <cite class="author">Холбоо барих</cite>
-  </blockquote>
-
-   
-</div>
-        <div id="map" > </div>
-           <p class = "fa fa-location-arrow " style ="font-size:28px"> <%= @place.location %> </p>
-
-  </div>
-
-    
-</div>
-      
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
- 
      <script>
 
       function initialize() {
@@ -103,8 +77,4 @@
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChQ-hiIk0MeSYiNK4uGxo3GVr_A_AsQ0c&callback=initialize">
     </script>
-  </body>
-
-</div>
-
-
+ 
