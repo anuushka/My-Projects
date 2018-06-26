@@ -52,6 +52,12 @@
         </div>
       </div>
     </div>
+      
+      <h3>Санал хүсэлтүүд:</h3>
+      <%= render @place.comments %>
+
+      <h3>Санал хүсэлт оруулах:</h3>
+      <%= render 'comments/form' %>
   </div> 
 
 
@@ -77,4 +83,3 @@
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChQ-hiIk0MeSYiNK4uGxo3GVr_A_AsQ0c&callback=initialize">
     </script>
- 
