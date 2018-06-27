@@ -3,7 +3,6 @@ class PlacesController < ApplicationController
       @places =  Place.limit(4).order("count DESC")
   end
 
-
   def show
     @place = Place.find(params[:id])
 
@@ -13,19 +12,20 @@ class PlacesController < ApplicationController
   end
 
 	def new
-    @place=Place.new
+    @places = Place.new
+    @categories = Category.all
   end
   
   def create
     @place = Place.new(place_params)
+    @category = Category.find(params[:category])
+    @place.categories << @category
     @place.save
     redirect_to @place
-    puts "testing"
   end
-
  
-private
+  private
   def place_params
-    params.require(:place).permit(:title, :image, :description, :timetable, :opentime, :closetime, :price, :location, :longitude, :latitude, :phone)
+    params.require(:place).permit(:title, :image, :description, :timetable, :opentime, :closetime, :price, :location, :longitude, :latitude, :phone, :category)
   end
 end

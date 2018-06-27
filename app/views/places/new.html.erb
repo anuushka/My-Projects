@@ -10,11 +10,9 @@
                 <label>Төрөл</label> 
                 <select name="category">
                   <option value="none" selected="" disabled="">Select category</option>
-                  <option value="Ph">Coffee Shop</option>
-                  <option value="Po">Cinema</option>
-                  <option value="So">Shopping center</option>
-                  <option value="Sp">Camp</option>
-                  <option value="Sw">Travel</option>
+                  <% @categories.each do |category| %>
+                  	<option value=<%= category.id %> > <%= category.name %></option>
+                  <% end %>
                 </select>
             </span>
         </div>

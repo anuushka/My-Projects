@@ -17,3 +17,6 @@
 /yarn-error.log
 
 .byebug_history
+Gemfile.lock
+/db/schema.rb
+/config/database.yml
