@@ -2,7 +2,7 @@ class CreatePlaces < ActiveRecord::Migration[5.1]
   def change
     create_table :places do |t|
       t.string :title
-      t.string :image
+ 
       t.text :description
       t.string :timetable
       t.time :opentime

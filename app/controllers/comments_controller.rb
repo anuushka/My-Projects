@@ -12,7 +12,7 @@ def create
   end
   private
     def comment_params
-      params.require(:comment).permit(:user, :post)
+      params.require(:comment).permit(:user, :post,:rating)
     end
 end
 
