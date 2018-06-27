@@ -1,68 +1,75 @@
 <div class = "container">
-    <div class = "row">
-      <div class = "col-sm-8">
-          <div class = "uploadTime">
-            <div class="hr-sect"><%= @place.updated_at.strftime("%Y-%m-%d"); %></div>
-          </div>
-          <div class = "title">
-            <center><h2><%= @place.title %><h2></center>
-          </div>
-          <div class = "picture1 img-rounded">
-            <center>  <%= image_tag @place.image.to_s %></center>
-          </div> 
-          <div class = "detail">
-              <p class="fa fa-eye " >Үзсэн тоо :<span class="badge badge-dark"><%= @place.count %></span></p>
-          </div>
-          <div class = "text">
-            <p class = "p.ex1"><%= @place.description %></p>
-          </div>
-
+  <div class = "row">
+    <div class = "col-sm-8">
+      <div class = "uploadTime">
+        <div class="hr-sect"><%= @place.updated_at.strftime("%Y-%m-%d"); %></div>
       </div>
-      <div class = "col-sm-4">
-        <div class = "additional">
-          <hr>
-           <center class = "subtitle"><h3> Нэмэлт мэдээлэл</h3></center>
-           <center>
-            <p>
-             
-            </p>
-              <div class="hr-sect"><p><b>Цагийн хуваарь</b></p></div>
-              
-            <div class = "time">
-                <center>
-                 <p> <b>Нээх цаг: </b><%= @place.opentime.strftime("%H:%M %p") %></p>
-                  <hr>
-                  <p> <b>Хаах цаг: </b><%= @place.closetime.strftime("%H:%M %p") %> </p>
-                  <hr>
-                  <p><%= @place.timetable %></p>
-                </center>
-              </div>
-            
-            <div class = "contact">
-              <div class="hr-sect"><p><b>Холбоо барих</b></p></div>
-              <p class = "fa fa-phone "><%= @place.phone %></p>
-              <hr> 
-            </div>
-            
-            <div class = "address">
-              <div class="hr-sect"><p><b>Хаяг</b></p></div>
-              <div id="map" > </div>
-              <hr>
-               <p class = "fa fa-location-arrow " style ="font-size:20px"><%= @place.location %></p>
-            </div>
-           </center>
-        </div>
+      <div class = "title">
+        <center><h2><%= @place.title %><h2></center>
+      </div>
+      <div class = "picture1 img-rounded">
+        <center>  <%= image_tag @place.image.to_s %></center>
+      </div> 
+      <div class = "detail">
+          <p class="fa fa-eye " >Үзсэн тоо :<span class="badge badge-dark"><%= @place.count %></span></p>
+      </div>
+      <div class = "category">
+        <% @place.categories.each do |category| %>
+          <p>
+            <strong>Төрөл:</strong>
+            <%= category.name %>
+          </p>
+        <% end %> 
+      </div>
+      <div class = "text">
+        <p class = "p.ex1"><%= @place.description %></p>
       </div>
     </div>
+    <div class = "col-sm-4">
+      <div class = "additional">
+        <hr>
+         <center class = "subtitle"><h3> Нэмэлт мэдээлэл</h3></center>
+         <center>
+          <p>
+           
+          </p>
+            <div class="hr-sect"><p><b>Цагийн хуваарь</b></p></div>
+            
+          <div class = "time">
+              <center>
+               <p> <b>Нээх цаг: </b><%= @place.opentime.strftime("%H:%M %p") %></p>
+                <hr>
+                <p> <b>Хаах цаг: </b><%= @place.closetime.strftime("%H:%M %p") %> </p>
+                <hr>
+                <p><%= @place.timetable %></p>
+              </center>
+            </div>
+          
+          <div class = "contact">
+            <div class="hr-sect"><p><b>Холбоо барих</b></p></div>
+            <p class = "fa fa-phone "><%= @place.phone %></p>
+            <hr> 
+          </div>
+          
+          <div class = "address">
+            <div class="hr-sect"><p><b>Хаяг</b></p></div>
+            <div id="map" > </div>
+            <hr>
+             <p class = "fa fa-location-arrow " style ="font-size:20px"><%= @place.location %></p>
+          </div>
+         </center>
+      </div>
+    </div>
+  </div>
       
-      <h3>Санал хүсэлтүүд:</h3>
-      <%= render @place.comments %>
+  <h3>Санал хүсэлтүүд:</h3>
+  <%= render @place.comments %>
 
-      <h3>Санал хүсэлт оруулах:</h3>
-      <h1><%= @average %></h1>
-       
-      <%= render 'comments/form' %>
-  </div> 
+  <h3>Санал хүсэлт оруулах:</h3>
+  <h1><%= @average %></h1>
+   
+  <%= render 'comments/form' %>
+</div> 
 
 
      <script>
