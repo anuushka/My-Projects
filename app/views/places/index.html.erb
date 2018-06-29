@@ -1,9 +1,11 @@
+<%= stylesheet_link_tag 'index'%>
+<div class="square">
 <div class = "container">
   <h5>Хамгийн их хандалттай</h5>
   <div class = "card-box container"> 
     <div class="card-deck ">
-      <% @places.each do |place| %>
-        <div class="card" style="width: 18rem;">
+      <% @places.each.with_index do |place,index| %>
+        <div class="card" style="width: 18rem; max-width: 250px; min-width: 200px; margin-bottom: 20px; border-radius: 20px;">
           <div class = "photo">
             <%= image_tag place.image.to_s %>
             <div class="glow-wrap link ">
@@ -13,12 +15,19 @@
 
           <div class="card-body">
             <%= link_to place.title, place_path(place) %><br> 
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <hr>
+            <div class="col-lg-12">
+              <div class="star">
+                <div class="<%=index%>">
+          <span class="fa fa-star-o" data-rating="1"></span>
+          <span class="fa fa-star-o" data-rating="2"></span>
+          <span class="fa fa-star-o" data-rating="3"></span>
+          <span class="fa fa-star-o" data-rating="4"></span>
+          <span class="fa fa-star-o" data-rating="5"></span>
+          <input type="hidden" name="whatever1" class="rating-value" value="<%=place.comments.average(:rating)%>">
+        </div>        
+              </div>
+        
+      </div>
              <div class = "description">
                   <%= place.description%>
              </div>
@@ -35,3 +44,33 @@
     </div>
   </div>
 </div>
+<p id="demo"></p>
+</div>
+</div> 
+   <script>
+
+    for (var i = 0; i < 4; i++) {
+         
+  
+     var d = "'."+i+" .fa'";
+     var $val = "'."+i+" .fa'";
+     console.log($val);
+     var $star_rating = $('.'+i+' .fa'); 
+     console.log($star_rating);
+   
+     var SetRatingStar = function() {
+  return $star_rating.each(function() {
+    if (parseInt($star_rating.siblings('input.rating-value').val()) >= parseInt($(this).data('rating'))) {
+      return $(this).removeClass('fa-star-o').addClass('fa-star');
+    } else {
+      return $(this).removeClass('fa-star').addClass('fa-star-o');
+    }
+  });
+};
+SetRatingStar();
+$(document).ready(function() {
+
+});
+    }
+    
+</script>

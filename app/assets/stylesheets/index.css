@@ -1,0 +1,107 @@
+.card-box{
+  margin: auto;
+  padding: 10px;
+}
+.container h5{
+  margin-top: 70px;
+}
+.checked {
+    color: orange;
+}
+.iconlogo{
+  margin: auto;
+  margin-left:30px;
+}
+
+
+.photo img{
+  width: 100%;
+  height: 145px;
+  object-fit: cover;
+  box-shadow: 10px 15px 25px 0 rgba(0,0,0,.4);
+  display: block;
+  transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius: 20px;  
+}
+
+.photo:hover img{
+  box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+}
+
+.photo .glow-wrap{
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin-top: -10px; 
+}
+.card-option{
+  height:3.6em;
+}
+/*.card{
+  background: #ffccff;
+}*/
+.footer_links{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.footer_links li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.footer_links li a{
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 20px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+.facebook:hover{
+    background:   #3b5998 !important;
+    color: #FFFFFF;
+}
+
+.twitter:hover{
+    background:   #00B2FF !important;
+    color: #FFFFFF;
+}
+
+.g_plus:hover{
+    background: #C9302C !important;
+    color: #FFFFFF;
+}
+.description{     
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 16px;     /* fallback */
+   max-height: 48px;      /* fallback */
+   -webkit-line-clamp: 3 ; /* number of lines to show */
+   -webkit-box-orient: vertical;
+   font-size: 15px !important; 
+   margin-top: 5px;
+}
+.link{
+   z-index: -1;
+}
+.detail{
+  float:left;
+}
+.star {
+  line-height:32px;
+  font-size:1.25em;
+}
+
+.star .fa-star{color: yellow;}

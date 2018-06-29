@@ -1,109 +1,137 @@
-<div class="background" style="background-color: #ECEDED  ;">
-<div class="center-container">
-    <div class="main">
-    <h1 class="w3layouts_head">Registration Form</h1>
-    <div class="w3layouts_main_grid">
-		<%= form_with scope: :place, url: places_path, local: true do |form| %>
+<div class = "square">
+	<div class="zurag">
 		
-		<div class="w3_agileits_main_grid w3l_main_grid">
-            <span class="agileits_grid">
-                <label>Төрөл</label> 
-                <select name="category">
-                  <option value="none" selected="" disabled="">Select category</option>
-                  <% @categories.each do |category| %>
-                  	<option value=<%= category.id %> > <%= category.name %></option>
-                  <% end %>
-                </select>
-            </span>
-        </div>
-
-		<div class="w3_agileits_main_grid w3l_main_grid">
-		  	<span class="agileits_grid">
-			    <label>Гарчиг</label>
-			    <%= form.text_field :title %>
-			</span>
-  		</div>
-
-		<div class="w3_agileits_main_grid w3l_main_grid">
-			<span class="agileits_grid">
-				<label>Зургийн файл</label>
-		  		<%= form.file_field  :image%> 
-		  	</span>
-		</div>
-		  
-		<div class="w3_agileits_main_grid w3l_main_grid">
-			<span class="agileits_grid">
-			    <label>Тайлбар</label>
-			    <%= form.text_area :description %>
-			</span>
-		</div>
-
-		<div class="w3_agileits_main_grid w3l_main_grid">
-			<span class="agileits_grid">
-		   		<label>Цагийн хуваарь</label>
-		     	<%= form.text_area :timetable %>
-		  	</span>
-		</div>
-
-		<div class="w3_agileits_main_grid w3l_main_grid">
-			<span class="agileits_grid">
-			    <label>Нээх цаг</label>
-			    <%= form.time_select :opentime %>
-			</span>
-		</div>
-
-		<div class="w3_agileits_main_grid w3l_main_grid">
-			<span class="agileits_grid">
-			    <label>Хаах цаг</label>
-			    <%= form.time_select :closetime %>
-		</span> 
-		</div>
-
-		<div class="w3_agileits_main_grid w3l_main_grid">
-			<span class="agileits_grid">
-			    <label>Үнэ өртөг</label>
-			    <%= form.text_field :price %>
-			</span>
-		</div>
-		  
-		<div class="w3_agileits_main_grid w3l_main_grid">
-			<span class="agileits_grid">
-			    <label>Хаяг байршил</label>
-			    <%= form.text_field :location%>
-			</span>
-		</div>
-
-		<div class="w3_agileits_main_grid w3l_main_grid">
-		  	<span class="agileits_grid">
-			    <label>Уртраг</label>
-			    <%= form.text_field :longitude%>
-			</span>
-		</div>
-
-		<div class="w3_agileits_main_grid w3l_main_grid">
-		  	<span class="agileits_grid">
-			    <label>Өргөрөг</label>
-			    <%= form.text_field :latitude  %>
-			</span>
-		</div>
-
-		<div class="w3_agileits_main_grid w3l_main_grid">
-			<span class="agileits_grid">
-			    <label>Холбогдох утас</label>
-			    <%= form.text_field :phone  %>
-			</span>
-		</div>
-
-	<div class="w3_main_grid">
-		<div class="w3_agileits_main_grid w3l_main_grid">
-		    <%= form.submit %>
-		</div>
-  	</div>
-  	<% end %>
-  </div>
-</div>
-</div>
 	
+	<div class="container" style="margin-top: 72px;">
+		<br>
+		<center><h3 style="margin-bottom: 30px; color: white;">Шинээр газар нэмэх</h3></center>
+		<div class="background">
+		  <%= form_with scope: :place, url: places_path, local: true do |form| %>
+			   	<div class="row form-group">
+			   		<div class="col-md-3">
+			      <label><p>Төрөл</p></label>
+			    </div>
+				<div class="col-md-9">
+			      <select name="category">
+			                  <option value="none" selected="" disabled="">Select category</option>
+			                  <% @categories.each do |category| %>
+			                  	<option value=<%= category.id %> > <%= category.name %></option>
+			                  <% end %>
+			                </select>
+			    </div>		                
+					 	     
+			            
+			    </div>
+			  <div class="row form-group">
+			    <div class="col-md-3">
+			      <label><p>Гарчиг</p></label>
+			    </div>
+			    <div class="col-md-9">
+			      <%= form.text_field :title %>
+			    </div>
+  			  </div>
+  			  <div class="row form-group">
+			   <div class="col-md-3">
+			      <label><p>Зургийн файл</p></label>
+			    </div>
+			    <div class="col-md-9">
+			      <%= form.file_field  :image%> 
+			    </div>
+  			  </div>
+  			  <div class="row form-group">
+			    <div class="col-md-3">
+			      <label><p>Тайлбар</p></label>
+			    </div>
+			    <div class="col-md-9">
+			      <%= form.text_area :description %>
+			    </div>
+  			  </div>
+  			  <div class="row form-group">
+			    <div class="col-md-3">
+			      <label><p>Цагийн хуваарь</p></label>
+			    </div>
+			    <div class="col-md-9">
+			     <%= form.text_field :timetable %>
+			    </div>
+  			  </div>
+  			  <div class="row form-group">
+			    <div class="col-md-3">
+			      <label><p>Нээх цаг</p></label>
+			    </div>
+			    <div class="col-md-9">
+			    	<div class="time">
+			    		<%= form.time_select :opentime %>		
+			    	</div>
+			   	</div>
+  			  </div>
+  			  <div class="row form-group">
+			    <div class="col-md-3">
+			      <label><p>Хаах цаг</p></label>
+			    </div>
+			    <div class="col-md-9">
+			    	<div class="time">
+			    		<%= form.time_select :closetime %>		
+			    	</div>
+			   	</div>
+  			  </div>
+  			  <div class="row form-group">
+			    <div class="col-md-3">
+			      <label><p>Үнэ</p></label>
+			    </div>
+			    <div class="col-md-9">
+			    	<div class="time">
+			    		<%= form.text_field :price %>
+			    	</div>
+			   	</div>
+  			  </div>
+  			  <div class="row form-group">
+			    <div class="col-md-3">
+			      <label><p>Хаяг</p></label>
+			    </div>
+			    <div class="col-md-9">
+			    	<div class="time">
+			    		<%= form.text_field :location%>
+			    	</div>
+			   	</div>
+  			  </div>
+  			  <div class="row form-group">
+			    <div class="col-md-3">
+			      <label><p>Уртраг</p></label>
+			    </div>
+			    <div class="col-md-9">
+			    	<div class="time">
+			    		<%= form.text_field :longitude%>
+			    	</div>
+			   	</div>
+  			  </div>
+  			  <div class="row form-group">
+			    <div class="col-md-3">
+			      <label><p>Өргөрөг</p></label>
+			    </div>
+			    <div class="col-md-9">
+			    	<div class="time">
+			    		<%= form.text_field :latitude%>
+			    	</div>
+			   	</div>
+  			  </div>
+  			  <div class="row form-group">
+			    <div class="col-md-3">
+			      <label><p>Утас</p></label>
+			    </div>
+			    <div class="col-md-9">
+			    	<div class="time">
+			    		<%= form.text_field :phone%>
+			    	</div>
+			   	</div>
+  			  </div>
+  			  <div class="row form-group">
+  			  	<div class="col-md-12">
+  			  	<%= form.submit %>
+  			  </div>
+  			  </div>
+		  <% end %>
+		</div>
+		
+	</div>
+   </div>	
 </div>
-
-
