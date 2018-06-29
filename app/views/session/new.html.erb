@@ -1,0 +1,30 @@
+<div id="login-box">
+<div class="left-box">
+    <h1>Бүртгүүлэх</h1>
+    <%= form_for(@user, url: session_index_path) do |f| %>
+        <% @user.errors.full_messages.each do |msg| %>
+            <li class="error"><%= msg %></li>
+          <% end %>
+
+      <!-- SignUp field -->
+        <%= f.text_field :name, class: 'form-control', placeholder: "Хэрэглэгчийн нэр" %>
+
+        <%= f.email_field :email, class: 'form-control', placeholder: "И-мэйл хаяг" %>
+    
+        <%= f.password_field :password, class: 'form-control', placeholder: "Нууц үг" %>
+
+        <%= f.password_field :password_confirmation, class: 'form-control', placeholder: "Нууц үг дахин оруулах" %>
+    
+        <%= f.submit "Нэвтрэх", class: "btn btn-primary" %>
+    <% end %>
+</div>
+
+<!-- Social media sign-in -->
+<div class="right-box">
+    <span class="signinwith">Сошиалаар<br/>Нэвтрэх</span>
+
+<button class="social facebook">Facebook нэвтрэх</button>    
+<button class="social twitter">Twitter нэвтрэх</button> 
+<button class="social google">Google+ нэвтрэх</button> 
+</div>
+</div>
