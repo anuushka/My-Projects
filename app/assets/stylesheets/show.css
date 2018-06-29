@@ -1,7 +1,7 @@
 /*2 lines between text*
 /*talbariin nernuud*/
 .uploadTime{
-  margin-top: 30px;
+  margin-top: 85px;
 }
 .title{
 border-bottom: 2px inset;
@@ -11,7 +11,6 @@ margin-bottom: 20px;
 }
 
 .text{
-height: 60%;
 margin-top: 60px;
 font-size: 60px;
 font-family: ;
@@ -34,7 +33,7 @@ text-align: justify;
   height: 30px;
 }
 .additional{
-  margin-top: 42px; 
+  margin-top: 97px; 
 }
 .additional b{
   font-size: 20px;
@@ -87,7 +86,7 @@ text-align: justify;
         width: 100%;  /* The width is the width of the web page */
        }
 .subtitle{
-  margin-top: -15px;
+  margin-top: 15  px;
 }
 .picture1{
   margin-top: 20px;

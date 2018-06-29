@@ -5,21 +5,36 @@
         <div class="hr-sect"><%= @place.updated_at.strftime("%Y-%m-%d"); %></div>
       </div>
       <div class = "title">
-        <center><h2><%= @place.title %><h2></center>
+        <center><h2><%= @place.title %></h2></center>
       </div>
       <div class = "picture1 img-rounded">
         <center>  <%= image_tag @place.image.to_s %></center>
       </div> 
-      <div class = "detail">
-          <p class="fa fa-eye " >Үзсэн тоо :<span class="badge badge-dark"><%= @place.count %></span></p>
-      </div>
-      <div class = "category">
-        <% @place.categories.each do |category| %>
+      <div class="info">
+        <div class = "detail">
+        <p class="fa fa-eye " >Үзсэн тоо :<span class="badge badge-dark"><%= @place.count %></span></p>
+        </div>
+        <div class="detail">
+         <div class="col-lg-12">
+          <div class="star">
+            <div class="star-rating1">
+              <span class="fa fa-star-o" data-rating="1"></span>
+              <span class="fa fa-star-o" data-rating="2"></span>
+              <span class="fa fa-star-o" data-rating="3"></span>
+              <span class="fa fa-star-o" data-rating="4"></span>
+              <span class="fa fa-star-o" data-rating="5"></span>
+              <input type="hidden" name="whatever1" class="rating-value1" value="<%=@average%>">
+            </div>
+          </div>
+         </div>
+        </div>
+        <div class = "detail">
+          <% @place.categories.each do |category| %>
           <p>
-            <strong>Төрөл:</strong>
-            <%= category.name %>
+           <span class="badge badge-dark"><%= category.name %></span>
           </p>
-        <% end %> 
+          <% end %> 
+        </div>
       </div>
       <div class = "text">
         <p class = "p.ex1"><%= @place.description %></p>
@@ -94,3 +109,24 @@
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChQ-hiIk0MeSYiNK4uGxo3GVr_A_AsQ0c&callback=initialize">
     </script>
+    <script>
+  
+  var $star_rating = $('.star-rating1 .fa');
+
+var SetRatingStar = function() {
+  return $star_rating.each(function() {
+    if (parseInt($star_rating.siblings('input.rating-value1').val()) >= parseInt($(this).data('rating'))) {
+      return $(this).removeClass('fa-star-o').addClass('fa-star');
+    } else {
+      return $(this).removeClass('fa-star').addClass('fa-star-o');
+    }
+  });
+};
+
+
+
+SetRatingStar();
+$(document).ready(function() {
+
+});
+</script>

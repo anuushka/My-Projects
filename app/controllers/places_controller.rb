@@ -5,7 +5,7 @@ class PlacesController < ApplicationController
 
   def show
     @place = Place.find(params[:id])
-    @average = Comment.where(place_id: params[:id]).average(:rating)
+    @average = @place.comments.average(:rating)
     puts @average
     puts  params[:place_id]
   end

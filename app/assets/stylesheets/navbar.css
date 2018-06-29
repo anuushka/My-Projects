@@ -1,0 +1,22 @@
+.nav-link a{
+  color: #ffffff;
+  font-size: 20px;
+}
+.navbar.navbar-expand-md.fixed-top.navbar-light {   
+  color: #007b5e;  
+}
+.navbar-brand {
+	height: 30px;
+  padding: 0px;
+}
+.navbar-brand>img {
+  margin-top: -41px !important;
+  height: 500%;
+  padding: 0px;
+  margin:auto;
+}
+#navbarDropdown{
+color: white !important;
+margin-top: 0px;
+font-size: 20px;
+}
