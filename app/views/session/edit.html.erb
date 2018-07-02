@@ -1,0 +1,34 @@
+<%= stylesheet_link_tag    'edit' %>
+<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+<div id="login-box">
+<div class="left-box">
+    <h1>Хувийн мэдээлэл шинэчлэх</h1>
+    <%= form_for(@user, url: session_path(id: params[:user_id]), method: "put") do |f| %>
+        <% @user.errors.full_messages.each do |msg| %>
+            <li class="error"><%= msg %></li>
+          <% end %>
+
+      <!-- Edit field -->
+
+        <%= f.text_field :name, class: 'form-control', placeholder: "Хэрэглэгчийн нэр" %>
+    
+        <%= f.email_field :email, class: 'form-control', placeholder: "И-мэйл хаяг" %>
+    
+        <%= f.password_field :password, class: 'form-control', placeholder: "Нууц үг" %>
+
+        <%= f.password_field :password_confirmation, class: 'form-control', placeholder: "Нууц үг дахин оруулах" %>
+    
+        <%= f.submit "Хадгалах", class: "btn btn-primary" %>
+    <% end %>
+</div>
+
+<!-- Social media sign-in -->
+<div class="right-box">
+    <span class="signinwith">Сошиалаар<br/>Нэвтрэх</span>
+
+<button class="social facebook">Facebook нэвтрэх</button>    
+<button class="social twitter">Twitter нэвтрэх</button> 
+<button class="social google">Google+ нэвтрэх</button> 
+</div>
+</div>

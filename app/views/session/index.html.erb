@@ -1,0 +1,26 @@
+<div id="login-box">
+    <div class="left-box">
+        <h1>Нэвтрэх</h1>
+        <%= form_for(@user, url: login_session_index_path) do |f| %>
+            <% flash.each do |key, value| %>
+                <div>
+                      <%= value %>
+                </div>
+          <% end %>
+            <%= f.email_field :email, class: 'form-control', placeholder: "И-мэйл хаяг" %>
+        
+            <%= f.password_field :password, class: 'form-control', placeholder: "Нууц үг" %>
+        
+            <%= f.submit "Нэвтрэх", class: "btn btn-primary" %>
+        <% end %>
+    </div>
+   
+    <!-- Social media sign-in -->
+    <div class="right-box">
+        <span class="signinwith">Сошиалаар<br/>Нэвтрэх</span>
+
+    <button class="social facebook">Facebook нэвтрэх</button>    
+    <button class="social twitter">Twitter нэвтрэх</button> 
+    <button class="social google">Google+ нэвтрэх</button> 
+    </div>
+</div>
