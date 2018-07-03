@@ -12,7 +12,7 @@ class CreatePlaces < ActiveRecord::Migration[5.1]
       t.float :longitude
       t.float :latitude
       t.string :phone
-      t.integer :count
+      t.integer :count,:default => "0"
 
       t.timestamps
     end
