@@ -4,6 +4,7 @@ class SessionController < ApplicationController
 
     def index 
         @user=User.new
+
     end
 
     def login
@@ -13,6 +14,9 @@ class SessionController < ApplicationController
             if user and user.authenticate(params[:user][:password])
                 session[:user_id]=user.id
                 islogged=true
+                session[:user_name] = user.name
+                puts session[:user_name]
+
             end    
         end    
         if islogged
@@ -25,6 +29,8 @@ class SessionController < ApplicationController
     end    
 
     def dashboard
+         @user = User.find(session[:user_id])
+         @dashboard  = @user.places
     end
 
     def new

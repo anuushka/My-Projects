@@ -1,13 +1,16 @@
 class PlacesController < ApplicationController
   def index
-      @places =  Place.limit(4).order("count DESC")
+     @places =  Place.limit(4).order("count DESC")
   end
 
   def show
+   
+   
     @place = Place.find(params[:id])
     @average = @place.comments.average(:rating)
-    puts @average
-    puts  params[:place_id]
+    @count = @place.count
+    @place.update_columns(count: @count+1)
+    puts @count
   end
 
 	def new
@@ -16,7 +19,8 @@ class PlacesController < ApplicationController
   end
   
   def create
-    @place = Place.new(place_params)
+    @user = User.find(session[:user_id])
+    @place = @user.places.create(place_params)
     @category = Category.find(params[:category])
     @place.categories << @category
     @place.save
