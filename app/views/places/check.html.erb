@@ -1,0 +1,131 @@
+<style type="text/css">
+.navbar.navbar-light.bg-light {
+  margin-top: 110px;
+  margin-left: 10px;
+  width: 100%;
+  border: 1px solid #e4e8ec !important;
+  font-size: 18px;
+  height: 60px;
+  background-color: white !important;
+}
+
+
+.checkbox-inline {
+  margin-top: 10px;
+  font-size: 18px;
+  padding: 16px 13px 13px 15px;
+  margin-bottom: 12px;
+}
+.form-check-inline{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.w3 {
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.agileits {
+  text-indent-size: 20px; 
+  margin-bottom: 12px;
+}
+
+input[type=text], textarea {
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 70%;
+  font-size: 14px;
+  padding: 10px 40px 10px 68px;
+  margin-bottom: 5px;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 7px 21px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+.center {
+  border: 1px solid #e4e8ec !important;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.pagination {
+  justify-content: center;
+}
+
+</style>
+
+<%= stylesheet_link_tag 'index'%>
+
+<nav class="navbar navbar-light bg-light">
+  <%= form_tag places_check_path, :method => 'get' do %>
+  <%= text_field_tag :search, params[:search] %>
+    <%= submit_tag "Search" %>
+  <% end %>
+
+ <div class="checkbox"> 
+ <% @categories.each do |category| %>  
+    <label class="checkbox-inline">
+      <input type="checkbox" value=<%= category.id %> > <%= category.name %>
+    </label>
+    <% end %>
+</div>
+
+  <div class="w3 ml-auto">
+    <span class="agileits" id = "searchOrder">
+      <select name="mySelect" onchange="showUser()">
+        <option value = 1>Их хандалттай</option>
+        <option value = 2>Үнэлгээ сайтай</option>
+        <option value = 3>Сүүлд нэмэгдсэн</option>
+      </select>
+    </span>
+  </div> 
+</nav>
+
+<div class="center">
+<div class = "container">
+  <h5>Хамгийн сүүлд нэмэгдсэн</h5>
+  <div class = "card-box container"> 
+    <div class="card-columns ">
+      <% @check.each do |place| %>
+        <div class="card" style="width: 18rem; max-width: 250px; min-width: 200px; margin-bottom: 20px; border-radius: 20px;">
+          <div class = "photo">
+            <%= image_tag place.image.to_s %>
+            <div class="glow-wrap link ">
+              <i class="glow"></i>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <%= link_to place.title, place_path(place) %><br> 
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span> 
+              <div class = "description">
+                  <%= place.description%>
+              </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <a href="places/1"><span class="fa fa-facebook iconlogo"></span> </a>
+                <a href=""><span class="fa fa-google logo iconlogo"></span></a>
+                <a href=""> <span class="fa fa-twitter iconlogo"></span></a>      
+              </li>  
+            </ul>
+          </div>
+        </div> 
+      <% end %>
+    </div>
+  </div>
+</div>
+<%= will_paginate @check %> 
+</div>
+</div>
+
