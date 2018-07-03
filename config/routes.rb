@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   
-  get 'places/index'
+  get 'places/check'
    resources :places do 
    	resources :comments
    	resources :categories
@@ -8,6 +8,7 @@ Rails.application.routes.draw do
 
   root 'places#index'
   root 'places#new'
+  root 'places#check' 
   root to: 'session#index'
 
   resources :session do
