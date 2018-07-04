@@ -40,6 +40,11 @@ class PlacesController < ApplicationController
     @place.save
     redirect_to @place
   end
+
+  def check
+    @categories = Category.all
+    @check = Place.search(params[:search]).paginate(:page => params[:page], per_page:6)
+  end
  
   private
   def place_params

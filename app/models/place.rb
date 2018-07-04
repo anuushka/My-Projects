@@ -13,3 +13,5 @@ class Place < ApplicationRecord
 		end
 	end 
 end
+
+
