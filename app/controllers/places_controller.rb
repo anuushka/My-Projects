@@ -13,9 +13,23 @@ class PlacesController < ApplicationController
     puts @count
   end
 
+  def edit
+    @Place = Place.find(params[:id])
+  end
+
+  def submit
+    @status = @place.status
+    @place.update_columns(status: @status = 1)
+  end
+
 	def new
     @places = Place.new
     @categories = Category.all
+  end
+
+  def check
+    @categories = Category.all
+    @check = Place.search(params[:search]).paginate(:page => params[:page], per_page:6)
   end
   
   def create

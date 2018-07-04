@@ -11,7 +11,7 @@ class Place < ApplicationRecord
 		else
 			order("updated_at DESC")
 		end
-	end  
+	end 
 end
 
 

@@ -8,8 +8,19 @@ Rails.application.routes.draw do
 
   root 'places#index'
   root 'places#new'
-  root 'places#check' 
+  root 'places#check'
+  root 'places#submit'
   root to: 'session#index'
+  root to: 'login#index'
+
+resources :login do
+    collection do
+      get 'signup', to: "login#new"
+      get 'login', to: "login#index"
+      post 'login', to: "login#login"
+      get 'dashboard', to: "login#dashboard"
+    end
+  end
 
   resources :session do
     collection do
