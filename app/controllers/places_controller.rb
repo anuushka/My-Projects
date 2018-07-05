@@ -20,6 +20,15 @@ class PlacesController < ApplicationController
     @status = @place.status
     @place.update_columns(status: @status = 1)
   end
+
+  def edit
+    @Place = Place.find(params[:id])
+  end
+
+  def submit
+    @status = @place.status
+    @place.update_columns(status: @status = 1)
+  end
 	def new
     @places = Place.new
     @categories = Category.all
@@ -29,7 +38,7 @@ class PlacesController < ApplicationController
     @categories = Category.all
     @check = Place.search(params[:search]).paginate(:page => params[:page], per_page:4)
   end
- 
+  
   def create
     @user = User.find(session[:user_id])
     @place = @user.places.create(place_params)
@@ -37,6 +46,11 @@ class PlacesController < ApplicationController
     @place.categories << @category
     @place.save
     redirect_to @place
+  end
+
+  def check
+    @categories = Category.all
+    @check = Place.search(params[:search]).paginate(:page => params[:page], per_page:6)
   end
  
   private

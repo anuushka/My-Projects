@@ -19,6 +19,15 @@ resources :login do
       get 'login', to: "login#index"
       post 'login', to: "login#login"
       get 'dashboard', to: "login#dashboard"
+    end
+  end
+
+resources :login do
+    collection do
+      get 'signup', to: "login#new"
+      get 'login', to: "login#index"
+      post 'login', to: "login#login"
+      get 'dashboard', to: "login#dashboard"
       get 'approve',to: "login#approve"
       get 'decline',to: "login#decline"
       get 'deniedboard',to: "login#denied"
