@@ -1,10 +1,12 @@
-<%= stylesheet_link_tag 'index'%>
 <div class="square">
+	<%= stylesheet_link_tag 'index'%>
+
+<div class="center">
 <div class = "container">
-  <h5>Нэмсэн газрууд</h5>
+  <h5>Хүлээгдэж буй газрууд</h5>
   <div class = "card-box container"> 
-    <div class="card-deck ">
-      <% @dashboard.each.with_index do |place,index| %>
+    <div class="card-columns ">
+      <% @pending.each.with_index  do |place,index| %>
         <div class="card" style="width: 18rem; max-width: 250px; min-width: 200px; margin-bottom: 20px; border-radius: 20px;">
           <div class = "photo">
             <%= image_tag place.image.to_s %>
@@ -15,7 +17,7 @@
 
           <div class="card-body">
             <%= link_to place.title, place_path(place) %><br> 
-            <div class="col-lg-12">
+               <div class="col-lg-12">
               <div class="star">
                 <div class="<%=index%>">
           <span class="fa fa-star-o" data-rating="1"></span>
@@ -28,14 +30,14 @@
               </div>
         
       </div>
-             <div class = "description">
+              <div class = "description">
                   <%= place.description%>
-             </div>
+              </div>
+               	
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
-                <a href="places/1"><span class="fa fa-facebook iconlogo"> <%= link_to 'Home', controller: 'places', action: 'submit' %></span> </a>
-                <a href=""><span class="fa fa-google logo iconlogo"></span></a>
-                <a href=""> <span class="fa fa-twitter iconlogo"></span></a>      
+                <a> <%= link_to "accept",controller: 'login', action: 'approve', place: place.id %> </a>
+                 <a> <%= link_to "denied",controller: 'login', action: 'decline', place: place.id %> </a>   
               </li>  
             </ul>
           </div>
@@ -44,33 +46,7 @@
     </div>
   </div>
 </div>
-<p id="demo"></p>
+<%= will_paginate @pending%>
 </div>
-</div> 
-   <script>
-
-    for (var i = 0; i < 4; i++) {
-         
-  
-     var d = "'."+i+" .fa'";
-     var $val = "'."+i+" .fa'";
-     console.log($val);
-     var $star_rating = $('.'+i+' .fa'); 
-     console.log($star_rating);
-   
-     var SetRatingStar = function() {
-  return $star_rating.each(function() {
-    if (parseInt($star_rating.siblings('input.rating-value').val()) >= parseInt($(this).data('rating'))) {
-      return $(this).removeClass('fa-star-o').addClass('fa-star');
-    } else {
-      return $(this).removeClass('fa-star').addClass('fa-star-o');
-    }
-  });
-};
-SetRatingStar();
-$(document).ready(function() {
-
-});
-    }
-    
-</script>
+</div>
+</div>

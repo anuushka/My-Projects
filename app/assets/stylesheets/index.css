@@ -1,3 +1,6 @@
+* {
+  font-family: 'Roboto', serif;
+}
 .card-box{
   margin: auto;
   padding: 10px;
@@ -104,4 +107,4 @@
   font-size:1.25em;
 }
 
-.star .fa-star{color: yellow;}
+.star .fa-star{color: YELLLOW;}

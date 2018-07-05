@@ -7,6 +7,8 @@ def create
     @place = Place.find(params[:place_id])
     @comment = @place.comments.create(comment_params)
     redirect_to place_path(@place)
+    @comment.user_id = session[:user_id]
+    @comment.save
     puts session[:user_id]
   end
   def destroy
@@ -18,7 +20,7 @@ def create
   end
   private
     def comment_params
-      params.require(:comment).permit(:user, :post,:rating,params[session[:user_id]])
+      params.require(:comment).permit(:user, :post,:rating)
     end
 end
 

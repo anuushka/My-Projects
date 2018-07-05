@@ -1,9 +1,14 @@
+.nav-link{
+  margin-left: 20px;  
+}
 .nav-link a{
   color: #ffffff;
-  font-size: 20px;
+  font-size: 22px;
+  font-family: 'roboto', serif;
 }
 .navbar.navbar-expand-md.fixed-top.navbar-light {   
-  color: #007b5e;  
+     background: #00c4cc;
+   background-image: linear-gradient(240deg, #00C4CC 0%, #7D2AE8 100%); 
 }
 .navbar-brand {
 	height: 30px;
@@ -18,5 +23,6 @@
 #navbarDropdown{
 color: white !important;
 margin-top: 0px;
-font-size: 20px;
+  font-size: 22px;
+  font-family: 'roboto', serif;
 }

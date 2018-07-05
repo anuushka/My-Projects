@@ -1,0 +1,121 @@
+<h1>Edit Place</h1>
+ 
+<%= form_with(model: @place, local: true) do |form| %>
+  <div class="row form-group">
+            <div class="col-md-3">
+            <label><p>Төрөл</p></label>
+          </div>
+                      
+                 
+                  
+          </div>
+        <div class="row form-group">
+          <div class="col-md-3">
+            <label><p>Гарчиг</p></label>
+          </div>
+          <div class="col-md-9">
+            <%= form.text_field :title %>
+          </div>
+          </div>
+          <div class="row form-group">
+         <div class="col-md-3">
+            <label><p>Зургийн файл</p></label>
+          </div>
+          <div class="col-md-9">
+            <%= form.file_field  :image%> 
+          </div>
+          </div>
+          <div class="row form-group">
+          <div class="col-md-3">
+            <label><p>Тайлбар</p></label>
+          </div>
+          <div class="col-md-9">
+            <%= form.text_area :description %>
+          </div>
+          </div>
+          <div class="row form-group">
+          <div class="col-md-3">
+            <label><p>Цагийн хуваарь</p></label>
+          </div>
+          <div class="col-md-9">
+           <%= form.text_field :timetable %>
+          </div>
+          </div>
+          <div class="row form-group">
+          <div class="col-md-3">
+            <label><p>Нээх цаг</p></label>
+          </div>
+          <div class="col-md-9">
+            <div class="time">
+              <%= form.time_select :opentime %>   
+            </div>
+          </div>
+          </div>
+          <div class="row form-group">
+          <div class="col-md-3">
+            <label><p>Хаах цаг</p></label>
+          </div>
+          <div class="col-md-9">
+            <div class="time">
+              <%= form.time_select :closetime %>    
+            </div>
+          </div>
+          </div>
+          <div class="row form-group">
+          <div class="col-md-3">
+            <label><p>Үнэ</p></label>
+          </div>
+          <div class="col-md-9">
+            <div class="time">
+              <%= form.text_field :price %>
+            </div>
+          </div>
+          </div>
+          <div class="row form-group">
+          <div class="col-md-3">
+            <label><p>Хаяг</p></label>
+          </div>
+          <div class="col-md-9">
+            <div class="time">
+              <%= form.text_field :location%>
+            </div>
+          </div>
+          </div>
+          <div class="row form-group">
+          <div class="col-md-3">
+            <label><p>Уртраг</p></label>
+          </div>
+          <div class="col-md-9">
+            <div class="time">
+              <%= form.text_field :longitude%>
+            </div>
+          </div>
+          </div>
+          <div class="row form-group">
+          <div class="col-md-3">
+            <label><p>Өргөрөг</p></label>
+          </div>
+          <div class="col-md-9">
+            <div class="time">
+              <%= form.text_field :latitude%>
+            </div>
+          </div>
+          </div>
+          <div class="row form-group">
+          <div class="col-md-3">
+            <label><p>Утас</p></label>
+          </div>
+          <div class="col-md-9">
+            <div class="time">
+              <%= form.text_field :phone%>
+            </div>
+          </div>
+          </div>
+          <div class="row form-group">
+            <div class="col-md-12">
+            <%= form.submit %>
+          </div>
+          </div>  
+<% end %>
+ 
+<%= link_to 'Back', places_path %>

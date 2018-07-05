@@ -1,0 +1,95 @@
+<style>
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url(background-rightbox.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.login-box {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #222;
+}
+
+h1 {
+    float: left;
+    font-size: 50px;
+    border-bottom: 4px solid;
+    margin-bottom: 30px;
+    padding: 13px 0;
+}
+
+.textbox {
+    font-size: 16px;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid;
+    padding: 8px 0;
+    margin: 8px 0;
+}
+
+.textbox i {
+    width: 10%;
+    padding: 5px;
+    float: left;
+    text-align: center;
+}
+
+.textbox input {
+    border: none;
+    background: none;
+    color: #222;
+    font-size: 16px;
+    width: 90%;
+    margin: auto;
+}
+
+input[type="submit"] {
+    width: 100%;
+    border: 2px solid #222;
+    font-size: 20px;
+    background: none;
+    cursor: pointer;
+    cursor: pointer;
+    font-family: 'lato', sans-serif;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.login-box:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+</style>
+<div id="login-box" class="login-box">
+        <h1>Нэвтрэх</h1>
+         
+          <%= form_for(@admin, url:login_login_index_path) do |f| %>
+            <% flash.each do |key, value| %>
+                <div>
+                      <%= value %>
+                </div>
+          	<% end %>
+
+            <div class="textbox">
+          <i class="fa fa-user"></i>
+            <%= f.email_field :email, class: 'form-control', placeholder: "И-мэйл хаяг" %>
+        </div>
+        <div class="textbox">
+            <i class="fas fa-lock"></i>
+            <%= f.password_field :password, class: 'form-control', placeholder: "Нууц үг" %>
+        </div>
+            <%= f.submit "Нэвтрэх", class: "btn btn-primary" %>
+        <% end %>
+        
+        </div>
+	</div>   
+
