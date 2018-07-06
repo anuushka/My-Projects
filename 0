@@ -1,0 +1,2 @@
+      invoke  active_record
+      create    db/migrate/20180702034226_add_status_to_places.rb

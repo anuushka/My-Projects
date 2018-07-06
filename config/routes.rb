@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+
+  root to: 'session#index'
   
   get 'places/check'
    resources :places do 
@@ -37,13 +39,17 @@ resources :login do
     end
   end
 
-   resources :session do
+  resources :session do
     collection do
+      #get 'edit/:user_id', to: "session#edit"
       get 'signup', to: "session#new"
       get 'login', to: "session#index"
       post 'login', to: "session#login"
-      get 'logout', to: "session#logout"
       get 'dashboard', to: "session#dashboard"
+      get 'logout', to: "session#logout"
+      post 'social/login', to: "session#social_login"
+
+      
     end
   end
 

@@ -2,25 +2,35 @@
     <div class="left-box">
         <h1>Нэвтрэх</h1>
         <%= form_for(@user, url: login_session_index_path) do |f| %>
+
             <% flash.each do |key, value| %>
                 <div>
                       <%= value %>
                 </div>
           <% end %>
+          
             <%= f.email_field :email, class: 'form-control', placeholder: "И-мэйл хаяг" %>
         
             <%= f.password_field :password, class: 'form-control', placeholder: "Нууц үг" %>
         
             <%= f.submit "Нэвтрэх", class: "btn btn-primary" %>
         <% end %>
+             <p>Шинэ хэрэглэгч? <%= link_to "Бүртгүүлэх", signup_session_index_path %></p>
     </div>
    
     <!-- Social media sign-in -->
-    <div class="right-box">
-        <span class="signinwith">Сошиалаар<br/>Нэвтрэх</span>
+               <div class="right-box">
+            <span class="signinwith">Сошиалаар<br/>Нэвтрэх</span>               
 
-    <button class="social facebook">Facebook нэвтрэх</button>    
-    <button class="social twitter">Twitter нэвтрэх</button> 
-    <button class="social google">Google+ нэвтрэх</button> 
+            <div class="fb-login-button" onlogin="checkLoginState();" data-max-rows="1" data-size="large" data-button-type="login_with"  data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
+            <a href="#" onclick="my_fb_logout()">Logout</a>
+
+            <div class="g-signin2" data-width="236" data-height="40" data-longtitle="true" data-onsuccess="onSignIn" data-theme="dark"></div>
+            <a href="#" onclick="signOut();">Sign out</a>
+      
+
     </div>
 </div>
+
+
+

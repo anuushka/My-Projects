@@ -25,6 +25,6 @@ Rails.application.config.assets.precompile += %w( navbar.css )
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
-Rails.application.config.assets.precompile += %w( session.js session.css edit.css )
+Rails.application.config.assets.precompile += %w( application.js session.js facebook.js google.js session.css edit.css)
 
 Rails.application.config.assets.precompile += %w( login.js login.css login.edit.css login.index.css)

@@ -10,7 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180629103325) do
+ActiveRecord::Schema.define(version: 20180703091402) do
+
+  create_table "admins", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string "surName", null: false
+    t.string "name", null: false
+    t.string "PD", null: false
+    t.string "email", null: false
+    t.string "phone", null: false
+    t.string "password_digest", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["email"], name: "index_admins_on_email", unique: true
+  end
 
   create_table "categories", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "name"
@@ -34,7 +46,9 @@ ActiveRecord::Schema.define(version: 20180629103325) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "rating"
+    t.bigint "user_id"
     t.index ["place_id"], name: "index_comments_on_place_id"
+    t.index ["user_id"], name: "index_comments_on_user_id"
   end
 
   create_table "places", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
@@ -48,22 +62,28 @@ ActiveRecord::Schema.define(version: 20180629103325) do
     t.float "longitude", limit: 24
     t.float "latitude", limit: 24
     t.string "phone"
-    t.integer "count"
+    t.integer "count", default: 0
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "image"
+    t.integer "status", default: 0
+    t.bigint "user_id"
+    t.index ["user_id"], name: "index_places_on_user_id"
   end
 
   create_table "users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
-    t.string "email", null: false
-    t.string "password_digest", null: false
+    t.string "email"
+    t.string "password_digest"
     t.string "name", null: false
+    t.string "fb_id"
+    t.integer "user_type", default: 0, null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["email"], name: "index_users_on_email", unique: true
   end
 
   add_foreign_key "categories_places", "categories"
   add_foreign_key "categories_places", "places"
   add_foreign_key "comments", "places"
+  add_foreign_key "comments", "users"
+  add_foreign_key "places", "users"
 end

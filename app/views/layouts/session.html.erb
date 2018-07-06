@@ -3,17 +3,16 @@
   <head>
     <title>Blog</title>
     <%= csrf_meta_tags %>
-  
-
-    <%= stylesheet_link_tag    'session', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'session', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'facebook', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'google', 'data-turbolinks-track': 'reload' %>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="712150726072-b8jgpn9aldks623fs35r51gnabnqcen5.apps.googleusercontent.com">
+    <meta name="google-signin-scope" content="profile email">
   </head>
-
   <body>
-
-   <%= render "places/navbar" %>
-    <%=yield %>
-    <%= render "places/footer" %>
+    <%= yield %>
   </body>
 </html>
