@@ -12,6 +12,7 @@
 		9355784A20F4924400C1B896 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9355784820F4924400C1B896 /* Main.storyboard */; };
 		9355784C20F4924500C1B896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9355784B20F4924500C1B896 /* Assets.xcassets */; };
 		9355784F20F4924500C1B896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9355784D20F4924500C1B896 /* LaunchScreen.storyboard */; };
+		9376E5B220F4BADE009C27A1 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9376E5B120F4BADE009C27A1 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9355784B20F4924500C1B896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9355784E20F4924500C1B896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9355785020F4924500C1B896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9376E5B120F4BADE009C27A1 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				9355784620F4924400C1B896 /* ViewController.swift */,
 				9355784820F4924400C1B896 /* Main.storyboard */,
 				9355784B20F4924500C1B896 /* Assets.xcassets */,
+				9376E5B120F4BADE009C27A1 /* Inceptionv3.mlmodel */,
 				9355784D20F4924500C1B896 /* LaunchScreen.storyboard */,
 				9355785020F4924500C1B896 /* Info.plist */,
 			);
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9355784720F4924400C1B896 /* ViewController.swift in Sources */,
+				9376E5B220F4BADE009C27A1 /* Inceptionv3.mlmodel in Sources */,
 				9355784520F4924400C1B896 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,15 +285,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5B2N3TZH5;
 				INFOPLIST_FILE = EmojiMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = anush.EmojiMap;
+				PRODUCT_BUNDLE_IDENTIFIER = ujin.EmojiMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -298,15 +304,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5B2N3TZH5;
 				INFOPLIST_FILE = EmojiMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = anush.EmojiMap;
+				PRODUCT_BUNDLE_IDENTIFIER = ujin.EmojiMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
