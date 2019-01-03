@@ -1,0 +1,1489 @@
+[{"jpn":"化学の基礎用語",
+	"mon":"Ерөнхий зүйл",
+	"data" : [{
+  "周期表": "しゅうきひょう",
+  "English": "Periodic Table",
+  "Монгол хэл": "үелэх систем",
+  "Image": "#1 Periodic table.png"
+  },
+  {
+  "器具": "きぐ",
+  "English": "Laboratory ware",
+  "Монгол хэл": "лабораторын туршилт",
+  "Image": "#4 laboratory ware.jpg"
+  },
+  {
+  "実験": "じっけん",
+  "English": "Experiment",
+  "Монгол хэл": "лабораторын багаж, хэрэгсэл",
+  "Image": "#2 Laboratory experiment.jpg"
+  },
+  {
+  "測定": "そくてい",
+  "English": "Measurement",
+  "Монгол хэл": "хэмжих",
+  "Image": "#3 laboratory measurement.jpg"
+  },
+  {
+  "調整": "ちょうせい",
+  "English": "Control",
+  "Монгол хэл": "тохируулах",
+  "Image": "#5 Control, adjustment.jpg"
+  },
+  {
+  "メスフラスコ": "メスフラスコ",
+  "English": "Volumetric flask",
+  "Монгол хэл": "Хэмжээст колбо",
+  "Image": "#6 volumetric flask.jpg"
+  },
+  {
+  "ホールピペット": "ホールピペット",
+  "English": "Transfer pipet",
+  "Монгол хэл": "морын пипетка",
+  "Image": "#7 Pipette.jpg"
+  },
+  {
+  "ビュレット": "ビュレット",
+  "English": "Buret",
+  "Монгол хэл": "бюретка",
+  "Image": "#8 burette.png"
+  },
+  {
+  "コニカルビーカー": "コニカルビーカー",
+  "English": "Conical beaker",
+  "Монгол хэл": "конус колбо",
+  "Image": "#9 Conical beaker.jpg"
+  },
+  {
+  "傾向": "けいこう",
+  "English": "Inclination",
+  "Монгол хэл": "хазайлт",
+  "Image": "#10 trend, inclination.png"
+  },
+  {
+  "反応": "はんのう",
+  "English": "Reaction",
+  "Монгол хэл": "урвал",
+  "Image": "#11 Chemical reaction.jpg"
+  },
+  {
+  "反応後": "はんのうご",
+  "English": "After reaction",
+  "Монгол хэл": "урвалын дараа",
+  "Image": "#12 after reaction.png"
+  },
+  {
+  "反応前": "はんのうまえ",
+  "English": "Before reaction",
+  "Монгол хэл": "урвалын өмнө",
+  "Image": "#13 before reaction.png"
+  },
+  {
+  "反応式": "はんのうしき",
+  "English": "Reaction formula",
+  "Монгол хэл": "урвалын тэгшитгэл",
+  "Image": "#14 reaction formula.png"
+  },
+  {
+  "化学反応式": "かがくはんのうしき",
+  "English": "Periodic Table",
+  "Монгол хэл": "химийн урвалын тэгшитгэл",
+  "Image": "#15 chemical reaction formula.jpg"
+  },
+  {
+  "性質": "せいしつ",
+  "English": "Property",
+  "Монгол хэл": "шинж чанар",
+  "Image": "#16 Property.png"
+  },
+  {
+  "価標": "かひょう",
+  "English": "Bond",
+  "Монгол хэл": "холбоо",
+  "Image": "#17 bond.png"
+  },
+  {
+  "圧力": "あつりょく",
+  "English": "Pressure",
+  "Монгол хэл": "даралт",
+  "Image": "#18 pressure.jpg"
+  },
+  {
+  "温度": "おんど",
+  "English": "Temperature",
+  "Монгол хэл": "температур",
+  "Image": "#19 temperature.png"
+  },
+  {
+  "密度": "みつど",
+  "English": "Density",
+  "Монгол хэл": "нягт",
+  "Image": "#20 density.jpg"
+  },
+  {
+  "体積": "たいせき",
+  "English": "Volume",
+  "Монгол хэл": "эзлэхүүн",
+  "Image": "#21 volume.png"
+  },
+  {
+  "容器": "ようき",
+  "English": "Container",
+  "Монгол хэл": "сав",
+  "Image": "#22 container, vessel.jpg"
+  },
+  {
+  "単位": "たんい",
+  "English": "Unit",
+  "Монгол хэл": "нэгж",
+  "Image": "#23 Unit.PNG"
+  },
+  {
+  "小さい": "ちいさい",
+  "English": "Little",
+  "Монгол хэл": "жижиг",
+  "Image": "#24 little.png"
+  },
+  {
+  "大きい": "おおきい",
+  "English": "Large",
+  "Монгол хэл": "том",
+  "Image": "#25 large.png"
+  },
+  {
+  "弱い": "よわい",
+  "English": "Weak",
+  "Монгол хэл": "сул",
+  "Image": "#26 weak.png"
+  },
+  {
+  "強い": "つよい",
+  "English": "Strong",
+  "Монгол хэл": "хүчтэй",
+  "Image": "#27 strong.png"
+  },
+  {
+  "高い": "たかい",
+  "English": "High",
+  "Монгол хэл": "өндөр",
+  "Image": "#28 high.png"
+  },
+  {
+  "低い": "ひくい",
+  "English": "Low",
+  "Монгол хэл": "бага",
+  "Image": "#29 low.png"
+  },
+  {
+  "質量数": "しつりょうすう",
+  "English": "Atomic mass number",
+  "Монгол хэл": "массын тоо хэмжээ",
+  "Image": "#30 mass number.jpg"
+  },
+  {
+  "保存": "ほぞん",
+  "English": "Conservation",
+  "Монгол хэл": "хадгалах",
+  "Image": "#31 store.png"
+  },
+  {
+  "質量": "しつりょう",
+  "English": "Mass",
+  "Монгол хэл": "масс",
+  "Image": "#32 Atom weight.png"
+  },
+  {
+  "関係": "かんけい",
+  "English": "Relationship",
+  "Монгол хэл": "уялдаа холбоо",
+  "Image": "#33 relation.png"
+  },
+  {
+  "増加": "ぞうか",
+  "English": "Increase",
+  "Монгол хэл": "ихсэх",
+  "Image": "#34 increase.png"
+  },
+  {
+  "増える": "ふえる",
+  "English": "Increase",
+  "Монгол хэл": "ихсэх",
+  "Image": "#35 increase.png"
+  },
+  {
+  "減少": "げんしょう",
+  "English": "Decrease",
+  "Монгол хэл": "багасах",
+  "Image": "#36 decrease.png"
+  },
+  {
+  "減る": "へる",
+  "English": "Decrease",
+  "Монгол хэл": "багасах",
+  "Image": "#37 decrease.png"
+  },
+  {
+  "化学性質": "かがくせいしつ",
+  "English": "Chemical property",
+  "Монгол хэл": "хими шинж чанар",
+  "Image": "#38 chemical property.png"
+  },
+  {
+  "物理性質": "ぶつりせいしつ",
+  "English": "physical property",
+  "Монгол хэл": "физик шинж чанар",
+  "Image": "#39 physical property.png"
+  },
+  {
+  "一定": "いってい",
+  "English": "Constant",
+  "Монгол хэл": "тогтмол",
+  "Image": "#40 Constant"
+  },
+  {
+  "異なる": "ことなる",
+  "English": "Different",
+  "Монгол хэл": "ялгаатай",
+  "Image": "#41 different.jpg"
+  },
+  {
+  "安定": "あんてい",
+  "English": "Stable",
+  "Монгол хэл": "тайван, тогтвортой",
+  "Image": "#42 stable.jpg"
+  },
+  {
+  "個": "こ",
+  "English": "Piece",
+  "Монгол хэл": "ширхэг",
+  "Image": "#43 piece"
+  },
+  {
+  "図示": "ずし",
+  "English": "Illustration",
+  "Монгол хэл": "зураг",
+  "Image": "#44 illustration.jpeg"
+  },
+  {
+  "図表": "ずひょう",
+  "English": "Chart",
+  "Монгол хэл": "график",
+  "Image": "#45 diagram.png"
+  },
+  {
+  "変化": "へんか",
+  "English": "Change",
+  "Монгол хэл": "өөрчлөлт",
+  "Image": "#46 change"
+  },
+  {
+  "受け取る": "うけとる",
+  "English": "Receive, gain",
+  "Монгол хэл": "авах",
+  "Image": "#47 receive electron"
+  },
+  {
+  "放出": "ほうしゅつ",
+  "English": "Release, discharge",
+  "Монгол хэл": "алдах",
+  "Image": "#48 release elctron"
+  },
+  {
+  "核": "かく",
+  "English": "Nucleus",
+  "Монгол хэл": "цөм",
+  "Image": "#49 nucleus.png"
+  },
+  {
+  "生成": "せいせい",
+  "English": "Formation",
+  "Монгол хэл": "үүссэн бодис",
+  "Image": "#50 formation.png"
+  },
+  {
+  "最外殻": "さいがいかく",
+  "English": "Outermost shell",
+  "Монгол хэл": "хамгийн гадна электрон давхраа",
+  "Image": "#51 outer shell.png"
+  },
+  {
+  "殻": "かく",
+  "English": "Shell, layer",
+  "Монгол хэл": "давхраа, электрон давхраа",
+  "Image": "#52 shell.jpg"
+  },
+  {
+  "金属": "きんぞく",
+  "English": "Metal",
+  "Монгол хэл": "металл",
+  "Image": "#53 metals.png"
+  },
+  {
+  "非金属": "ひきんぞく",
+  "English": "Non metal",
+  "Монгол хэл": "металл биш",
+  "Image": "#54 non metals.png"
+  },
+  {
+  "結合": "けつごう",
+  "English": "Binding",
+  "Монгол хэл": "холбоо",
+  "Image": "#55 Bonding.png"
+  },
+  {
+  "種類": "しゅるい",
+  "English": "Type, class",
+  "Монгол хэл": "төрөл",
+  "Image": "#56 variety.png"
+  },
+  {
+  "価電子": "かでんし",
+  "English": "Valence electron",
+  "Монгол хэл": "валентын электрон",
+  "Image": "#57 valence electron.png"
+  },
+  {
+  "原理": "げんり",
+  "English": "Principle",
+  "Монгол хэл": "дүрэм",
+  "Image": "#58 Principle.png"
+  },
+  {
+  "法則": "ほうそく",
+  "English": "Law",
+  "Монгол хэл": "хууль",
+  "Image": "#59 law.png"
+  },
+  {
+  "定義": "ていぎ",
+  "English": "Definition",
+  "Монгол хэл": "тодорхойлолт",
+  "Image": "#60 theory.png"
+  },
+  {
+  "順": "じゅん",
+  "English": "Order, alignment",
+  "Монгол хэл": "дараалал",
+  "Image": "#61 Order.png"
+  },
+  {
+  "大きい順": "おおきいじゅん",
+  "English": "Descending order",
+  "Монгол хэл": "буурах дараалал",
+  "Image": "#62 descending order.jpg"
+  },
+  {
+  "並べる": "ならべる",
+  "English": "Align, order",
+  "Монгол хэл": "жагсаах",
+  "Image": "#63 align"
+  },
+  {
+  "量": "りょう",
+  "English": "Amount",
+  "Монгол хэл": "хэмжээ",
+  "Image": "#64 Amount.png"
+  },
+  {
+  "数": "すう",
+  "English": "Number",
+  "Монгол хэл": "тоо хэмжээ",
+  "Image": "#65 number.png"
+  },
+  {
+  "間": "かん、あいだ",
+  "English": "Interval, between",
+  "Монгол хэл": "хооронд",
+  "Image": "#66 between.png"
+  },
+  {
+  "化学作用": "さよう",
+  "English": "Chemical action",
+  "Монгол хэл": "нөлөө, үр дагавар",
+  "Image": "#67 cause and effect.jpg"
+  },
+  {
+  "規則": "きそく",
+  "English": "Bylaw",
+  "Монгол хэл": "дүрэм",
+  "Image": "#68 bylaw .png"
+  },
+  {
+  "沸点": "ふってん",
+  "English": "Boiling point",
+  "Монгол хэл": "буцлах цэг",
+  "Image": "#69 boiling point.png"
+  },
+  {
+  "融点": "ゆうてん",
+  "English": "Melting point",
+  "Монгол хэл": "хайлах цэг",
+  "Image": "#70 melting point.png"
+  },
+  {
+  "化合": "かごう",
+  "English": "Combination",
+  "Монгол хэл": "нэгдэл",
+  "Image": "#71 compound.png"
+  },
+  {
+  "有機物": "ゆうきぶつ",
+  "English": "Organic compound",
+  "Монгол хэл": "органик бодис",
+  "Image": "#72 organic substance.png"
+  },
+  {
+  "燃焼": "ねんしょう",
+  "English": "Combustion, burn",
+  "Монгол хэл": "шатах",
+  "Image": "#73 combustion.png"
+  },
+  {
+  "中和": "ちゅうわ",
+  "English": "Neutralization",
+  "Монгол хэл": "саармагжих",
+  "Image": "#74 neutralization.png"
+  },
+  {
+  "水溶液": "すいようえき",
+  "English": "Water solution",
+  "Монгол хэл": "усан уусмал",
+  "Image": "#75 solution.png"
+  },
+  {
+  "熱伝導性": "ねつでんどうせい",
+  "English": "Thermal conductivity",
+  "Монгол хэл": "дулаан дамжуулах чанар",
+  "Image": "#76 heat conductivity.png"
+  },
+  {
+  "電気伝導性": "でんきでんどうせい",
+  "English": "Electrical conductivity",
+  "Монгол хэл": "цахилгаан дамжуулах чанар",
+  "Image": "#77 electrical conductivity.png"
+  },
+  {
+  "機械的性質": "きかいてきせいしつ",
+  "English": "Mechanical property",
+  "Монгол хэл": "механик чанар",
+  "Image": "#78 mechanical property.png"
+  },
+  {
+  "延性": "えんせい",
+  "English": "Ductility",
+  "Монгол хэл": "уян хатан чанар",
+  "Image": "#79 ductility.png"
+  },
+  {
+  "展性": "てんせい",
+  "English": "Malleability",
+  "Монгол хэл": "зөөлөн чанар",
+  "Image": "#80 malleability.png"
+  },
+  {
+  "反射": "はんしゃ",
+  "English": "Reflection, reflect",
+  "Монгол хэл": "ойх",
+  "Image": "#81 reflection.jpg"
+  },
+  {
+  "結晶": "けっしょう",
+  "English": "Crystal",
+  "Монгол хэл": "талст",
+  "Image": "#82 crystal"
+  },
+  {
+  "等しい": "ひとしい",
+  "English": "Equal",
+  "Монгол хэл": "тэнцүү",
+  "Image": "#83 equal"
+  },
+  {
+  "総和": "そうわ",
+  "English": "Sum, total",
+  "Монгол хэл": "нийт",
+  "Image": "#84 sum.png"
+  },
+  {
+  "積": "せき",
+  "English": "Product",
+  "Монгол хэл": "үржигдэхүүн",
+  "Image": "#85 product.png"
+  },
+  {
+  "指数": "しすう",
+  "English": "Exponent, index",
+  "Монгол хэл": "Зэрэг",
+  "Image": "#86 exponent.png"
+  },
+  {
+  "構成": "こうせい",
+  "English": "Constitution, composition",
+  "Монгол хэл": "найрлага",
+  "Image": "#87 constitution, composition .png"
+  },
+  {
+  "構造": "こうぞう",
+  "English": "Structure, construction",
+  "Монгол хэл": "бүтэц",
+  "Image": "#88 structure.png"
+  },
+  {
+  "冷水": "れいすい",
+  "English": "Cold water",
+  "Монгол хэл": "хүйтэн ус",
+  "Image": "#89 cold water.png"
+  },
+  {
+  "配列": "はいれつ",
+  "English": "Sequence, arrangement",
+  "Монгол хэл": "дараалал",
+  "Image": "#90 sequence.png"
+  }]},
+	{"jpn":"物質の構成質と構成",
+	"mon":"Бодисын бүтэц ба найрлага",
+	"data" : [{
+  "粒子": "りゅうし",
+  "English": "Particle",
+  "Монгол хэл": "бөөм",
+  "Image": "#92 particle.png"
+  },
+  {
+  "分子": "ぶんし",
+  "English": "Molecule",
+  "Монгол хэл": "молекул",
+  "Image": "#93 molecule.png"
+  },
+  {
+  "電子": "でんし",
+  "English": "Electron",
+  "Монгол хэл": "электрон",
+  "Image": "#94 electron.jpg"
+  },
+  {
+  "陽子": "ようし",
+  "English": "Proton",
+  "Монгол хэл": "протон",
+  "Image": "#95 proton.jpg"
+  },
+  {
+  "中性子": "ちゅうせいし",
+  "English": "Neutron",
+  "Монгол хэл": "нейтрон",
+  "Image": "#96 neutron.jpg"
+  },
+  {
+  "原子": "げんし",
+  "English": "Atom",
+  "Монгол хэл": "атом",
+  "Image": "#97 atom.jpg"
+  },
+  {
+  "元素": "げんそ",
+  "English": "Element",
+  "Монгол хэл": "элемент",
+  "Image": "#98 element.jpg"
+  },
+  {
+  "原子核": "げんしかく",
+  "English": "Atomic nucleus",
+  "Монгол хэл": "цөм",
+  "Image": "#99 atomic nucleus.png"
+  },
+  {
+  "同位体": "どういたい",
+  "English": "Isotope",
+  "Монгол хэл": "изотоп",
+  "Image": "#100 isotope.png"
+  },
+  {
+  "同素体": "どうそたい",
+  "English": "Allotrope",
+  "Монгол хэл": "аллотроп",
+  "Image": "#101 allotrope.png"
+  },
+  {
+  "物質": "ぶっしつ",
+  "English": "Substance",
+  "Монгол хэл": "бодис",
+  "Image": "#102 substance.jpeg"
+  },
+  {
+  "化合物": "かごうぶつ",
+  "English": "Compound substance",
+  "Монгол хэл": "нийлмэл бодис",
+  "Image": "#103 compound substance.jpg"
+  },
+  {
+  "純物質": "じゅんぶっしつ",
+  "English": "Pure substance",
+  "Монгол хэл": "цэвэр бодис",
+  "Image": "#104 pure substance.jpg"
+  },
+  {
+  "混合物": "こんごうぶつ",
+  "English": "Mixed substance",
+  "Монгол хэл": "холимог бодис",
+  "Image": "#105 mixed substance.jpg"
+  },
+  {
+  "分離": "ぶんり",
+  "English": "Separation",
+  "Монгол хэл": "салган авах",
+  "Image": "#106 separation.png"
+  },
+  {
+  "ろ過": "ろか",
+  "English": "Filtration",
+  "Монгол хэл": "шүүх арга",
+  "Image": "#107 filtration.png"
+  },
+  {
+  "蒸留": "じょうりゅう",
+  "English": "Distillation",
+  "Монгол хэл": "нэрэх арга",
+  "Image": "#108 distillation.jpg"
+  },
+  {
+  "分留": "ぶんりゅう",
+  "English": "Fractional distillation",
+  "Монгол хэл": "дахин нэрэх арга",
+  "Image": "#109 fractional distillation.png"
+  },
+  {
+  "再結晶": "さいけっしょう",
+  "English": "Recrystallization",
+  "Монгол хэл": "дахин талстжуулах арга",
+  "Image": "#110 recrystallization.png"
+  },
+  {
+  "抽出": "ちゅうしゅつ",
+  "English": "Extraction",
+  "Монгол хэл": "хандлах арга",
+  "Image": "#111 extraction.png"
+  },
+  {
+  "分類": "ぶんるい",
+  "English": "Classification",
+  "Монгол хэл": "ангилал",
+  "Image": "#112 classification.png"
+  },
+  {
+  "昇華": "しょうか",
+  "English": "Sublimation",
+  "Монгол хэл": "хатуу бодисыг өөрчлөх",
+  "Image": "#113 sublimation.png"
+  },
+  {
+  "クロマトグラフィー": "クロマトグラフィー",
+  "English": "Chromatography",
+  "Монгол хэл": "хроматограф",
+  "Image": "#114 chromatography.png"
+  }]},
+	{"jpn":"物質の三態と粒子の運動",
+	"mon":"Бодисын төлөв ба бөөм",
+	"data" : [{
+  "三態": "さんたい",
+  "English": "The three phases of matter",
+  "Монгол хэл": "бодисын гурван төлөв",
+  "Image": "#116 3 phases.png"
+  },
+  {
+  "熱運動": "ねつうんどう",
+  "English": "Thermal motion",
+  "Монгол хэл": "дулааны хөдөлгөөн",
+  "Image": "#117 thermal motion.png"
+  },
+  {
+  "状態": "じょうたい",
+  "English": "State",
+  "Монгол хэл": "төлөв",
+  "Image": "#118 state.png"
+  },
+  {
+  "標準状態": "ひょうじゅんじょうたい",
+  "English": "Normal state",
+  "Монгол хэл": "хэвийн төлөв, идеал төлөв",
+  "Image": "#119 ideal.png"
+  },
+  {
+  "引力": "いんりょく",
+  "English": "Pulling force",
+  "Монгол хэл": "татах хүч",
+  "Image": "#120 attractive force.png"
+  },
+  {
+  "固体": "こたい",
+  "English": "Solid",
+  "Монгол хэл": "хатуу бодис",
+  "Image": "#121 solid.png"
+  },
+  {
+  "気体": "きたい",
+  "English": "Gas",
+  "Монгол хэл": "хий",
+  "Image": "#122 gas.png"
+  },
+  {
+  "液体": "えきたい",
+  "English": "Liquid",
+  "Монгол хэл": "шингэн",
+  "Image": "#123 liquid.png"
+  },
+  {
+  "状態変態": "じょうたいへんたい",
+  "English": "State change",
+  "Монгол хэл": "төлөвийн өөрчлөлт",
+  "Image": "#124 state change.png"
+  },
+  {
+  "加熱": "かねつ",
+  "English": "Heat",
+  "Монгол хэл": "халаах",
+  "Image": "#125 heat.png"
+  },
+  {
+  "熱量": "ねつりょう",
+  "English": "Heat quantity, amount of heat",
+  "Монгол хэл": "дулааны тоо хэмжээ",
+  "Image": "#126 heat quantity.png"
+  },
+  {
+  "運動エネルギー": "うんどうエネルギー",
+  "English": "Kinetical Energy",
+  "Монгол хэл": "кинетик энерги",
+  "Image": "#127 kinetic energy.png"
+  },
+  {
+  "拡散": "かくさん",
+  "English": "Disperse, diffusion",
+  "Монгол хэл": "тархах, сарних",
+  "Image": "#128 diffusion.png"
+  },
+  {
+  "仕事": "しごと",
+  "English": "Work",
+  "Монгол хэл": "ажил",
+  "Image": "#129 work.png"
+  },
+  {
+  "熱": "ねつ",
+  "English": "Heat",
+  "Монгол хэл": "дулаан",
+  "Image": "#130 heat.png"
+  },
+  {
+  "絶対温度": "ぜったいおんど",
+  "English": "Absolute temperature",
+  "Монгол хэл": "абсолют температур",
+  "Image": "#131 absolute temperature.png"
+  }]},
+	{"jpn":"イオン結合とイオン結晶",
+	"mon":"Ионы холбоо, талст",
+	"data" : [{
+  "イオン": "イオン",
+  "English": "Ion",
+  "Монгол хэл": "ион",
+  "Image": "#133 ion.png"
+  },
+  {
+  "イオン結晶": "イオンけっしょう",
+  "English": "Ionic crystal",
+  "Монгол хэл": "ионы талст",
+  "Image": "#134 ion crystal.png"
+  },
+  {
+  "イオン結合": "イオンけつごう",
+  "English": "Ionic bonding",
+  "Монгол хэл": "ионы холбоо",
+  "Image": "#135 ionic bonding.jpg"
+  },
+  {
+  "電子配置": "でんしはいち",
+  "English": "Electron configuration",
+  "Монгол хэл": "электроны энергийн түвшин",
+  "Image": "#136 electron config.png"
+  },
+  {
+  "陽イオン": "ようイオン",
+  "English": "Positive ion",
+  "Монгол хэл": "эерэг ион",
+  "Image": "#137 positive ion.png"
+  },
+  {
+  "陰イオン": "いんイオン",
+  "English": "Negative ion",
+  "Монгол хэл": "сөрөг ион",
+  "Image": "#138 negative ion.jpg"
+  },
+  {
+  "安定化": "あんていか",
+  "English": "Stabilization",
+  "Монгол хэл": "тогтворжих",
+  "Image": "#139 stabilization.jpg"
+  },
+  {
+  "イオン化エネルギー": "イオンかエネルギー",
+  "English": "Ionication energy",
+  "Монгол хэл": "ионжилтын энерги",
+  "Image": "#140 ionication energy.png"
+  },
+  {
+  "電子親和力": "でんししんわりょく",
+  "English": "Electron affinity",
+  "Монгол хэл": "Электрон холбоосын энерги",
+  "Image": "#141 electron affinity.png"
+  },
+  {
+  "多原子イオン": "たげんしいおん",
+  "English": "stabilization",
+  "Монгол хэл": "олон атомт ион",
+  "Image": "#142 polyatomic ion.png"
+  },
+  {
+  "静電気力": "せいでんきりょく",
+  "English": "Electrostatic force",
+  "Монгол хэл": "цахилгаан статик хүч",
+  "Image": "#143 electrostatic force.png"
+  },
+  {
+  "化学式": "かがくしき",
+  "English": "Chemical formula",
+  "Монгол хэл": "химийн тэгшитгэл",
+  "Image": "#144 chemical formula"
+  },
+  {
+  "組成式": "そせいしき",
+  "English": "Compositional formula",
+  "Монгол хэл": "найрлагын томъёо",
+  "Image": "#145 compositional formula.png"
+  }]},
+	{"jpn":"共有結合",
+	"mon":"Ковалент холбоо",
+	"data" : [{
+  "共有結合": "きょうゆうけつごう",
+  "English": "Covalent bonding",
+  "Монгол хэл": "ковалент холбоо",
+  "Image": "#147 covalent bonding.png"
+  },
+  {
+  "構造式": "こうぞうしき",
+  "English": "Structural formula",
+  "Монгол хэл": "бүтцийн томъёо",
+  "Image": "#148 structural formula.png"
+  },
+  {
+  "電子式": "でんししき",
+  "English": "Lewis structure",
+  "Монгол хэл": "электрон томъёо",
+  "Image": "#149 electrical formula.png"
+  },
+  {
+  "極性": "きょくせい",
+  "English": "Polarity",
+  "Монгол хэл": "туйлшрал",
+  "Image": "#150 polarity.png"
+  },
+  {
+  "極性分子": "きょくせいぶんし",
+  "English": "Polar molecule",
+  "Монгол хэл": "туйлтай молекул",
+  "Image": "#151 polar molecule.png"
+  },
+  {
+  "無極性分子": "むきょくせいぶんし",
+  "English": "Non-polar molecule",
+  "Монгол хэл": "туйлгүй молекул",
+  "Image": "#152 non-polar molecule.png"
+  },
+  {
+  "電気陰性度": "でんきいんせいど",
+  "English": "Electronegativity",
+  "Монгол хэл": "цахилгаан сөрөг чанар",
+  "Image": "#153 electronegativity"
+  },
+  {
+  "配位数": "はいいすう",
+  "English": "Coordination number",
+  "Монгол хэл": "лиганд",
+  "Image": "#154 ligand.png"
+  },
+  {
+  "電荷数": "でんかすう",
+  "English": "Charge number",
+  "Монгол хэл": "цэнэгийн хэмжээ",
+  "Image": "#155 charge number.png"
+  },
+  {
+  "直線形": "ちょくせんけい",
+  "English": "Line shape",
+  "Монгол хэл": "шулуун",
+  "Image": "#156 linear form.png"
+  },
+  {
+  "正方形": "せいほうけい",
+  "English": "Square",
+  "Монгол хэл": "квадрат",
+  "Image": "#157 square form.png"
+  },
+  {
+  "正四面体": "せいしめんたい",
+  "English": "Regular tetrahedron",
+  "Монгол хэл": "зөв дөрвөн талст дүрс",
+  "Image": "#158 tetrahedron form.png"
+  },
+  {
+  "正八面体": "せいはちめんたい",
+  "English": "Regular octahedron",
+  "Монгол хэл": "зөв найман талст дүрс",
+  "Image": "#159 octahedron form.png"
+  },
+  {
+  "分子結晶": "ぶんしけっしょう",
+  "English": "Molecular crystal",
+  "Монгол хэл": "молекүлын талст оронт тор",
+  "Image": "#160 molecular crystal.png"
+  },
+  {
+  "分子間力": "ぶんしあいだりょく",
+  "English": "Intermolecular force",
+  "Монгол хэл": "молекүл хоорондын хүч",
+  "Image": "#161 intermolecular force.png"
+  },
+  {
+  "ファンデルワールス力": "ファンデルワールス力",
+  "English": "Van der Waals force",
+  "Монгол хэл": "Ван дер ваальсийн хүч",
+  "Image": "#162 van der waals force.png"
+  },
+  {
+  "水素結合": "すいそけつごう",
+  "English": "Hydrogen bonding",
+  "Монгол хэл": "устөрөгчийн холбоо",
+  "Image": "#163 hydrogen bond.png"
+  }]},
+	{"jpn":"分子からなる物質",
+	"mon":"Молекул ба бодис",
+	"data" : [{
+  "無機物": "むきぶつ",
+  "English": "Inorganic substance",
+  "Монгол хэл": "органик биш бодис",
+  "Image": "#165 inorganic substance.png"
+  },
+  {
+  "有機物": "ゆうきぶつ",
+  "English": "Organic substance",
+  "Монгол хэл": "органик бодис",
+  "Image": "#166 organic substance.png"
+  },
+  {
+  "重合体": "じゅうごうたい",
+  "English": "Polymer",
+  "Монгол хэл": "полимер",
+  "Image": "#167 polymer.png"
+  },
+  {
+  "付加重合": "ふかじゅうごう",
+  "English": "Addition polymerization",
+  "Монгол хэл": "полимержих(нэмэгдэлээр)",
+  "Image": "#168 addition polymerization.png"
+  },
+  {
+  "縮合重合": "しゅくごうじゅうごう",
+  "English": "Polycondensation",
+  "Монгол хэл": "поликонденсаци",
+  "Image": "#169 polycondensation.png"
+  }]},
+	{"jpn":"原子からなら物質",
+	"mon":"Атом ба бодис",
+	"data" : [{
+  "金属結晶": "きんぞくけっしょう",
+  "English": "Metal crystal",
+  "Монгол хэл": "металл талст оронт тор",
+  "Image": "#171 metal crystal.png"
+  },
+  {
+  "自由電子": "じゆうでんし",
+  "English": "Free electron",
+  "Монгол хэл": "чөлөөт электрон",
+  "Image": "#172 free electron.png"
+  }]},
+	{"jpn":"原子の相対質量と物質量",
+	"mon":"Атомын масс ба моль",
+	"data" : [{
+  "原子量": "げんしりょう",
+  "English": "Atomic mass",
+  "Монгол хэл": "атомын масс",
+  "Image": "#174 atomic mass.png"
+  },
+  {
+  "分子量": "ぶんしりょう",
+  "English": "Molecular mass",
+  "Монгол хэл": "молекул масс",
+  "Image": "#175 molecular mass.png"
+  },
+  {
+  "相対物質量": "そうたいぶっしつりょう",
+  "English": "Relative mass",
+  "Монгол хэл": "харьцангуй масс",
+  "Image": "#176 Relative mass.png"
+  },
+  {
+  "物質量": "ぶっしつりょう",
+  "English": "Mol, molar",
+  "Монгол хэл": "молийн тоо",
+  "Image": "#177 Mol.png"
+  },
+  {
+  "アボガドロ定数": "アボガドロていすう",
+  "English": "Avogadro constant",
+  "Монгол хэл": "Авогадрогийн тогтмол",
+  "Image": "#178 Avogadro constant"
+  },
+  {
+  "モル質量": "モルしつりょう",
+  "English": "Molar mass",
+  "Монгол хэл": "молийн масс",
+  "Image": "#179 Molar mass.png"
+  },
+  {
+  "モル体積": "モルたいせき",
+  "English": "Molar volume",
+  "Монгол хэл": "молийн эзлэхүүн",
+  "Image": "#180 molar volume.png"
+  }]},
+	{"jpn":"溶液の濃度",
+	"mon":"Уусмалын концентраци",
+	"data" : [{
+  "溶液": "ようえき",
+  "English": "Solution",
+  "Монгол хэл": "уусмал",
+  "Image": "#182 Solution.png"
+  },
+  {
+  "濃度": "のうど",
+  "English": "Concentration",
+  "Монгол хэл": "концентраци",
+  "Image": "#183 concentration.jpg"
+  },
+  {
+  "溶解": "ようかい",
+  "English": "Dissolve",
+  "Монгол хэл": "уусах",
+  "Image": "#184 dissolve.png"
+  },
+  {
+  "溶解度": "ようかいど",
+  "English": "Solubility",
+  "Монгол хэл": "уусах чанар",
+  "Image": "#185 solubility"
+  },
+  {
+  "溶質": "ようしつ",
+  "English": "Solute",
+  "Монгол хэл": "ууссан бодис",
+  "Image": "#186 solute.png"
+  },
+  {
+  "溶媒": "ようばい",
+  "English": "Solvent",
+  "Монгол хэл": "уусгагч",
+  "Image": "#187 solvent.png"
+  },
+  {
+  "質量パーセント濃度": "しつりょうパーセントのうど",
+  "English": "Percent concentration of mass",
+  "Монгол хэл": "процентийн концентраци",
+  "Image": "#188 Procent concentration.jpg"
+  },
+  {
+  "割合": "わりあい",
+  "English": "Ratio",
+  "Монгол хэл": "харьцаа",
+  "Image": "#189 ratio.jpg"
+  },
+  {
+  "モル濃度": "モルのうど",
+  "English": "Molar concentration",
+  "Монгол хэл": "молийн концентраци",
+  "Image": "#190 molar concentration.jpg"
+  },
+  {
+  "質量モル濃度": "しつりょうモルのうど",
+  "English": "Molality",
+  "Монгол хэл": "моляль концентраци",
+  "Image": "#191 molal concentration.jpg"
+  }]},
+	{"jpn":"化学反応式と物質量",
+	"mon":"Урвалын тэгшитгэл ба моль",
+	"data" : [{
+  "物理変化": "ぶつりへんか",
+  "English": "Physical change",
+  "Монгол хэл": "физик шинж чанарын өөрчлөлт",
+  "Image": "#193 physical change.png"
+  },
+  {
+  "化学変化": "かがくへんか",
+  "English": "Chemical change",
+  "Монгол хэл": "хими шинж чанарын өөрчлөлт",
+  "Image": "#194 chemical change.png"
+  },
+  {
+  "生成物": "せいせいぶつ",
+  "English": "Product",
+  "Монгол хэл": "бүтээгдэхүүн",
+  "Image": "#195 Product.png"
+  },
+  {
+  "反応物": "はんのうぶつ",
+  "English": "Reactant",
+  "Монгол хэл": "урвалж",
+  "Image": "#196 Reactant.png"
+  },
+  {
+  "水蒸気": "すいじょうき",
+  "English": "Water vapor",
+  "Монгол хэл": "усны уур",
+  "Image": "#197 water vapor"
+  },
+  {
+  "完全燃焼": "かんぜんねんしょう",
+  "English": "Full combustion",
+  "Монгол хэл": "бүрэн шатаах",
+  "Image": "#198 full combustion.jpg"
+  },
+  {
+  "密閉容器": "みっぺいようき",
+  "English": "Closed container",
+  "Монгол хэл": "битүү сав",
+  "Image": "#199 closed container.jpg"
+  }]},
+	{"jpn":"化学の基本法則",
+	"mon":"Химийн үндсэн хууль",
+	"data" : [{
+  "化学の基本法則": "かがくのきほんほうそく",
+  "English": "Fundamental law of chemistry",
+  "Монгол хэл": "химийн үндсэн хууль",
+  "Image": "#201 basic law.png"
+  },
+  {
+  "質量保存法則": "しつりょうほぞんほうそく",
+  "English": "Mass conservation law",
+  "Монгол хэл": "масс хадгалагдах хууль",
+  "Image": "#202 mass conservation law.png"
+  },
+  {
+  "定比例": "ていひれい",
+  "English": "Definite ratio",
+  "Монгол хэл": "тогтмол харьцаа",
+  "Image": "#203 definite proportion law.jpg"
+  },
+  {
+  "質量比": "しつりょうひ",
+  "English": "Mass ratio",
+  "Монгол хэл": "массын харьцаа",
+  "Image": "#204 mass ratio.png"
+  },
+  {
+  "体積比": "たいせきひ",
+  "English": "Volume ratio",
+  "Монгол хэл": "эзлэхүүний харьцаа",
+  "Image": "#205 volume ratio.png"
+  },
+  {
+  "係数": "けいすう",
+  "English": "Coefficient",
+  "Монгол хэл": "коэффициент",
+  "Image": "#206 coefficient.png"
+  },
+  {
+  "アボガドロ法則": "アボガドロほうそく",
+  "English": "Avogadro law",
+  "Монгол хэл": "Авогадрогийн хууль",
+  "Image": "#207 avogadro law.png"
+  }]},
+	{"jpn":"酸と塩基",
+	"mon":"Хүчил ба шүлт",
+	"data" : [{
+  "酸": "さん",
+  "English": "Acid",
+  "Монгол хэл": "хүчил",
+  "Image": "#209 acid.png"
+  },
+  {
+  "塩基": "えんき",
+  "English": "Base, alkali",
+  "Монгол хэл": "шүлт",
+  "Image": "#210 base.png"
+  },
+  {
+  "電離": "でんり",
+  "English": "Ionization",
+  "Монгол хэл": "иончлогдох",
+  "Image": "#211 ionization.png"
+  },
+  {
+  "電離度": "でんりど",
+  "English": "Ionization degree",
+  "Монгол хэл": "иончлогдох чанар",
+  "Image": "#212 ionization degree.png"
+  },
+  {
+  "酸化物": "さんかぶつ",
+  "English": "Oxide",
+  "Монгол хэл": "оксид",
+  "Image": "#213 oxide.jpg"
+  },
+  {
+  "酸性酸化物": "さんせいさんかぶつ",
+  "English": "Acidic oxide",
+  "Монгол хэл": "хүчиллэг оксид",
+  "Image": "#214 acidic oxide.jpg"
+  },
+  {
+  "塩基性酸化物": "えんきせいさんかぶつ",
+  "English": "Basic oxide",
+  "Монгол хэл": "шүлтлэг оксид",
+  "Image": "#215 basic oxide.jpg"
+  },
+  {
+  "両性酸化物": "りょうせいさんかぶつ",
+  "English": "Amphoteric oxide",
+  "Монгол хэл": "амфотер оксид",
+  "Image": "#216 amphoteric oxide.jpg"
+  }]},
+	{"jpn":"中和と塩",
+	"mon":"Саармагжих урвал",
+	"data" : [{
+  "中和反応": "ちゅうわはんのう",
+  "English": "Neutralization reaction",
+  "Монгол хэл": "саармагжих урвал",
+  "Image": "#218 neutralization reaction.png"
+  },
+  {
+  "加水分解": "かすいぶんかい",
+  "English": "Hydrolisis",
+  "Монгол хэл": "гидролиз",
+  "Image": "#219 hydrolysis.jpg"
+  },
+  {
+  "液性": "えきせい",
+  "English": "Acidity, alkanility",
+  "Монгол хэл": "хүчиллэг чанар",
+  "Image": "#220 alkanility or acidity.jpg"
+  },
+  {
+  "塩基性": "えんきせい",
+  "English": "Basic",
+  "Монгол хэл": "шүлтлэг чанар",
+  "Image": "#221 alkanility.png"
+  },
+  {
+  "中性": "ちゅうせい",
+  "English": "Neutal",
+  "Монгол хэл": "саармаг",
+  "Image": "#222 neutral.jpg"
+  },
+  {
+  "酸性": "さんせい",
+  "English": "Acidic",
+  "Монгол хэл": "хүчиллэг",
+  "Image": "#223 acidic.png"
+  },
+  {
+  "中和滴定": "中和滴定",
+  "English": "Acid base titration",
+  "Монгол хэл": "шүлтлэг",
+  "Image": "#224 titration.png"
+  },
+  {
+  "中和点": "ちゅうわてん",
+  "English": "Neutral point",
+  "Монгол хэл": "саармагжих цэг",
+  "Image": "#225 neutral point.png"
+  },
+  {
+  "公式": "こうしき",
+  "English": "Formula",
+  "Монгол хэл": "тэгшитгэл",
+  "Image": "#226 formula.jpg"
+  },
+  {
+  "滴定曲線": "てきていきょくせん",
+  "English": "Titration curve",
+  "Монгол хэл": "титрлэлтийн муруй",
+  "Image": "#227 titration curve.png"
+  },
+  {
+  "指示薬": "しじやく",
+  "English": "Indicator",
+  "Монгол хэл": "индикатор",
+  "Image": "#228 indicator.jpg"
+  }]},
+	{"jpn":"酸化と還元",
+	"mon":"Исэлдэн ангижрах",
+	"data" : [{
+  "酸化還元反応": "さんかかんげんはんのう",
+  "English": "Oxidation reduction formula",
+  "Монгол хэл": "исэлдэн ангижрах урвал",
+  "Image": "#230 redox reaction.png"
+  },
+  {
+  "電子を失う": "でんしを失う",
+  "English": "Lose electron, discharge",
+  "Монгол хэл": "электрон алдах",
+  "Image": "#231 lose electron.png"
+  },
+  {
+  "電子を得る": "でんしをえる",
+  "English": "Gain electron, charge",
+  "Монгол хэл": "электрон авах",
+  "Image": "#232 gain electron.png"
+  },
+  {
+  "酸化数": "さんかすう",
+  "English": "Oxidation number",
+  "Монгол хэл": "исэлдлийн зэрэг",
+  "Image": "#233 oxidation number.png"
+  },
+  {
+  "酸化剤": "さんかざい",
+  "English": "Oxidant",
+  "Монгол хэл": "исэлдэгч",
+  "Image": "#234 oxidant.png"
+  },
+  {
+  "還元剤": "かんげんざい",
+  "English": "Reductant",
+  "Монгол хэл": "ангижруулагч",
+  "Image": "#235 reductant.png"
+  },
+  {
+  "半反応式": "はんはんのうしき",
+  "English": "Half reaction",
+  "Монгол хэл": "хагас урвал",
+  "Image": "#236 half reaction.png"
+  }]},
+	{"jpn":"イオン化傾向、電池、電気分解",
+	"mon":"Ион, батерей, электролиз",
+	"data" : [{
+  "電池": "でんち",
+  "English": "Battery",
+  "Монгол хэл": "батарей",
+  "Image": "#238 battery.png"
+  },
+  {
+  "一次電池": "いちじでんち",
+  "English": "Primary battery",
+  "Монгол хэл": "нэг удаагийн батерей",
+  "Image": "#239 primary battery"
+  },
+  {
+  "二次電池": "にじでんち",
+  "English": "Secondary battery",
+  "Монгол хэл": "дахин цэнэглэдэг батерей",
+  "Image": "#240 secondary battery.png"
+  },
+  {
+  "ボルタ電池": "ボルタでんち",
+  "English": "Voltaic battery, voltaic cell",
+  "Монгол хэл": "вольтын батарей",
+  "Image": "#241 voltaic cell"
+  },
+  {
+  "乾電池": "かんでんち",
+  "English": "Dry cell, dry battery",
+  "Монгол хэл": "хуурай  батарей",
+  "Image": "#242 dry cell"
+  },
+  {
+  "ダニエル電池": "ダニエルでんち",
+  "English": "Daniel's battery",
+  "Монгол хэл": "даниелийн  батарей",
+  "Image": "#243 daniel cell"
+  },
+  {
+  "鉛蓄電池": "なまりちくでんち",
+  "English": "Lead storage battery",
+  "Монгол хэл": "зэсэн батарей",
+  "Image": "#244 lead battery.png"
+  },
+  {
+  "電解質": "でんかいしつ",
+  "English": "Electrolyte",
+  "Монгол хэл": "электролит",
+  "Image": "#245 electrolyte.png"
+  },
+  {
+  "電流": "でんりゅう",
+  "English": "Current",
+  "Монгол хэл": "гүйдэл",
+  "Image": "#246 current.png"
+  },
+  {
+  "電気": "でんき",
+  "English": "Electricity",
+  "Монгол хэл": "цахилгаан",
+  "Image": "#247 electricty.jpg"
+  },
+  {
+  "充電": "じゅうでん",
+  "English": "Charge, battery charge",
+  "Монгол хэл": "цэнэгжих",
+  "Image": "#248 charge.jpg"
+  },
+  {
+  "可能": "かのう",
+  "English": "Possible, valid",
+  "Монгол хэл": "боломжтой",
+  "Image": "#249 possible.jpg"
+  },
+  {
+  "不可能": "ふかのう",
+  "English": "Impossible, invalid",
+  "Монгол хэл": "боломжгүи",
+  "Image": "#250 impossible.jpg"
+  },
+  {
+  "分極": "ぶんきょく",
+  "English": "Polarization",
+  "Монгол хэл": "поляризаци, туйлшрал",
+  "Image": "#251 polarization.png"
+  },
+  {
+  "電気分解": "でんきぶんかい",
+  "English": "Electrolysis",
+  "Монгол хэл": "электролиз",
+  "Image": "#252 electrolysis.png"
+  },
+  {
+  "陰極": "いんきょく",
+  "English": "Negative polar",
+  "Монгол хэл": "сөрөг туйл",
+  "Image": "#253 negative pole.png"
+  },
+  {
+  "陽極": "ようきょく",
+  "English": "Positive polar",
+  "Монгол хэл": "эерэг туйл",
+  "Image": "#254 positive pole.png"
+  },
+  {
+  "直流電流": "ちょくりゅうでんりゅう",
+  "English": "Direct current",
+  "Монгол хэл": "шууд гүйдэл",
+  "Image": "#255 direct current"
+  },
+  {
+  "電極": "でんきょく",
+  "English": "Electrode",
+  "Монгол хэл": "электрод",
+  "Image": "#256 electrode.png"
+  },
+  {
+  "ファラデーの電気分解法則": "ファラデーのでんきぶんかいほうそく",
+  "English": "Faraday's law of electrolysis",
+  "Монгол хэл": "Фарадейн электролизийн хууль",
+  "Image": "#257 faraday's law.png"
+  }]}
+]

@@ -1,0 +1,1385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93378995210B6ED40009D763 /* QuizTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93378994210B6ED40009D763 /* QuizTableViewController.swift */; };
+		93378997210B8DFB0009D763 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93378996210B8DFB0009D763 /* QuizViewController.swift */; };
+		93378999210B92370009D763 /* timer.png in Resources */ = {isa = PBXBuildFile; fileRef = 93378998210B92360009D763 /* timer.png */; };
+		9363E3C52113474B0078C03F /* #169 polycondensation.png in Resources */ = {isa = PBXBuildFile; fileRef = 9363E3C42113474B0078C03F /* #169 polycondensation.png */; };
+		936C3BBF2109D0A0003717C7 /* #182 Solution.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3ACC2109D09F003717C7 /* #182 Solution.png */; };
+		936C3BC02109D0A0003717C7 /* #254 positive pole.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3ACD2109D09F003717C7 /* #254 positive pole.png */; };
+		936C3BC12109D0A0003717C7 /* #167 polymer.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3ACE2109D09F003717C7 /* #167 polymer.png */; };
+		936C3BC22109D0A0003717C7 /* #120 attractive force.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3ACF2109D09F003717C7 /* #120 attractive force.png */; };
+		936C3BC32109D0A0003717C7 /* #241 voltaic cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AD02109D09F003717C7 /* #241 voltaic cell.png */; };
+		936C3BC42109D0A0003717C7 /* #66 between.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AD12109D09F003717C7 /* #66 between.png */; };
+		936C3BC52109D0A0003717C7 /* #124 state change.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AD22109D09F003717C7 /* #124 state change.png */; };
+		936C3BC62109D0A0003717C7 /* #188 Procent concentration.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AD32109D09F003717C7 /* #188 Procent concentration.jpg */; };
+		936C3BC72109D0A0003717C7 /* #161 intermolecular force.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AD42109D09F003717C7 /* #161 intermolecular force.png */; };
+		936C3BC82109D0A0003717C7 /* #82 crystal.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AD52109D09F003717C7 /* #82 crystal.png */; };
+		936C3BC92109D0A0003717C7 /* #184 dissolve.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AD62109D09F003717C7 /* #184 dissolve.png */; };
+		936C3BCA2109D0A0003717C7 /* #20 density.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AD72109D09F003717C7 /* #20 density.jpg */; };
+		936C3BCB2109D0A0003717C7 /* #236 half reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AD82109D09F003717C7 /* #236 half reaction.png */; };
+		936C3BCC2109D0A0003717C7 /* #239 primary battery.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AD92109D09F003717C7 /* #239 primary battery.png */; };
+		936C3BCD2109D0A0003717C7 /* #235 reductant.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3ADA2109D09F003717C7 /* #235 reductant.png */; };
+		936C3BCE2109D0A0003717C7 /* #138 negative ion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3ADB2109D09F003717C7 /* #138 negative ion.jpg */; };
+		936C3BCF2109D0A0003717C7 /* #141 electron affinity.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3ADC2109D09F003717C7 /* #141 electron affinity.png */; };
+		936C3BD02109D0A0003717C7 /* #19 temperature.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3ADD2109D09F003717C7 /* #19 temperature.png */; };
+		936C3BD12109D0A0003717C7 /* #29 low.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3ADE2109D09F003717C7 /* #29 low.png */; };
+		936C3BD22109D0A0003717C7 /* #3 laboratory measurement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3ADF2109D09F003717C7 /* #3 laboratory measurement.jpg */; };
+		936C3BD32109D0A0003717C7 /* #147 covalent bonding.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AE02109D09F003717C7 /* #147 covalent bonding.png */; };
+		936C3BD42109D0A0003717C7 /* #88 structure.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AE12109D09F003717C7 /* #88 structure.png */; };
+		936C3BD52109D0A0003717C7 /* #179 Molar mass.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AE22109D09F003717C7 /* #179 Molar mass.png */; };
+		936C3BD62109D0A0003717C7 /* #95 proton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AE32109D09F003717C7 /* #95 proton.jpg */; };
+		936C3BD72109D0A0003717C7 /* #22 container, vessel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AE42109D09F003717C7 /* #22 container, vessel.jpg */; };
+		936C3BD82109D0A0003717C7 /* #77 electrical conductivity.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AE52109D09F003717C7 /* #77 electrical conductivity.png */; };
+		936C3BD92109D0A0003717C7 /* #136 electron config.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AE62109D09F003717C7 /* #136 electron config.png */; };
+		936C3BDA2109D0A0003717C7 /* #10 trend, inclination.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AE72109D09F003717C7 /* #10 trend, inclination.png */; };
+		936C3BDB2109D0A0003717C7 /* #1 Periodic table.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AE82109D09F003717C7 /* #1 Periodic table.png */; };
+		936C3BDC2109D0A0003717C7 /* #70 melting point.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AE92109D09F003717C7 /* #70 melting point.png */; };
+		936C3BDE2109D0A0003717C7 /* #74 neutralization.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AEB2109D09F003717C7 /* #74 neutralization.png */; };
+		936C3BDF2109D0A0003717C7 /* #130 heat.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AEC2109D09F003717C7 /* #130 heat.png */; };
+		936C3BE02109D0A0003717C7 /* #104 pure substance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AED2109D09F003717C7 /* #104 pure substance.jpg */; };
+		936C3BE12109D0A0003717C7 /* #105 mixed substance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AEE2109D09F003717C7 /* #105 mixed substance.jpg */; };
+		936C3BE22109D0A0003717C7 /* #7 Pipette.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AEF2109D09F003717C7 /* #7 Pipette.jpg */; };
+		936C3BE32109D0A0003717C7 /* #128 diffusion.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AF02109D09F003717C7 /* #128 diffusion.png */; };
+		936C3BE42109D0A0003717C7 /* #58 Principle.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AF12109D09F003717C7 /* #58 Principle.png */; };
+		936C3BE52109D0A0003717C7 /* #226 formula.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AF22109D09F003717C7 /* #226 formula.jpg */; };
+		936C3BE62109D0A0003717C7 /* #62 descending order.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AF32109D09F003717C7 /* #62 descending order.jpg */; };
+		936C3BE72109D0A0003717C7 /* #178 Avogadro constant.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AF42109D09F003717C7 /* #178 Avogadro constant.png */; };
+		936C3BE82109D0A0003717C7 /* #99 atomic nucleus.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AF52109D09F003717C7 /* #99 atomic nucleus.png */; };
+		936C3BE92109D0A0003717C7 /* #202 mass conservation law.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AF62109D09F003717C7 /* #202 mass conservation law.png */; };
+		936C3BEA2109D0A0003717C7 /* #56 variety.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AF72109D09F003717C7 /* #56 variety.png */; };
+		936C3BEB2109D0A0003717C7 /* #123 liquid.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AF82109D09F003717C7 /* #123 liquid.png */; };
+		936C3BEC2109D0A0003717C7 /* #223 acidic.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AF92109D09F003717C7 /* #223 acidic.png */; };
+		936C3BED2109D0A0003717C7 /* #71 compound.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AFA2109D09F003717C7 /* #71 compound.png */; };
+		936C3BEE2109D0A0003717C7 /* #81 reflection.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AFB2109D09F003717C7 /* #81 reflection.jpg */; };
+		936C3BEF2109D0A0003717C7 /* #110 recrystallization.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AFC2109D09F003717C7 /* #110 recrystallization.png */; };
+		936C3BF02109D0A0003717C7 /* #256 electrode.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AFD2109D09F003717C7 /* #256 electrode.png */; };
+		936C3BF12109D0A0003717C7 /* #113 sublimation.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AFE2109D09F003717C7 /* #113 sublimation.png */; };
+		936C3BF22109D0A0003717C7 /* #248 charge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3AFF2109D09F003717C7 /* #248 charge.jpg */; };
+		936C3BF32109D0A0003717C7 /* #34 increase.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B002109D09F003717C7 /* #34 increase.png */; };
+		936C3BF42109D0A0003717C7 /* #195 Product.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B012109D09F003717C7 /* #195 Product.png */; };
+		936C3BF52109D0A0003717C7 /* #187 solvent.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B022109D09F003717C7 /* #187 solvent.png */; };
+		936C3BF62109D0A0003717C7 /* #122 gas.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B032109D09F003717C7 /* #122 gas.png */; };
+		936C3BF72109D0A0003717C7 /* #78 mechanical property.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B042109D09F003717C7 /* #78 mechanical property.png */; };
+		936C3BF82109D0A0003717C7 /* #109 fractional distillation.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B052109D09F003717C7 /* #109 fractional distillation.png */; };
+		936C3BF92109D0A0003717C7 /* #190 molar concentration.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B062109D09F003717C7 /* #190 molar concentration.jpg */; };
+		936C3BFA2109D0A0003717C7 /* #159 octahedron form.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B072109D09F003717C7 /* #159 octahedron form.png */; };
+		936C3BFB2109D0A0003717C7 /* #63 align.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B082109D09F003717C7 /* #63 align.png */; };
+		936C3BFC2109D0A0003717C7 /* #166 organic substance.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B092109D09F003717C7 /* #166 organic substance.png */; };
+		936C3BFD2109D0A0003717C7 /* #51 outer shell.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B0A2109D09F003717C7 /* #51 outer shell.png */; };
+		936C3BFE2109D0A0003717C7 /* #212 ionization degree.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B0B2109D09F003717C7 /* #212 ionization degree.png */; };
+		936C3BFF2109D0A0003717C7 /* #6 volumetric flask.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B0C2109D09F003717C7 /* #6 volumetric flask.jpg */; };
+		936C3C002109D0A0003717C7 /* #85 product.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B0D2109D09F003717C7 /* #85 product.png */; };
+		936C3C012109D0A0003717C7 /* #247 electricty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B0E2109D09F003717C7 /* #247 electricty.jpg */; };
+		936C3C022109D0A0003717C7 /* #214 acidic oxide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B0F2109D09F003717C7 /* #214 acidic oxide.jpg */; };
+		936C3C032109D0A0003717C7 /* #39 physical property.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B102109D09F003717C7 /* #39 physical property.png */; };
+		936C3C042109D0A0003717C7 /* #53 metals.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B112109D09F003717C7 /* #53 metals.png */; };
+		936C3C052109D0A0003717C7 /* #129 work.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B122109D09F003717C7 /* #129 work.png */; };
+		936C3C062109D0A0003717C7 /* #154 ligand.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B132109D09F003717C7 /* #154 ligand.png */; };
+		936C3C072109D0A0003717C7 /* #12 after reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B142109D09F003717C7 /* #12 after reaction.png */; };
+		936C3C082109D0A0003717C7 /* #17 bond.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B152109D09F003717C7 /* #17 bond.png */; };
+		936C3C092109D0A0003717C7 /* #220 alkanility or acidity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B162109D09F003717C7 /* #220 alkanility or acidity.jpg */; };
+		936C3C0A2109D0A0003717C7 /* #204 mass ratio.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B172109D09F003717C7 /* #204 mass ratio.png */; };
+		936C3C0B2109D0A0003717C7 /* #116 3 phases.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B182109D09F003717C7 /* #116 3 phases.png */; };
+		936C3C0C2109D0A0003717C7 /* #251 polarization.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B192109D09F003717C7 /* #251 polarization.png */; };
+		936C3C0D2109D0A0003717C7 /* #72 organic substance.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B1A2109D09F003717C7 /* #72 organic substance.png */; };
+		936C3C0E2109D0A0003717C7 /* #114 chromatography.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B1B2109D09F003717C7 /* #114 chromatography.png */; };
+		936C3C0F2109D0A0003717C7 /* #225 neutral point.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B1C2109D09F003717C7 /* #225 neutral point.png */; };
+		936C3C102109D0A0003717C7 /* #127 kinetic energy.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B1D2109D09F003717C7 /* #127 kinetic energy.png */; };
+		936C3C112109D0A0003717C7 /* #28 high.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B1E2109D09F003717C7 /* #28 high.png */; };
+		936C3C122109D0A0003717C7 /* #151 polar molecule.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B1F2109D09F003717C7 /* #151 polar molecule.png */; };
+		936C3C132109D0A0003717C7 /* #111 extraction.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B202109D09F003717C7 /* #111 extraction.png */; };
+		936C3C142109D0A0003717C7 /* #54 non metals.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B212109D09F003717C7 /* #54 non metals.png */; };
+		936C3C152109D0A0003717C7 /* #42 stable.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B222109D09F003717C7 /* #42 stable.jpg */; };
+		936C3C162109D0A0003717C7 /* #25 large.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B232109D09F003717C7 /* #25 large.png */; };
+		936C3C172109D0A0003717C7 /* #35 increase.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B242109D09F003717C7 /* #35 increase.png */; };
+		936C3C182109D0A0003717C7 /* #142 polyatomic ion.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B252109D09F003717C7 /* #142 polyatomic ion.png */; };
+		936C3C192109D0A0003717C7 /* #172 free electron.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B262109D09F003717C7 /* #172 free electron.png */; };
+		936C3C1A2109D0A0003717C7 /* #155 charge number.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B272109D09F003717C7 /* #155 charge number.png */; };
+		936C3C1B2109D0A0003717C7 /* #33 relation.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B282109D09F003717C7 /* #33 relation.png */; };
+		936C3C1C2109D0A0003717C7 /* #86 exponent.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B292109D09F003717C7 /* #86 exponent.png */; };
+		936C3C1D2109D0A0003717C7 /* #210 base.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B2A2109D09F003717C7 /* #210 base.png */; };
+		936C3C1E2109D0A0003717C7 /* #245 electrolyte.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B2B2109D09F003717C7 /* #245 electrolyte.png */; };
+		936C3C1F2109D0A0003717C7 /* #5 Control, adjustment.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B2C2109D09F003717C7 /* #5 Control, adjustment.jpg */; };
+		936C3C202109D0A0003717C7 /* #197 water vapor.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B2D2109D09F003717C7 /* #197 water vapor.png */; };
+		936C3C212109D0A0003717C7 /* #189 ratio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B2E2109D09F003717C7 /* #189 ratio.jpg */; };
+		936C3C222109D0A0003717C7 /* #207 avogadro law.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B2F2109D09F003717C7 /* #207 avogadro law.png */; };
+		936C3C232109D0A0003717C7 /* #156 linear form.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B302109D09F003717C7 /* #156 linear form.png */; };
+		936C3C242109D0A0003717C7 /* #32 Atom weight.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B312109D09F003717C7 /* #32 Atom weight.png */; };
+		936C3C252109D0A0003717C7 /* #15 chemical reaction formula.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B322109D09F003717C7 /* #15 chemical reaction formula.jpg */; };
+		936C3C262109D0A0003717C7 /* #80 malleability.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B332109D09F003717C7 /* #80 malleability.png */; };
+		936C3C272109D0A0003717C7 /* #162 van der waals force.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B342109D09F003717C7 /* #162 van der waals force.png */; };
+		936C3C282109D0A0003717C7 /* #158 tetrahedron form.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B352109D09F003717C7 /* #158 tetrahedron form.png */; };
+		936C3C292109D0A0003717C7 /* #153 electronegativity.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B362109D09F003717C7 /* #153 electronegativity.png */; };
+		936C3C2A2109D0A0003717C7 /* #203 definite proportion law.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B372109D09F003717C7 /* #203 definite proportion law.jpg */; };
+		936C3C2B2109D0A0003717C7 /* #102 substance.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B382109D09F003717C7 /* #102 substance.jpeg */; };
+		936C3C2C2109D0A0003717C7 /* #121 solid.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B392109D09F003717C7 /* #121 solid.png */; };
+		936C3C2D2109D0A0003717C7 /* #43 piece.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B3A2109D09F003717C7 /* #43 piece.png */; };
+		936C3C2E2109D0A0003717C7 /* #186 solute.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B3B2109D09F003717C7 /* #186 solute.png */; };
+		936C3C2F2109D0A0003717C7 /* #40 Constant.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B3C2109D09F003717C7 /* #40 Constant.png */; };
+		936C3C302109D0A0003717C7 /* #255 direct current.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B3D2109D09F003717C7 /* #255 direct current.png */; };
+		936C3C312109D0A0003717C7 /* #14 reaction formula.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B3E2109D09F003717C7 /* #14 reaction formula.png */; };
+		936C3C322109D0A0003717C7 /* #11 Chemical reaction.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B3F2109D09F003717C7 /* #11 Chemical reaction.jpg */; };
+		936C3C332109D0A0003717C7 /* #198 full combustion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B402109D09F003717C7 /* #198 full combustion.jpg */; };
+		936C3C342109D0A0003717C7 /* #52 shell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B412109D09F003717C7 /* #52 shell.jpg */; };
+		936C3C352109D0A0003717C7 /* #246 current.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B422109D09F003717C7 /* #246 current.png */; };
+		936C3C362109D0A0003717C7 /* #139 stabilization.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B432109D09F003717C7 /* #139 stabilization.jpg */; };
+		936C3C372109D0A0003717C7 /* #211 ionization.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B442109D09F003717C7 /* #211 ionization.png */; };
+		936C3C382109D0A0003717C7 /* #36 decrease.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B452109D09F003717C7 /* #36 decrease.png */; };
+		936C3C392109D0A0003717C7 /* #76 heat conductivity.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B462109D09F003717C7 /* #76 heat conductivity.png */; };
+		936C3C3A2109D0A0003717C7 /* #201 basic law.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B472109D09F003717C7 /* #201 basic law.png */; };
+		936C3C3B2109D0A0003717C7 /* #216 amphoteric oxide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B482109D09F003717C7 /* #216 amphoteric oxide.jpg */; };
+		936C3C3C2109D0A0003717C7 /* #171 metal crystal.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B492109D09F003717C7 /* #171 metal crystal.png */; };
+		936C3C3D2109D0A0003717C7 /* #249 possible.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B4A2109D09F003717C7 /* #249 possible.jpg */; };
+		936C3C3E2109D0A0003717C7 /* #31 store.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B4B2109D09F003717C7 /* #31 store.png */; };
+		936C3C3F2109D0A0003717C7 /* #55 Bonding.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B4C2109D09F003717C7 /* #55 Bonding.png */; };
+		936C3C402109D0A0003717C7 /* #46 change.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B4D2109D09F003717C7 /* #46 change.png */; };
+		936C3C412109D0A0003717C7 /* #133 ion.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B4E2109D09F003717C7 /* #133 ion.png */; };
+		936C3C422109D0A0003717C7 /* #67 cause and effect.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B4F2109D09F003717C7 /* #67 cause and effect.jpg */; };
+		936C3C432109D0A0003717C7 /* #176 Relative mass.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B502109D09F003717C7 /* #176 Relative mass.png */; };
+		936C3C442109D0A0003717C7 /* #126 heat quantity.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B512109D09F003717C7 /* #126 heat quantity.png */; };
+		936C3C452109D0A0003717C7 /* #90 sequence.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B522109D09F003717C7 /* #90 sequence.png */; };
+		936C3C462109D0A0003717C7 /* #213 oxide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B532109D09F003717C7 /* #213 oxide.jpg */; };
+		936C3C472109D0A0003717C7 /* #41 different.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B542109D09F003717C7 /* #41 different.jpg */; };
+		936C3C482109D0A0003717C7 /* #117 thermal motion.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B552109D09F003717C7 /* #117 thermal motion.png */; };
+		936C3C492109D0A0003717C7 /* #69 boiling point.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B562109D09F003717C7 /* #69 boiling point.png */; };
+		936C3C4A2109D0A0003717C7 /* #250 impossible.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B572109D09F003717C7 /* #250 impossible.jpg */; };
+		936C3C4B2109D0A0003717C7 /* #152 non-polar molecule.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B582109D09F003717C7 /* #152 non-polar molecule.png */; };
+		936C3C4C2109D0A0003717C7 /* #59 law.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B592109D09F003717C7 /* #59 law.png */; };
+		936C3C4D2109D0A0003717C7 /* #87 constitution, composition .png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B5A2109D09F003717C7 /* #87 constitution, composition .png */; };
+		936C3C4E2109D0A0003717C7 /* #30 mass number.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B5B2109D09F003717C7 /* #30 mass number.jpg */; };
+		936C3C4F2109D0A0003717C7 /* #50 formation.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B5C2109D09F003717C7 /* #50 formation.png */; };
+		936C3C502109D0A0003717C7 /* #61 Order.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B5D2109D09F003717C7 /* #61 Order.png */; };
+		936C3C512109D0A0003717C7 /* #118 state.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B5E2109D0A0003717C7 /* #118 state.png */; };
+		936C3C522109D0A0003717C7 /* #37 decrease.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B5F2109D0A0003717C7 /* #37 decrease.png */; };
+		936C3C532109D0A0003717C7 /* #125 heat.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B602109D0A0003717C7 /* #125 heat.png */; };
+		936C3C542109D0A0003717C7 /* #27 strong.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B612109D0A0003717C7 /* #27 strong.png */; };
+		936C3C562109D0A0003717C7 /* #177 Mol.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B632109D0A0003717C7 /* #177 Mol.png */; };
+		936C3C572109D0A0003717C7 /* #49 nucleus.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B642109D0A0003717C7 /* #49 nucleus.png */; };
+		936C3C582109D0A0003717C7 /* #112 classification.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B652109D0A0003717C7 /* #112 classification.png */; };
+		936C3C592109D0A0003717C7 /* #232 gain electron.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B662109D0A0003717C7 /* #232 gain electron.png */; };
+		936C3C5A2109D0A0003717C7 /* #238 battery.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B672109D0A0003717C7 /* #238 battery.png */; };
+		936C3C5B2109D0A0003717C7 /* #252 electrolysis.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B682109D0A0003717C7 /* #252 electrolysis.png */; };
+		936C3C5C2109D0A0003717C7 /* #219 hydrolysis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B692109D0A0003717C7 /* #219 hydrolysis.jpg */; };
+		936C3C5D2109D0A0003717C7 /* #134 ion crystal.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B6A2109D0A0003717C7 /* #134 ion crystal.png */; };
+		936C3C5E2109D0A0003717C7 /* #231 lose electron.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B6B2109D0A0003717C7 /* #231 lose electron.png */; };
+		936C3C5F2109D0A0003717C7 /* #2 Laboratory experiment.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B6C2109D0A0003717C7 /* #2 Laboratory experiment.jpg */; };
+		936C3C602109D0A0003717C7 /* #227 titration curve.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B6D2109D0A0003717C7 /* #227 titration curve.png */; };
+		936C3C612109D0A0003717C7 /* #83 equal.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B6E2109D0A0003717C7 /* #83 equal.png */; };
+		936C3C622109D0A0003717C7 /* #240 secondary battery.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B6F2109D0A0003717C7 /* #240 secondary battery.png */; };
+		936C3C632109D0A0003717C7 /* #199 closed container.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B702109D0A0003717C7 /* #199 closed container.jpg */; };
+		936C3C642109D0A0003717C7 /* #75 solution.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B712109D0A0003717C7 /* #75 solution.png */; };
+		936C3C652109D0A0003717C7 /* #135 ionic bonding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B722109D0A0003717C7 /* #135 ionic bonding.jpg */; };
+		936C3C662109D0A0003717C7 /* #140 ionication energy.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B732109D0A0003717C7 /* #140 ionication energy.png */; };
+		936C3C672109D0A0003717C7 /* #160 molecular crystal.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B742109D0A0003717C7 /* #160 molecular crystal.png */; };
+		936C3C682109D0A0003717C7 /* #180 molar volume.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B752109D0A0003717C7 /* #180 molar volume.png */; };
+		936C3C692109D0A0003717C7 /* #209 acid.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B762109D0A0003717C7 /* #209 acid.png */; };
+		936C3C6A2109D0A0003717C7 /* #157 square form.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B772109D0A0003717C7 /* #157 square form.png */; };
+		936C3C6B2109D0A0003717C7 /* #230 redox reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B782109D0A0003717C7 /* #230 redox reaction.png */; };
+		936C3C6C2109D0A0003717C7 /* #148 structural formula.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B792109D0A0003717C7 /* #148 structural formula.png */; };
+		936C3C6D2109D0A0003717C7 /* #218 neutralization reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B7A2109D0A0003717C7 /* #218 neutralization reaction.png */; };
+		936C3C6E2109D0A0003717C7 /* #253 negative pole.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B7B2109D0A0003717C7 /* #253 negative pole.png */; };
+		936C3C6F2109D0A0003717C7 /* #98 element.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B7C2109D0A0003717C7 /* #98 element.jpg */; };
+		936C3C702109D0A0003717C7 /* #9 Conical beaker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B7D2109D0A0003717C7 /* #9 Conical beaker.jpg */; };
+		936C3C712109D0A0003717C7 /* #257 faraday's law.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B7E2109D0A0003717C7 /* #257 faraday's law.png */; };
+		936C3C722109D0A0003717C7 /* #38 chemical property.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B7F2109D0A0003717C7 /* #38 chemical property.png */; };
+		936C3C732109D0A0003717C7 /* #143 electrostatic force.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B802109D0A0003717C7 /* #143 electrostatic force.png */; };
+		936C3C742109D0A0003717C7 /* #228 indicator.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B812109D0A0003717C7 /* #228 indicator.jpg */; };
+		936C3C752109D0A0003717C7 /* #79 ductility.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B822109D0A0003717C7 /* #79 ductility.png */; };
+		936C3C762109D0A0003717C7 /* #21 volume.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B832109D0A0003717C7 /* #21 volume.png */; };
+		936C3C772109D0A0003717C7 /* #119 ideal.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B842109D0A0003717C7 /* #119 ideal.png */; };
+		936C3C782109D0A0003717C7 /* #101 allotrope.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B852109D0A0003717C7 /* #101 allotrope.png */; };
+		936C3C792109D0A0003717C7 /* #194 chemical change.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B862109D0A0003717C7 /* #194 chemical change.png */; };
+		936C3C7A2109D0A0003717C7 /* #16 Property.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B872109D0A0003717C7 /* #16 Property.png */; };
+		936C3C7B2109D0A0003717C7 /* #45 diagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B882109D0A0003717C7 /* #45 diagram.png */; };
+		936C3C7C2109D0A0003717C7 /* #47 receive electron.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B892109D0A0003717C7 /* #47 receive electron.png */; };
+		936C3C7D2109D0A0003717C7 /* #107 filtration.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B8A2109D0A0003717C7 /* #107 filtration.png */; };
+		936C3C7E2109D0A0003717C7 /* #174 atomic mass.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B8B2109D0A0003717C7 /* #174 atomic mass.png */; };
+		936C3C7F2109D0A0003717C7 /* #221 alkanility.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B8C2109D0A0003717C7 /* #221 alkanility.png */; };
+		936C3C802109D0A0003717C7 /* #100 isotope.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B8D2109D0A0003717C7 /* #100 isotope.png */; };
+		936C3C812109D0A0003717C7 /* #131 absolute temperature.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B8E2109D0A0003717C7 /* #131 absolute temperature.png */; };
+		936C3C822109D0A0003717C7 /* #224 titration.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B8F2109D0A0003717C7 /* #224 titration.png */; };
+		936C3C832109D0A0003717C7 /* #24 little.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B902109D0A0003717C7 /* #24 little.png */; };
+		936C3C842109D0A0003717C7 /* #144 chemical formula.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B912109D0A0003717C7 /* #144 chemical formula.png */; };
+		936C3C852109D0A0003717C7 /* #196 Reactant.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B922109D0A0003717C7 /* #196 Reactant.png */; };
+		936C3C862109D0A0003717C7 /* #4 laboratory ware.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B932109D0A0003717C7 /* #4 laboratory ware.jpg */; };
+		936C3C872109D0A0003717C7 /* #68 bylaw .png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B942109D0A0003717C7 /* #68 bylaw .png */; };
+		936C3C882109D0A0003717C7 /* #244 lead battery.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B952109D0A0003717C7 /* #244 lead battery.png */; };
+		936C3C892109D0A0003717C7 /* #26 weak.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B962109D0A0003717C7 /* #26 weak.png */; };
+		936C3C8A2109D0A0003717C7 /* #149 electrical formula.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B972109D0A0003717C7 /* #149 electrical formula.png */; };
+		936C3C8B2109D0A0003717C7 /* #65 number.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B982109D0A0003717C7 /* #65 number.png */; };
+		936C3C8C2109D0A0003717C7 /* #206 coefficient.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B992109D0A0003717C7 /* #206 coefficient.png */; };
+		936C3C8D2109D0A0003717C7 /* #185 solubility.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B9A2109D0A0003717C7 /* #185 solubility.png */; };
+		936C3C8E2109D0A0003717C7 /* #103 compound substance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B9B2109D0A0003717C7 /* #103 compound substance.jpg */; };
+		936C3C8F2109D0A0003717C7 /* #234 oxidant.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B9C2109D0A0003717C7 /* #234 oxidant.png */; };
+		936C3C902109D0A0003717C7 /* #243 daniel cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B9D2109D0A0003717C7 /* #243 daniel cell.png */; };
+		936C3C912109D0A0003717C7 /* #18 pressure.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B9E2109D0A0003717C7 /* #18 pressure.jpg */; };
+		936C3C922109D0A0003717C7 /* #175 molecular mass.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3B9F2109D0A0003717C7 /* #175 molecular mass.png */; };
+		936C3C932109D0A0003717C7 /* #8 burette.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BA02109D0A0003717C7 /* #8 burette.png */; };
+		936C3C942109D0A0003717C7 /* #163 hydrogen bond.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BA12109D0A0003717C7 /* #163 hydrogen bond.png */; };
+		936C3C952109D0A0003717C7 /* #106 separation.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BA22109D0A0003717C7 /* #106 separation.png */; };
+		936C3C962109D0A0003717C7 /* #108 distillation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BA32109D0A0003717C7 /* #108 distillation.jpg */; };
+		936C3C972109D0A0003717C7 /* #13 before reaction.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BA42109D0A0003717C7 /* #13 before reaction.png */; };
+		936C3C982109D0A0003717C7 /* #44 illustration.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BA52109D0A0003717C7 /* #44 illustration.jpeg */; };
+		936C3C992109D0A0003717C7 /* #165 inorganic substance.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BA62109D0A0003717C7 /* #165 inorganic substance.png */; };
+		936C3C9A2109D0A0003717C7 /* #93 molecule.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BA72109D0A0003717C7 /* #93 molecule.png */; };
+		936C3C9B2109D0A0003717C7 /* #96 neutron.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BA82109D0A0003717C7 /* #96 neutron.jpg */; };
+		936C3C9C2109D0A0003717C7 /* #89 cold water.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BA92109D0A0003717C7 /* #89 cold water.png */; };
+		936C3C9D2109D0A0003717C7 /* #48 release elctron.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BAA2109D0A0003717C7 /* #48 release elctron.png */; };
+		936C3C9E2109D0A0003717C7 /* #205 volume ratio.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BAB2109D0A0003717C7 /* #205 volume ratio.png */; };
+		936C3C9F2109D0A0003717C7 /* #145 compositional formula.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BAC2109D0A0003717C7 /* #145 compositional formula.png */; };
+		936C3CA02109D0A0003717C7 /* #233 oxidation number.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BAD2109D0A0003717C7 /* #233 oxidation number.png */; };
+		936C3CA12109D0A0003717C7 /* #64 Amount.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BAE2109D0A0003717C7 /* #64 Amount.png */; };
+		936C3CA22109D0A0003717C7 /* #94 electron.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BAF2109D0A0003717C7 /* #94 electron.jpg */; };
+		936C3CA32109D0A0003717C7 /* #193 physical change.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BB02109D0A0003717C7 /* #193 physical change.png */; };
+		936C3CA42109D0A0003717C7 /* #57 valence electron.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BB12109D0A0003717C7 /* #57 valence electron.png */; };
+		936C3CA52109D0A0003717C7 /* #215 basic oxide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BB22109D0A0003717C7 /* #215 basic oxide.jpg */; };
+		936C3CA62109D0A0003717C7 /* #73 combustion.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BB32109D0A0003717C7 /* #73 combustion.png */; };
+		936C3CA72109D0A0003717C7 /* #23 Unit.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BB42109D0A0003717C7 /* #23 Unit.PNG */; };
+		936C3CA82109D0A0003717C7 /* #150 polarity.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BB52109D0A0003717C7 /* #150 polarity.png */; };
+		936C3CA92109D0A0003717C7 /* #183 concentration.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BB62109D0A0003717C7 /* #183 concentration.jpg */; };
+		936C3CAA2109D0A0003717C7 /* #92 particle.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BB72109D0A0003717C7 /* #92 particle.png */; };
+		936C3CAB2109D0A0003717C7 /* #242 dry cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BB82109D0A0003717C7 /* #242 dry cell.png */; };
+		936C3CAC2109D0A0003717C7 /* #168 addition polymerization.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BB92109D0A0003717C7 /* #168 addition polymerization.png */; };
+		936C3CAD2109D0A0003717C7 /* #84 sum.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BBA2109D0A0003717C7 /* #84 sum.png */; };
+		936C3CAE2109D0A0003717C7 /* #222 neutral.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BBB2109D0A0003717C7 /* #222 neutral.jpg */; };
+		936C3CAF2109D0A0003717C7 /* #60 theory.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BBC2109D0A0003717C7 /* #60 theory.png */; };
+		936C3CB02109D0A0003717C7 /* #191 molal concentration.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BBD2109D0A0003717C7 /* #191 molal concentration.jpg */; };
+		936C3CB12109D0A0003717C7 /* #97 atom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 936C3BBE2109D0A0003717C7 /* #97 atom.jpg */; };
+		936C3CB32109D3EC003717C7 /* #137 positive ion.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3CB22109D3EB003717C7 /* #137 positive ion.png */; };
+		936C3CB52109D3F4003717C7 /* #169 polycondensation.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3CB42109D3F4003717C7 /* #169 polycondensation.png */; };
+		936C3CB92109DD3C003717C7 /* #169 polycondensation.png in Resources */ = {isa = PBXBuildFile; fileRef = 936C3CB82109DD3B003717C7 /* #169 polycondensation.png */; };
+		937545B321084D2F0034AE92 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937545B221084D2F0034AE92 /* MainTableViewController.swift */; };
+		937545B52108727E0034AE92 /* WordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937545B42108727E0034AE92 /* WordCell.swift */; };
+		937DECC4210EF03D007A813A /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937DECC3210EF03D007A813A /* Quiz.swift */; };
+		937DECC6210F16AB007A813A /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937DECC5210F16AB007A813A /* QuestionView.swift */; };
+		937F37D721009487007222CF /* moztw.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F37D621009487007222CF /* moztw.png */; };
+		9392D5B92101EB0C00CF1695 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 9392D5B82101EB0C00CF1695 /* data.json */; };
+		9392D5BB2101FBF800CF1695 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392D5BA2101FBF800CF1695 /* Word.swift */; };
+		9392D5BD2102050B00CF1695 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392D5BC2102050B00CF1695 /* Category.swift */; };
+		939B2606210005E1008BD339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B2605210005E1008BD339 /* AppDelegate.swift */; };
+		939B2608210005E1008BD339 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B2607210005E1008BD339 /* ViewController.swift */; };
+		939B260B210005E1008BD339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939B2609210005E1008BD339 /* Main.storyboard */; };
+		939B260D210005E3008BD339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939B260C210005E3008BD339 /* Assets.xcassets */; };
+		939B2610210005E3008BD339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939B260E210005E3008BD339 /* LaunchScreen.storyboard */; };
+		939B261821003B75008BD339 /* RES00000420-L.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 939B261721003B75008BD339 /* RES00000420-L.JPG */; };
+		939FCB222108899D0043982F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939FCB212108899D0043982F /* DetailViewController.swift */; };
+		93AEE4EF210791B5006D868D /* categories.json in Resources */ = {isa = PBXBuildFile; fileRef = 93AEE4EE210791B5006D868D /* categories.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93378994210B6ED40009D763 /* QuizTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTableViewController.swift; sourceTree = "<group>"; };
+		93378996210B8DFB0009D763 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		93378998210B92360009D763 /* timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timer.png; sourceTree = "<group>"; };
+		9363E3C42113474B0078C03F /* #169 polycondensation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#169 polycondensation.png"; sourceTree = "<group>"; };
+		936C3ACC2109D09F003717C7 /* #182 Solution.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#182 Solution.png"; sourceTree = "<group>"; };
+		936C3ACD2109D09F003717C7 /* #254 positive pole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#254 positive pole.png"; sourceTree = "<group>"; };
+		936C3ACE2109D09F003717C7 /* #167 polymer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#167 polymer.png"; sourceTree = "<group>"; };
+		936C3ACF2109D09F003717C7 /* #120 attractive force.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#120 attractive force.png"; sourceTree = "<group>"; };
+		936C3AD02109D09F003717C7 /* #241 voltaic cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#241 voltaic cell.png"; sourceTree = "<group>"; };
+		936C3AD12109D09F003717C7 /* #66 between.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#66 between.png"; sourceTree = "<group>"; };
+		936C3AD22109D09F003717C7 /* #124 state change.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#124 state change.png"; sourceTree = "<group>"; };
+		936C3AD32109D09F003717C7 /* #188 Procent concentration.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#188 Procent concentration.jpg"; sourceTree = "<group>"; };
+		936C3AD42109D09F003717C7 /* #161 intermolecular force.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#161 intermolecular force.png"; sourceTree = "<group>"; };
+		936C3AD52109D09F003717C7 /* #82 crystal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#82 crystal.png"; sourceTree = "<group>"; };
+		936C3AD62109D09F003717C7 /* #184 dissolve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#184 dissolve.png"; sourceTree = "<group>"; };
+		936C3AD72109D09F003717C7 /* #20 density.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#20 density.jpg"; sourceTree = "<group>"; };
+		936C3AD82109D09F003717C7 /* #236 half reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#236 half reaction.png"; sourceTree = "<group>"; };
+		936C3AD92109D09F003717C7 /* #239 primary battery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#239 primary battery.png"; sourceTree = "<group>"; };
+		936C3ADA2109D09F003717C7 /* #235 reductant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#235 reductant.png"; sourceTree = "<group>"; };
+		936C3ADB2109D09F003717C7 /* #138 negative ion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#138 negative ion.jpg"; sourceTree = "<group>"; };
+		936C3ADC2109D09F003717C7 /* #141 electron affinity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#141 electron affinity.png"; sourceTree = "<group>"; };
+		936C3ADD2109D09F003717C7 /* #19 temperature.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#19 temperature.png"; sourceTree = "<group>"; };
+		936C3ADE2109D09F003717C7 /* #29 low.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#29 low.png"; sourceTree = "<group>"; };
+		936C3ADF2109D09F003717C7 /* #3 laboratory measurement.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#3 laboratory measurement.jpg"; sourceTree = "<group>"; };
+		936C3AE02109D09F003717C7 /* #147 covalent bonding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#147 covalent bonding.png"; sourceTree = "<group>"; };
+		936C3AE12109D09F003717C7 /* #88 structure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#88 structure.png"; sourceTree = "<group>"; };
+		936C3AE22109D09F003717C7 /* #179 Molar mass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#179 Molar mass.png"; sourceTree = "<group>"; };
+		936C3AE32109D09F003717C7 /* #95 proton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#95 proton.jpg"; sourceTree = "<group>"; };
+		936C3AE42109D09F003717C7 /* #22 container, vessel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#22 container, vessel.jpg"; sourceTree = "<group>"; };
+		936C3AE52109D09F003717C7 /* #77 electrical conductivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#77 electrical conductivity.png"; sourceTree = "<group>"; };
+		936C3AE62109D09F003717C7 /* #136 electron config.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#136 electron config.png"; sourceTree = "<group>"; };
+		936C3AE72109D09F003717C7 /* #10 trend, inclination.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#10 trend, inclination.png"; sourceTree = "<group>"; };
+		936C3AE82109D09F003717C7 /* #1 Periodic table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#1 Periodic table.png"; sourceTree = "<group>"; };
+		936C3AE92109D09F003717C7 /* #70 melting point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#70 melting point.png"; sourceTree = "<group>"; };
+		936C3AEB2109D09F003717C7 /* #74 neutralization.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#74 neutralization.png"; sourceTree = "<group>"; };
+		936C3AEC2109D09F003717C7 /* #130 heat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#130 heat.png"; sourceTree = "<group>"; };
+		936C3AED2109D09F003717C7 /* #104 pure substance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#104 pure substance.jpg"; sourceTree = "<group>"; };
+		936C3AEE2109D09F003717C7 /* #105 mixed substance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#105 mixed substance.jpg"; sourceTree = "<group>"; };
+		936C3AEF2109D09F003717C7 /* #7 Pipette.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#7 Pipette.jpg"; sourceTree = "<group>"; };
+		936C3AF02109D09F003717C7 /* #128 diffusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#128 diffusion.png"; sourceTree = "<group>"; };
+		936C3AF12109D09F003717C7 /* #58 Principle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#58 Principle.png"; sourceTree = "<group>"; };
+		936C3AF22109D09F003717C7 /* #226 formula.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#226 formula.jpg"; sourceTree = "<group>"; };
+		936C3AF32109D09F003717C7 /* #62 descending order.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#62 descending order.jpg"; sourceTree = "<group>"; };
+		936C3AF42109D09F003717C7 /* #178 Avogadro constant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#178 Avogadro constant.png"; sourceTree = "<group>"; };
+		936C3AF52109D09F003717C7 /* #99 atomic nucleus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#99 atomic nucleus.png"; sourceTree = "<group>"; };
+		936C3AF62109D09F003717C7 /* #202 mass conservation law.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#202 mass conservation law.png"; sourceTree = "<group>"; };
+		936C3AF72109D09F003717C7 /* #56 variety.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#56 variety.png"; sourceTree = "<group>"; };
+		936C3AF82109D09F003717C7 /* #123 liquid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#123 liquid.png"; sourceTree = "<group>"; };
+		936C3AF92109D09F003717C7 /* #223 acidic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#223 acidic.png"; sourceTree = "<group>"; };
+		936C3AFA2109D09F003717C7 /* #71 compound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#71 compound.png"; sourceTree = "<group>"; };
+		936C3AFB2109D09F003717C7 /* #81 reflection.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#81 reflection.jpg"; sourceTree = "<group>"; };
+		936C3AFC2109D09F003717C7 /* #110 recrystallization.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#110 recrystallization.png"; sourceTree = "<group>"; };
+		936C3AFD2109D09F003717C7 /* #256 electrode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#256 electrode.png"; sourceTree = "<group>"; };
+		936C3AFE2109D09F003717C7 /* #113 sublimation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#113 sublimation.png"; sourceTree = "<group>"; };
+		936C3AFF2109D09F003717C7 /* #248 charge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#248 charge.jpg"; sourceTree = "<group>"; };
+		936C3B002109D09F003717C7 /* #34 increase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#34 increase.png"; sourceTree = "<group>"; };
+		936C3B012109D09F003717C7 /* #195 Product.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#195 Product.png"; sourceTree = "<group>"; };
+		936C3B022109D09F003717C7 /* #187 solvent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#187 solvent.png"; sourceTree = "<group>"; };
+		936C3B032109D09F003717C7 /* #122 gas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#122 gas.png"; sourceTree = "<group>"; };
+		936C3B042109D09F003717C7 /* #78 mechanical property.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#78 mechanical property.png"; sourceTree = "<group>"; };
+		936C3B052109D09F003717C7 /* #109 fractional distillation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#109 fractional distillation.png"; sourceTree = "<group>"; };
+		936C3B062109D09F003717C7 /* #190 molar concentration.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#190 molar concentration.jpg"; sourceTree = "<group>"; };
+		936C3B072109D09F003717C7 /* #159 octahedron form.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#159 octahedron form.png"; sourceTree = "<group>"; };
+		936C3B082109D09F003717C7 /* #63 align.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#63 align.png"; sourceTree = "<group>"; };
+		936C3B092109D09F003717C7 /* #166 organic substance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#166 organic substance.png"; sourceTree = "<group>"; };
+		936C3B0A2109D09F003717C7 /* #51 outer shell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#51 outer shell.png"; sourceTree = "<group>"; };
+		936C3B0B2109D09F003717C7 /* #212 ionization degree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#212 ionization degree.png"; sourceTree = "<group>"; };
+		936C3B0C2109D09F003717C7 /* #6 volumetric flask.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#6 volumetric flask.jpg"; sourceTree = "<group>"; };
+		936C3B0D2109D09F003717C7 /* #85 product.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#85 product.png"; sourceTree = "<group>"; };
+		936C3B0E2109D09F003717C7 /* #247 electricty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#247 electricty.jpg"; sourceTree = "<group>"; };
+		936C3B0F2109D09F003717C7 /* #214 acidic oxide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#214 acidic oxide.jpg"; sourceTree = "<group>"; };
+		936C3B102109D09F003717C7 /* #39 physical property.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#39 physical property.png"; sourceTree = "<group>"; };
+		936C3B112109D09F003717C7 /* #53 metals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#53 metals.png"; sourceTree = "<group>"; };
+		936C3B122109D09F003717C7 /* #129 work.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#129 work.png"; sourceTree = "<group>"; };
+		936C3B132109D09F003717C7 /* #154 ligand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#154 ligand.png"; sourceTree = "<group>"; };
+		936C3B142109D09F003717C7 /* #12 after reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#12 after reaction.png"; sourceTree = "<group>"; };
+		936C3B152109D09F003717C7 /* #17 bond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#17 bond.png"; sourceTree = "<group>"; };
+		936C3B162109D09F003717C7 /* #220 alkanility or acidity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#220 alkanility or acidity.jpg"; sourceTree = "<group>"; };
+		936C3B172109D09F003717C7 /* #204 mass ratio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#204 mass ratio.png"; sourceTree = "<group>"; };
+		936C3B182109D09F003717C7 /* #116 3 phases.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#116 3 phases.png"; sourceTree = "<group>"; };
+		936C3B192109D09F003717C7 /* #251 polarization.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#251 polarization.png"; sourceTree = "<group>"; };
+		936C3B1A2109D09F003717C7 /* #72 organic substance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#72 organic substance.png"; sourceTree = "<group>"; };
+		936C3B1B2109D09F003717C7 /* #114 chromatography.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#114 chromatography.png"; sourceTree = "<group>"; };
+		936C3B1C2109D09F003717C7 /* #225 neutral point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#225 neutral point.png"; sourceTree = "<group>"; };
+		936C3B1D2109D09F003717C7 /* #127 kinetic energy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#127 kinetic energy.png"; sourceTree = "<group>"; };
+		936C3B1E2109D09F003717C7 /* #28 high.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#28 high.png"; sourceTree = "<group>"; };
+		936C3B1F2109D09F003717C7 /* #151 polar molecule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#151 polar molecule.png"; sourceTree = "<group>"; };
+		936C3B202109D09F003717C7 /* #111 extraction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#111 extraction.png"; sourceTree = "<group>"; };
+		936C3B212109D09F003717C7 /* #54 non metals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#54 non metals.png"; sourceTree = "<group>"; };
+		936C3B222109D09F003717C7 /* #42 stable.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#42 stable.jpg"; sourceTree = "<group>"; };
+		936C3B232109D09F003717C7 /* #25 large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#25 large.png"; sourceTree = "<group>"; };
+		936C3B242109D09F003717C7 /* #35 increase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#35 increase.png"; sourceTree = "<group>"; };
+		936C3B252109D09F003717C7 /* #142 polyatomic ion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#142 polyatomic ion.png"; sourceTree = "<group>"; };
+		936C3B262109D09F003717C7 /* #172 free electron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#172 free electron.png"; sourceTree = "<group>"; };
+		936C3B272109D09F003717C7 /* #155 charge number.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#155 charge number.png"; sourceTree = "<group>"; };
+		936C3B282109D09F003717C7 /* #33 relation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#33 relation.png"; sourceTree = "<group>"; };
+		936C3B292109D09F003717C7 /* #86 exponent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#86 exponent.png"; sourceTree = "<group>"; };
+		936C3B2A2109D09F003717C7 /* #210 base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#210 base.png"; sourceTree = "<group>"; };
+		936C3B2B2109D09F003717C7 /* #245 electrolyte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#245 electrolyte.png"; sourceTree = "<group>"; };
+		936C3B2C2109D09F003717C7 /* #5 Control, adjustment.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#5 Control, adjustment.jpg"; sourceTree = "<group>"; };
+		936C3B2D2109D09F003717C7 /* #197 water vapor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#197 water vapor.png"; sourceTree = "<group>"; };
+		936C3B2E2109D09F003717C7 /* #189 ratio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#189 ratio.jpg"; sourceTree = "<group>"; };
+		936C3B2F2109D09F003717C7 /* #207 avogadro law.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#207 avogadro law.png"; sourceTree = "<group>"; };
+		936C3B302109D09F003717C7 /* #156 linear form.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#156 linear form.png"; sourceTree = "<group>"; };
+		936C3B312109D09F003717C7 /* #32 Atom weight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#32 Atom weight.png"; sourceTree = "<group>"; };
+		936C3B322109D09F003717C7 /* #15 chemical reaction formula.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#15 chemical reaction formula.jpg"; sourceTree = "<group>"; };
+		936C3B332109D09F003717C7 /* #80 malleability.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#80 malleability.png"; sourceTree = "<group>"; };
+		936C3B342109D09F003717C7 /* #162 van der waals force.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#162 van der waals force.png"; sourceTree = "<group>"; };
+		936C3B352109D09F003717C7 /* #158 tetrahedron form.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#158 tetrahedron form.png"; sourceTree = "<group>"; };
+		936C3B362109D09F003717C7 /* #153 electronegativity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#153 electronegativity.png"; sourceTree = "<group>"; };
+		936C3B372109D09F003717C7 /* #203 definite proportion law.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#203 definite proportion law.jpg"; sourceTree = "<group>"; };
+		936C3B382109D09F003717C7 /* #102 substance.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#102 substance.jpeg"; sourceTree = "<group>"; };
+		936C3B392109D09F003717C7 /* #121 solid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#121 solid.png"; sourceTree = "<group>"; };
+		936C3B3A2109D09F003717C7 /* #43 piece.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#43 piece.png"; sourceTree = "<group>"; };
+		936C3B3B2109D09F003717C7 /* #186 solute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#186 solute.png"; sourceTree = "<group>"; };
+		936C3B3C2109D09F003717C7 /* #40 Constant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#40 Constant.png"; sourceTree = "<group>"; };
+		936C3B3D2109D09F003717C7 /* #255 direct current.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#255 direct current.png"; sourceTree = "<group>"; };
+		936C3B3E2109D09F003717C7 /* #14 reaction formula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#14 reaction formula.png"; sourceTree = "<group>"; };
+		936C3B3F2109D09F003717C7 /* #11 Chemical reaction.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#11 Chemical reaction.jpg"; sourceTree = "<group>"; };
+		936C3B402109D09F003717C7 /* #198 full combustion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#198 full combustion.jpg"; sourceTree = "<group>"; };
+		936C3B412109D09F003717C7 /* #52 shell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#52 shell.jpg"; sourceTree = "<group>"; };
+		936C3B422109D09F003717C7 /* #246 current.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#246 current.png"; sourceTree = "<group>"; };
+		936C3B432109D09F003717C7 /* #139 stabilization.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#139 stabilization.jpg"; sourceTree = "<group>"; };
+		936C3B442109D09F003717C7 /* #211 ionization.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#211 ionization.png"; sourceTree = "<group>"; };
+		936C3B452109D09F003717C7 /* #36 decrease.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#36 decrease.png"; sourceTree = "<group>"; };
+		936C3B462109D09F003717C7 /* #76 heat conductivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#76 heat conductivity.png"; sourceTree = "<group>"; };
+		936C3B472109D09F003717C7 /* #201 basic law.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#201 basic law.png"; sourceTree = "<group>"; };
+		936C3B482109D09F003717C7 /* #216 amphoteric oxide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#216 amphoteric oxide.jpg"; sourceTree = "<group>"; };
+		936C3B492109D09F003717C7 /* #171 metal crystal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#171 metal crystal.png"; sourceTree = "<group>"; };
+		936C3B4A2109D09F003717C7 /* #249 possible.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#249 possible.jpg"; sourceTree = "<group>"; };
+		936C3B4B2109D09F003717C7 /* #31 store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#31 store.png"; sourceTree = "<group>"; };
+		936C3B4C2109D09F003717C7 /* #55 Bonding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#55 Bonding.png"; sourceTree = "<group>"; };
+		936C3B4D2109D09F003717C7 /* #46 change.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#46 change.png"; sourceTree = "<group>"; };
+		936C3B4E2109D09F003717C7 /* #133 ion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#133 ion.png"; sourceTree = "<group>"; };
+		936C3B4F2109D09F003717C7 /* #67 cause and effect.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#67 cause and effect.jpg"; sourceTree = "<group>"; };
+		936C3B502109D09F003717C7 /* #176 Relative mass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#176 Relative mass.png"; sourceTree = "<group>"; };
+		936C3B512109D09F003717C7 /* #126 heat quantity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#126 heat quantity.png"; sourceTree = "<group>"; };
+		936C3B522109D09F003717C7 /* #90 sequence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#90 sequence.png"; sourceTree = "<group>"; };
+		936C3B532109D09F003717C7 /* #213 oxide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#213 oxide.jpg"; sourceTree = "<group>"; };
+		936C3B542109D09F003717C7 /* #41 different.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#41 different.jpg"; sourceTree = "<group>"; };
+		936C3B552109D09F003717C7 /* #117 thermal motion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#117 thermal motion.png"; sourceTree = "<group>"; };
+		936C3B562109D09F003717C7 /* #69 boiling point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#69 boiling point.png"; sourceTree = "<group>"; };
+		936C3B572109D09F003717C7 /* #250 impossible.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#250 impossible.jpg"; sourceTree = "<group>"; };
+		936C3B582109D09F003717C7 /* #152 non-polar molecule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#152 non-polar molecule.png"; sourceTree = "<group>"; };
+		936C3B592109D09F003717C7 /* #59 law.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#59 law.png"; sourceTree = "<group>"; };
+		936C3B5A2109D09F003717C7 /* #87 constitution, composition .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#87 constitution, composition .png"; sourceTree = "<group>"; };
+		936C3B5B2109D09F003717C7 /* #30 mass number.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#30 mass number.jpg"; sourceTree = "<group>"; };
+		936C3B5C2109D09F003717C7 /* #50 formation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#50 formation.png"; sourceTree = "<group>"; };
+		936C3B5D2109D09F003717C7 /* #61 Order.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#61 Order.png"; sourceTree = "<group>"; };
+		936C3B5E2109D0A0003717C7 /* #118 state.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#118 state.png"; sourceTree = "<group>"; };
+		936C3B5F2109D0A0003717C7 /* #37 decrease.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#37 decrease.png"; sourceTree = "<group>"; };
+		936C3B602109D0A0003717C7 /* #125 heat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#125 heat.png"; sourceTree = "<group>"; };
+		936C3B612109D0A0003717C7 /* #27 strong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#27 strong.png"; sourceTree = "<group>"; };
+		936C3B632109D0A0003717C7 /* #177 Mol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#177 Mol.png"; sourceTree = "<group>"; };
+		936C3B642109D0A0003717C7 /* #49 nucleus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#49 nucleus.png"; sourceTree = "<group>"; };
+		936C3B652109D0A0003717C7 /* #112 classification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#112 classification.png"; sourceTree = "<group>"; };
+		936C3B662109D0A0003717C7 /* #232 gain electron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#232 gain electron.png"; sourceTree = "<group>"; };
+		936C3B672109D0A0003717C7 /* #238 battery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#238 battery.png"; sourceTree = "<group>"; };
+		936C3B682109D0A0003717C7 /* #252 electrolysis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#252 electrolysis.png"; sourceTree = "<group>"; };
+		936C3B692109D0A0003717C7 /* #219 hydrolysis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#219 hydrolysis.jpg"; sourceTree = "<group>"; };
+		936C3B6A2109D0A0003717C7 /* #134 ion crystal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#134 ion crystal.png"; sourceTree = "<group>"; };
+		936C3B6B2109D0A0003717C7 /* #231 lose electron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#231 lose electron.png"; sourceTree = "<group>"; };
+		936C3B6C2109D0A0003717C7 /* #2 Laboratory experiment.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#2 Laboratory experiment.jpg"; sourceTree = "<group>"; };
+		936C3B6D2109D0A0003717C7 /* #227 titration curve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#227 titration curve.png"; sourceTree = "<group>"; };
+		936C3B6E2109D0A0003717C7 /* #83 equal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#83 equal.png"; sourceTree = "<group>"; };
+		936C3B6F2109D0A0003717C7 /* #240 secondary battery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#240 secondary battery.png"; sourceTree = "<group>"; };
+		936C3B702109D0A0003717C7 /* #199 closed container.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#199 closed container.jpg"; sourceTree = "<group>"; };
+		936C3B712109D0A0003717C7 /* #75 solution.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#75 solution.png"; sourceTree = "<group>"; };
+		936C3B722109D0A0003717C7 /* #135 ionic bonding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#135 ionic bonding.jpg"; sourceTree = "<group>"; };
+		936C3B732109D0A0003717C7 /* #140 ionication energy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#140 ionication energy.png"; sourceTree = "<group>"; };
+		936C3B742109D0A0003717C7 /* #160 molecular crystal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#160 molecular crystal.png"; sourceTree = "<group>"; };
+		936C3B752109D0A0003717C7 /* #180 molar volume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#180 molar volume.png"; sourceTree = "<group>"; };
+		936C3B762109D0A0003717C7 /* #209 acid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#209 acid.png"; sourceTree = "<group>"; };
+		936C3B772109D0A0003717C7 /* #157 square form.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#157 square form.png"; sourceTree = "<group>"; };
+		936C3B782109D0A0003717C7 /* #230 redox reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#230 redox reaction.png"; sourceTree = "<group>"; };
+		936C3B792109D0A0003717C7 /* #148 structural formula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#148 structural formula.png"; sourceTree = "<group>"; };
+		936C3B7A2109D0A0003717C7 /* #218 neutralization reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#218 neutralization reaction.png"; sourceTree = "<group>"; };
+		936C3B7B2109D0A0003717C7 /* #253 negative pole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#253 negative pole.png"; sourceTree = "<group>"; };
+		936C3B7C2109D0A0003717C7 /* #98 element.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#98 element.jpg"; sourceTree = "<group>"; };
+		936C3B7D2109D0A0003717C7 /* #9 Conical beaker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#9 Conical beaker.jpg"; sourceTree = "<group>"; };
+		936C3B7E2109D0A0003717C7 /* #257 faraday's law.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#257 faraday's law.png"; sourceTree = "<group>"; };
+		936C3B7F2109D0A0003717C7 /* #38 chemical property.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#38 chemical property.png"; sourceTree = "<group>"; };
+		936C3B802109D0A0003717C7 /* #143 electrostatic force.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#143 electrostatic force.png"; sourceTree = "<group>"; };
+		936C3B812109D0A0003717C7 /* #228 indicator.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#228 indicator.jpg"; sourceTree = "<group>"; };
+		936C3B822109D0A0003717C7 /* #79 ductility.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#79 ductility.png"; sourceTree = "<group>"; };
+		936C3B832109D0A0003717C7 /* #21 volume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#21 volume.png"; sourceTree = "<group>"; };
+		936C3B842109D0A0003717C7 /* #119 ideal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#119 ideal.png"; sourceTree = "<group>"; };
+		936C3B852109D0A0003717C7 /* #101 allotrope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#101 allotrope.png"; sourceTree = "<group>"; };
+		936C3B862109D0A0003717C7 /* #194 chemical change.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#194 chemical change.png"; sourceTree = "<group>"; };
+		936C3B872109D0A0003717C7 /* #16 Property.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#16 Property.png"; sourceTree = "<group>"; };
+		936C3B882109D0A0003717C7 /* #45 diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#45 diagram.png"; sourceTree = "<group>"; };
+		936C3B892109D0A0003717C7 /* #47 receive electron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#47 receive electron.png"; sourceTree = "<group>"; };
+		936C3B8A2109D0A0003717C7 /* #107 filtration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#107 filtration.png"; sourceTree = "<group>"; };
+		936C3B8B2109D0A0003717C7 /* #174 atomic mass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#174 atomic mass.png"; sourceTree = "<group>"; };
+		936C3B8C2109D0A0003717C7 /* #221 alkanility.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#221 alkanility.png"; sourceTree = "<group>"; };
+		936C3B8D2109D0A0003717C7 /* #100 isotope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#100 isotope.png"; sourceTree = "<group>"; };
+		936C3B8E2109D0A0003717C7 /* #131 absolute temperature.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#131 absolute temperature.png"; sourceTree = "<group>"; };
+		936C3B8F2109D0A0003717C7 /* #224 titration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#224 titration.png"; sourceTree = "<group>"; };
+		936C3B902109D0A0003717C7 /* #24 little.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#24 little.png"; sourceTree = "<group>"; };
+		936C3B912109D0A0003717C7 /* #144 chemical formula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#144 chemical formula.png"; sourceTree = "<group>"; };
+		936C3B922109D0A0003717C7 /* #196 Reactant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#196 Reactant.png"; sourceTree = "<group>"; };
+		936C3B932109D0A0003717C7 /* #4 laboratory ware.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#4 laboratory ware.jpg"; sourceTree = "<group>"; };
+		936C3B942109D0A0003717C7 /* #68 bylaw .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#68 bylaw .png"; sourceTree = "<group>"; };
+		936C3B952109D0A0003717C7 /* #244 lead battery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#244 lead battery.png"; sourceTree = "<group>"; };
+		936C3B962109D0A0003717C7 /* #26 weak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#26 weak.png"; sourceTree = "<group>"; };
+		936C3B972109D0A0003717C7 /* #149 electrical formula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#149 electrical formula.png"; sourceTree = "<group>"; };
+		936C3B982109D0A0003717C7 /* #65 number.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#65 number.png"; sourceTree = "<group>"; };
+		936C3B992109D0A0003717C7 /* #206 coefficient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#206 coefficient.png"; sourceTree = "<group>"; };
+		936C3B9A2109D0A0003717C7 /* #185 solubility.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#185 solubility.png"; sourceTree = "<group>"; };
+		936C3B9B2109D0A0003717C7 /* #103 compound substance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#103 compound substance.jpg"; sourceTree = "<group>"; };
+		936C3B9C2109D0A0003717C7 /* #234 oxidant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#234 oxidant.png"; sourceTree = "<group>"; };
+		936C3B9D2109D0A0003717C7 /* #243 daniel cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#243 daniel cell.png"; sourceTree = "<group>"; };
+		936C3B9E2109D0A0003717C7 /* #18 pressure.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#18 pressure.jpg"; sourceTree = "<group>"; };
+		936C3B9F2109D0A0003717C7 /* #175 molecular mass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#175 molecular mass.png"; sourceTree = "<group>"; };
+		936C3BA02109D0A0003717C7 /* #8 burette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#8 burette.png"; sourceTree = "<group>"; };
+		936C3BA12109D0A0003717C7 /* #163 hydrogen bond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#163 hydrogen bond.png"; sourceTree = "<group>"; };
+		936C3BA22109D0A0003717C7 /* #106 separation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#106 separation.png"; sourceTree = "<group>"; };
+		936C3BA32109D0A0003717C7 /* #108 distillation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#108 distillation.jpg"; sourceTree = "<group>"; };
+		936C3BA42109D0A0003717C7 /* #13 before reaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#13 before reaction.png"; sourceTree = "<group>"; };
+		936C3BA52109D0A0003717C7 /* #44 illustration.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#44 illustration.jpeg"; sourceTree = "<group>"; };
+		936C3BA62109D0A0003717C7 /* #165 inorganic substance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#165 inorganic substance.png"; sourceTree = "<group>"; };
+		936C3BA72109D0A0003717C7 /* #93 molecule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#93 molecule.png"; sourceTree = "<group>"; };
+		936C3BA82109D0A0003717C7 /* #96 neutron.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#96 neutron.jpg"; sourceTree = "<group>"; };
+		936C3BA92109D0A0003717C7 /* #89 cold water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#89 cold water.png"; sourceTree = "<group>"; };
+		936C3BAA2109D0A0003717C7 /* #48 release elctron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#48 release elctron.png"; sourceTree = "<group>"; };
+		936C3BAB2109D0A0003717C7 /* #205 volume ratio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#205 volume ratio.png"; sourceTree = "<group>"; };
+		936C3BAC2109D0A0003717C7 /* #145 compositional formula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#145 compositional formula.png"; sourceTree = "<group>"; };
+		936C3BAD2109D0A0003717C7 /* #233 oxidation number.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#233 oxidation number.png"; sourceTree = "<group>"; };
+		936C3BAE2109D0A0003717C7 /* #64 Amount.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#64 Amount.png"; sourceTree = "<group>"; };
+		936C3BAF2109D0A0003717C7 /* #94 electron.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#94 electron.jpg"; sourceTree = "<group>"; };
+		936C3BB02109D0A0003717C7 /* #193 physical change.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#193 physical change.png"; sourceTree = "<group>"; };
+		936C3BB12109D0A0003717C7 /* #57 valence electron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#57 valence electron.png"; sourceTree = "<group>"; };
+		936C3BB22109D0A0003717C7 /* #215 basic oxide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#215 basic oxide.jpg"; sourceTree = "<group>"; };
+		936C3BB32109D0A0003717C7 /* #73 combustion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#73 combustion.png"; sourceTree = "<group>"; };
+		936C3BB42109D0A0003717C7 /* #23 Unit.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#23 Unit.PNG"; sourceTree = "<group>"; };
+		936C3BB52109D0A0003717C7 /* #150 polarity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#150 polarity.png"; sourceTree = "<group>"; };
+		936C3BB62109D0A0003717C7 /* #183 concentration.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#183 concentration.jpg"; sourceTree = "<group>"; };
+		936C3BB72109D0A0003717C7 /* #92 particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#92 particle.png"; sourceTree = "<group>"; };
+		936C3BB82109D0A0003717C7 /* #242 dry cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#242 dry cell.png"; sourceTree = "<group>"; };
+		936C3BB92109D0A0003717C7 /* #168 addition polymerization.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#168 addition polymerization.png"; sourceTree = "<group>"; };
+		936C3BBA2109D0A0003717C7 /* #84 sum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#84 sum.png"; sourceTree = "<group>"; };
+		936C3BBB2109D0A0003717C7 /* #222 neutral.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#222 neutral.jpg"; sourceTree = "<group>"; };
+		936C3BBC2109D0A0003717C7 /* #60 theory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#60 theory.png"; sourceTree = "<group>"; };
+		936C3BBD2109D0A0003717C7 /* #191 molal concentration.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#191 molal concentration.jpg"; sourceTree = "<group>"; };
+		936C3BBE2109D0A0003717C7 /* #97 atom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "#97 atom.jpg"; sourceTree = "<group>"; };
+		936C3CB22109D3EB003717C7 /* #137 positive ion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#137 positive ion.png"; sourceTree = "<group>"; };
+		936C3CB42109D3F4003717C7 /* #169 polycondensation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#169 polycondensation.png"; sourceTree = "<group>"; };
+		936C3CB82109DD3B003717C7 /* #169 polycondensation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#169 polycondensation.png"; sourceTree = "<group>"; };
+		937545B221084D2F0034AE92 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		937545B42108727E0034AE92 /* WordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCell.swift; sourceTree = "<group>"; };
+		937DECC3210EF03D007A813A /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		937DECC5210F16AB007A813A /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		937F37D621009487007222CF /* moztw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moztw.png; sourceTree = "<group>"; };
+		9392D5B82101EB0C00CF1695 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		9392D5BA2101FBF800CF1695 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		9392D5BC2102050B00CF1695 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		939B2602210005E1008BD339 /* Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		939B2605210005E1008BD339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		939B2607210005E1008BD339 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		939B260A210005E1008BD339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		939B260C210005E3008BD339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		939B260F210005E3008BD339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		939B2611210005E3008BD339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		939B261721003B75008BD339 /* RES00000420-L.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "RES00000420-L.JPG"; sourceTree = "<group>"; };
+		939FCB212108899D0043982F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		93AEE4EE210791B5006D868D /* categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = categories.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		939B25FF210005E1008BD339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		936C3ACB2109D09F003717C7 /* Chem photos */ = {
+			isa = PBXGroup;
+			children = (
+				936C3ACC2109D09F003717C7 /* #182 Solution.png */,
+				936C3ACD2109D09F003717C7 /* #254 positive pole.png */,
+				936C3ACE2109D09F003717C7 /* #167 polymer.png */,
+				936C3ACF2109D09F003717C7 /* #120 attractive force.png */,
+				936C3AD02109D09F003717C7 /* #241 voltaic cell.png */,
+				936C3AD12109D09F003717C7 /* #66 between.png */,
+				936C3AD22109D09F003717C7 /* #124 state change.png */,
+				936C3AD32109D09F003717C7 /* #188 Procent concentration.jpg */,
+				936C3AD42109D09F003717C7 /* #161 intermolecular force.png */,
+				936C3AD52109D09F003717C7 /* #82 crystal.png */,
+				936C3AD62109D09F003717C7 /* #184 dissolve.png */,
+				936C3AD72109D09F003717C7 /* #20 density.jpg */,
+				936C3AD82109D09F003717C7 /* #236 half reaction.png */,
+				936C3AD92109D09F003717C7 /* #239 primary battery.png */,
+				936C3ADA2109D09F003717C7 /* #235 reductant.png */,
+				936C3ADB2109D09F003717C7 /* #138 negative ion.jpg */,
+				936C3ADC2109D09F003717C7 /* #141 electron affinity.png */,
+				936C3ADD2109D09F003717C7 /* #19 temperature.png */,
+				936C3ADE2109D09F003717C7 /* #29 low.png */,
+				936C3ADF2109D09F003717C7 /* #3 laboratory measurement.jpg */,
+				936C3AE02109D09F003717C7 /* #147 covalent bonding.png */,
+				936C3AE12109D09F003717C7 /* #88 structure.png */,
+				936C3AE22109D09F003717C7 /* #179 Molar mass.png */,
+				936C3AE32109D09F003717C7 /* #95 proton.jpg */,
+				936C3AE42109D09F003717C7 /* #22 container, vessel.jpg */,
+				936C3AE52109D09F003717C7 /* #77 electrical conductivity.png */,
+				9363E3C42113474B0078C03F /* #169 polycondensation.png */,
+				936C3AE62109D09F003717C7 /* #136 electron config.png */,
+				936C3AE72109D09F003717C7 /* #10 trend, inclination.png */,
+				936C3AE82109D09F003717C7 /* #1 Periodic table.png */,
+				936C3AE92109D09F003717C7 /* #70 melting point.png */,
+				936C3AEB2109D09F003717C7 /* #74 neutralization.png */,
+				936C3AEC2109D09F003717C7 /* #130 heat.png */,
+				936C3AED2109D09F003717C7 /* #104 pure substance.jpg */,
+				936C3AEE2109D09F003717C7 /* #105 mixed substance.jpg */,
+				936C3AEF2109D09F003717C7 /* #7 Pipette.jpg */,
+				936C3AF02109D09F003717C7 /* #128 diffusion.png */,
+				936C3AF12109D09F003717C7 /* #58 Principle.png */,
+				936C3AF22109D09F003717C7 /* #226 formula.jpg */,
+				936C3AF32109D09F003717C7 /* #62 descending order.jpg */,
+				936C3AF42109D09F003717C7 /* #178 Avogadro constant.png */,
+				936C3AF52109D09F003717C7 /* #99 atomic nucleus.png */,
+				936C3AF62109D09F003717C7 /* #202 mass conservation law.png */,
+				936C3AF72109D09F003717C7 /* #56 variety.png */,
+				936C3AF82109D09F003717C7 /* #123 liquid.png */,
+				936C3AF92109D09F003717C7 /* #223 acidic.png */,
+				936C3AFA2109D09F003717C7 /* #71 compound.png */,
+				936C3AFB2109D09F003717C7 /* #81 reflection.jpg */,
+				936C3CB82109DD3B003717C7 /* #169 polycondensation.png */,
+				936C3AFC2109D09F003717C7 /* #110 recrystallization.png */,
+				936C3AFD2109D09F003717C7 /* #256 electrode.png */,
+				936C3AFE2109D09F003717C7 /* #113 sublimation.png */,
+				936C3AFF2109D09F003717C7 /* #248 charge.jpg */,
+				936C3B002109D09F003717C7 /* #34 increase.png */,
+				936C3B012109D09F003717C7 /* #195 Product.png */,
+				936C3B022109D09F003717C7 /* #187 solvent.png */,
+				936C3B032109D09F003717C7 /* #122 gas.png */,
+				936C3B042109D09F003717C7 /* #78 mechanical property.png */,
+				936C3B052109D09F003717C7 /* #109 fractional distillation.png */,
+				936C3B062109D09F003717C7 /* #190 molar concentration.jpg */,
+				936C3B072109D09F003717C7 /* #159 octahedron form.png */,
+				936C3B082109D09F003717C7 /* #63 align.png */,
+				936C3B092109D09F003717C7 /* #166 organic substance.png */,
+				936C3B0A2109D09F003717C7 /* #51 outer shell.png */,
+				936C3B0B2109D09F003717C7 /* #212 ionization degree.png */,
+				936C3B0C2109D09F003717C7 /* #6 volumetric flask.jpg */,
+				936C3B0D2109D09F003717C7 /* #85 product.png */,
+				936C3B0E2109D09F003717C7 /* #247 electricty.jpg */,
+				936C3B0F2109D09F003717C7 /* #214 acidic oxide.jpg */,
+				936C3B102109D09F003717C7 /* #39 physical property.png */,
+				936C3B112109D09F003717C7 /* #53 metals.png */,
+				936C3B122109D09F003717C7 /* #129 work.png */,
+				936C3B132109D09F003717C7 /* #154 ligand.png */,
+				936C3B142109D09F003717C7 /* #12 after reaction.png */,
+				936C3B152109D09F003717C7 /* #17 bond.png */,
+				936C3B162109D09F003717C7 /* #220 alkanility or acidity.jpg */,
+				936C3B172109D09F003717C7 /* #204 mass ratio.png */,
+				936C3B182109D09F003717C7 /* #116 3 phases.png */,
+				936C3B192109D09F003717C7 /* #251 polarization.png */,
+				936C3B1A2109D09F003717C7 /* #72 organic substance.png */,
+				936C3B1B2109D09F003717C7 /* #114 chromatography.png */,
+				936C3B1C2109D09F003717C7 /* #225 neutral point.png */,
+				936C3B1D2109D09F003717C7 /* #127 kinetic energy.png */,
+				936C3B1E2109D09F003717C7 /* #28 high.png */,
+				936C3B1F2109D09F003717C7 /* #151 polar molecule.png */,
+				936C3B202109D09F003717C7 /* #111 extraction.png */,
+				936C3B212109D09F003717C7 /* #54 non metals.png */,
+				936C3B222109D09F003717C7 /* #42 stable.jpg */,
+				936C3B232109D09F003717C7 /* #25 large.png */,
+				936C3B242109D09F003717C7 /* #35 increase.png */,
+				936C3B252109D09F003717C7 /* #142 polyatomic ion.png */,
+				936C3B262109D09F003717C7 /* #172 free electron.png */,
+				936C3B272109D09F003717C7 /* #155 charge number.png */,
+				936C3B282109D09F003717C7 /* #33 relation.png */,
+				936C3B292109D09F003717C7 /* #86 exponent.png */,
+				936C3B2A2109D09F003717C7 /* #210 base.png */,
+				936C3B2B2109D09F003717C7 /* #245 electrolyte.png */,
+				936C3B2C2109D09F003717C7 /* #5 Control, adjustment.jpg */,
+				936C3B2D2109D09F003717C7 /* #197 water vapor.png */,
+				936C3B2E2109D09F003717C7 /* #189 ratio.jpg */,
+				936C3B2F2109D09F003717C7 /* #207 avogadro law.png */,
+				936C3B302109D09F003717C7 /* #156 linear form.png */,
+				936C3B312109D09F003717C7 /* #32 Atom weight.png */,
+				936C3B322109D09F003717C7 /* #15 chemical reaction formula.jpg */,
+				936C3B332109D09F003717C7 /* #80 malleability.png */,
+				936C3B342109D09F003717C7 /* #162 van der waals force.png */,
+				936C3B352109D09F003717C7 /* #158 tetrahedron form.png */,
+				936C3B362109D09F003717C7 /* #153 electronegativity.png */,
+				936C3B372109D09F003717C7 /* #203 definite proportion law.jpg */,
+				936C3B382109D09F003717C7 /* #102 substance.jpeg */,
+				936C3B392109D09F003717C7 /* #121 solid.png */,
+				936C3B3A2109D09F003717C7 /* #43 piece.png */,
+				936C3B3B2109D09F003717C7 /* #186 solute.png */,
+				936C3B3C2109D09F003717C7 /* #40 Constant.png */,
+				936C3B3D2109D09F003717C7 /* #255 direct current.png */,
+				936C3B3E2109D09F003717C7 /* #14 reaction formula.png */,
+				936C3B3F2109D09F003717C7 /* #11 Chemical reaction.jpg */,
+				936C3B402109D09F003717C7 /* #198 full combustion.jpg */,
+				936C3B412109D09F003717C7 /* #52 shell.jpg */,
+				936C3B422109D09F003717C7 /* #246 current.png */,
+				936C3B432109D09F003717C7 /* #139 stabilization.jpg */,
+				936C3B442109D09F003717C7 /* #211 ionization.png */,
+				936C3B452109D09F003717C7 /* #36 decrease.png */,
+				936C3B462109D09F003717C7 /* #76 heat conductivity.png */,
+				936C3B472109D09F003717C7 /* #201 basic law.png */,
+				936C3B482109D09F003717C7 /* #216 amphoteric oxide.jpg */,
+				936C3B492109D09F003717C7 /* #171 metal crystal.png */,
+				936C3B4A2109D09F003717C7 /* #249 possible.jpg */,
+				936C3B4B2109D09F003717C7 /* #31 store.png */,
+				936C3B4C2109D09F003717C7 /* #55 Bonding.png */,
+				936C3B4D2109D09F003717C7 /* #46 change.png */,
+				936C3B4E2109D09F003717C7 /* #133 ion.png */,
+				936C3B4F2109D09F003717C7 /* #67 cause and effect.jpg */,
+				936C3B502109D09F003717C7 /* #176 Relative mass.png */,
+				936C3B512109D09F003717C7 /* #126 heat quantity.png */,
+				936C3B522109D09F003717C7 /* #90 sequence.png */,
+				936C3CB22109D3EB003717C7 /* #137 positive ion.png */,
+				936C3CB42109D3F4003717C7 /* #169 polycondensation.png */,
+				936C3B532109D09F003717C7 /* #213 oxide.jpg */,
+				936C3B542109D09F003717C7 /* #41 different.jpg */,
+				936C3B552109D09F003717C7 /* #117 thermal motion.png */,
+				936C3B562109D09F003717C7 /* #69 boiling point.png */,
+				936C3B572109D09F003717C7 /* #250 impossible.jpg */,
+				936C3B582109D09F003717C7 /* #152 non-polar molecule.png */,
+				936C3B592109D09F003717C7 /* #59 law.png */,
+				936C3B5A2109D09F003717C7 /* #87 constitution, composition .png */,
+				936C3B5B2109D09F003717C7 /* #30 mass number.jpg */,
+				936C3B5C2109D09F003717C7 /* #50 formation.png */,
+				936C3B5D2109D09F003717C7 /* #61 Order.png */,
+				936C3B5E2109D0A0003717C7 /* #118 state.png */,
+				936C3B5F2109D0A0003717C7 /* #37 decrease.png */,
+				936C3B602109D0A0003717C7 /* #125 heat.png */,
+				936C3B612109D0A0003717C7 /* #27 strong.png */,
+				936C3B632109D0A0003717C7 /* #177 Mol.png */,
+				936C3B642109D0A0003717C7 /* #49 nucleus.png */,
+				936C3B652109D0A0003717C7 /* #112 classification.png */,
+				936C3B662109D0A0003717C7 /* #232 gain electron.png */,
+				936C3B672109D0A0003717C7 /* #238 battery.png */,
+				936C3B682109D0A0003717C7 /* #252 electrolysis.png */,
+				936C3B692109D0A0003717C7 /* #219 hydrolysis.jpg */,
+				936C3B6A2109D0A0003717C7 /* #134 ion crystal.png */,
+				936C3B6B2109D0A0003717C7 /* #231 lose electron.png */,
+				936C3B6C2109D0A0003717C7 /* #2 Laboratory experiment.jpg */,
+				936C3B6D2109D0A0003717C7 /* #227 titration curve.png */,
+				936C3B6E2109D0A0003717C7 /* #83 equal.png */,
+				936C3B6F2109D0A0003717C7 /* #240 secondary battery.png */,
+				936C3B702109D0A0003717C7 /* #199 closed container.jpg */,
+				936C3B712109D0A0003717C7 /* #75 solution.png */,
+				936C3B722109D0A0003717C7 /* #135 ionic bonding.jpg */,
+				936C3B732109D0A0003717C7 /* #140 ionication energy.png */,
+				936C3B742109D0A0003717C7 /* #160 molecular crystal.png */,
+				936C3B752109D0A0003717C7 /* #180 molar volume.png */,
+				936C3B762109D0A0003717C7 /* #209 acid.png */,
+				936C3B772109D0A0003717C7 /* #157 square form.png */,
+				936C3B782109D0A0003717C7 /* #230 redox reaction.png */,
+				936C3B792109D0A0003717C7 /* #148 structural formula.png */,
+				936C3B7A2109D0A0003717C7 /* #218 neutralization reaction.png */,
+				936C3B7B2109D0A0003717C7 /* #253 negative pole.png */,
+				936C3B7C2109D0A0003717C7 /* #98 element.jpg */,
+				936C3B7D2109D0A0003717C7 /* #9 Conical beaker.jpg */,
+				936C3B7E2109D0A0003717C7 /* #257 faraday's law.png */,
+				936C3B7F2109D0A0003717C7 /* #38 chemical property.png */,
+				936C3B802109D0A0003717C7 /* #143 electrostatic force.png */,
+				936C3B812109D0A0003717C7 /* #228 indicator.jpg */,
+				936C3B822109D0A0003717C7 /* #79 ductility.png */,
+				936C3B832109D0A0003717C7 /* #21 volume.png */,
+				936C3B842109D0A0003717C7 /* #119 ideal.png */,
+				936C3B852109D0A0003717C7 /* #101 allotrope.png */,
+				936C3B862109D0A0003717C7 /* #194 chemical change.png */,
+				936C3B872109D0A0003717C7 /* #16 Property.png */,
+				936C3B882109D0A0003717C7 /* #45 diagram.png */,
+				936C3B892109D0A0003717C7 /* #47 receive electron.png */,
+				936C3B8A2109D0A0003717C7 /* #107 filtration.png */,
+				936C3B8B2109D0A0003717C7 /* #174 atomic mass.png */,
+				936C3B8C2109D0A0003717C7 /* #221 alkanility.png */,
+				936C3B8D2109D0A0003717C7 /* #100 isotope.png */,
+				936C3B8E2109D0A0003717C7 /* #131 absolute temperature.png */,
+				936C3B8F2109D0A0003717C7 /* #224 titration.png */,
+				936C3B902109D0A0003717C7 /* #24 little.png */,
+				936C3B912109D0A0003717C7 /* #144 chemical formula.png */,
+				936C3B922109D0A0003717C7 /* #196 Reactant.png */,
+				936C3B932109D0A0003717C7 /* #4 laboratory ware.jpg */,
+				936C3B942109D0A0003717C7 /* #68 bylaw .png */,
+				936C3B952109D0A0003717C7 /* #244 lead battery.png */,
+				936C3B962109D0A0003717C7 /* #26 weak.png */,
+				936C3B972109D0A0003717C7 /* #149 electrical formula.png */,
+				936C3B982109D0A0003717C7 /* #65 number.png */,
+				936C3B992109D0A0003717C7 /* #206 coefficient.png */,
+				936C3B9A2109D0A0003717C7 /* #185 solubility.png */,
+				936C3B9B2109D0A0003717C7 /* #103 compound substance.jpg */,
+				936C3B9C2109D0A0003717C7 /* #234 oxidant.png */,
+				936C3B9D2109D0A0003717C7 /* #243 daniel cell.png */,
+				936C3B9E2109D0A0003717C7 /* #18 pressure.jpg */,
+				936C3B9F2109D0A0003717C7 /* #175 molecular mass.png */,
+				936C3BA02109D0A0003717C7 /* #8 burette.png */,
+				936C3BA12109D0A0003717C7 /* #163 hydrogen bond.png */,
+				936C3BA22109D0A0003717C7 /* #106 separation.png */,
+				936C3BA32109D0A0003717C7 /* #108 distillation.jpg */,
+				936C3BA42109D0A0003717C7 /* #13 before reaction.png */,
+				936C3BA52109D0A0003717C7 /* #44 illustration.jpeg */,
+				936C3BA62109D0A0003717C7 /* #165 inorganic substance.png */,
+				936C3BA72109D0A0003717C7 /* #93 molecule.png */,
+				936C3BA82109D0A0003717C7 /* #96 neutron.jpg */,
+				936C3BA92109D0A0003717C7 /* #89 cold water.png */,
+				936C3BAA2109D0A0003717C7 /* #48 release elctron.png */,
+				936C3BAB2109D0A0003717C7 /* #205 volume ratio.png */,
+				936C3BAC2109D0A0003717C7 /* #145 compositional formula.png */,
+				936C3BAD2109D0A0003717C7 /* #233 oxidation number.png */,
+				936C3BAE2109D0A0003717C7 /* #64 Amount.png */,
+				936C3BAF2109D0A0003717C7 /* #94 electron.jpg */,
+				936C3BB02109D0A0003717C7 /* #193 physical change.png */,
+				936C3BB12109D0A0003717C7 /* #57 valence electron.png */,
+				936C3BB22109D0A0003717C7 /* #215 basic oxide.jpg */,
+				936C3BB32109D0A0003717C7 /* #73 combustion.png */,
+				936C3BB42109D0A0003717C7 /* #23 Unit.PNG */,
+				936C3BB52109D0A0003717C7 /* #150 polarity.png */,
+				936C3BB62109D0A0003717C7 /* #183 concentration.jpg */,
+				936C3BB72109D0A0003717C7 /* #92 particle.png */,
+				936C3BB82109D0A0003717C7 /* #242 dry cell.png */,
+				936C3BB92109D0A0003717C7 /* #168 addition polymerization.png */,
+				936C3BBA2109D0A0003717C7 /* #84 sum.png */,
+				936C3BBB2109D0A0003717C7 /* #222 neutral.jpg */,
+				936C3BBC2109D0A0003717C7 /* #60 theory.png */,
+				936C3BBD2109D0A0003717C7 /* #191 molal concentration.jpg */,
+				936C3BBE2109D0A0003717C7 /* #97 atom.jpg */,
+			);
+			path = "Chem photos";
+			sourceTree = "<group>";
+		};
+		939B25F9210005E1008BD339 = {
+			isa = PBXGroup;
+			children = (
+				939B2604210005E1008BD339 /* Dictionary */,
+				939B2603210005E1008BD339 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		939B2603210005E1008BD339 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				939B2602210005E1008BD339 /* Dictionary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		939B2604210005E1008BD339 /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				939B2605210005E1008BD339 /* AppDelegate.swift */,
+				939B2607210005E1008BD339 /* ViewController.swift */,
+				939FCB212108899D0043982F /* DetailViewController.swift */,
+				937545B221084D2F0034AE92 /* MainTableViewController.swift */,
+				93378994210B6ED40009D763 /* QuizTableViewController.swift */,
+				937DECC5210F16AB007A813A /* QuestionView.swift */,
+				93378996210B8DFB0009D763 /* QuizViewController.swift */,
+				937545B42108727E0034AE92 /* WordCell.swift */,
+				9392D5BA2101FBF800CF1695 /* Word.swift */,
+				937DECC3210EF03D007A813A /* Quiz.swift */,
+				9392D5BC2102050B00CF1695 /* Category.swift */,
+				939B2609210005E1008BD339 /* Main.storyboard */,
+				939B260C210005E3008BD339 /* Assets.xcassets */,
+				93378998210B92360009D763 /* timer.png */,
+				936C3ACB2109D09F003717C7 /* Chem photos */,
+				93AEE4EE210791B5006D868D /* categories.json */,
+				9392D5B82101EB0C00CF1695 /* data.json */,
+				939B261721003B75008BD339 /* RES00000420-L.JPG */,
+				937F37D621009487007222CF /* moztw.png */,
+				939B260E210005E3008BD339 /* LaunchScreen.storyboard */,
+				939B2611210005E3008BD339 /* Info.plist */,
+			);
+			path = Dictionary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		939B2601210005E1008BD339 /* Dictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 939B2614210005E3008BD339 /* Build configuration list for PBXNativeTarget "Dictionary" */;
+			buildPhases = (
+				939B25FE210005E1008BD339 /* Sources */,
+				939B25FF210005E1008BD339 /* Frameworks */,
+				939B2600210005E1008BD339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dictionary;
+			productName = Dictionary;
+			productReference = 939B2602210005E1008BD339 /* Dictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		939B25FA210005E1008BD339 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Anujin Baatartsogt";
+				TargetAttributes = {
+					939B2601210005E1008BD339 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 939B25FD210005E1008BD339 /* Build configuration list for PBXProject "Dictionary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 939B25F9210005E1008BD339;
+			productRefGroup = 939B2603210005E1008BD339 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				939B2601210005E1008BD339 /* Dictionary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		939B2600210005E1008BD339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				936C3C062109D0A0003717C7 /* #154 ligand.png in Resources */,
+				936C3C292109D0A0003717C7 /* #153 electronegativity.png in Resources */,
+				936C3C122109D0A0003717C7 /* #151 polar molecule.png in Resources */,
+				936C3C1A2109D0A0003717C7 /* #155 charge number.png in Resources */,
+				936C3C962109D0A0003717C7 /* #108 distillation.jpg in Resources */,
+				936C3C4D2109D0A0003717C7 /* #87 constitution, composition .png in Resources */,
+				936C3C822109D0A0003717C7 /* #224 titration.png in Resources */,
+				936C3BC72109D0A0003717C7 /* #161 intermolecular force.png in Resources */,
+				936C3BE62109D0A0003717C7 /* #62 descending order.jpg in Resources */,
+				936C3C162109D0A0003717C7 /* #25 large.png in Resources */,
+				936C3C102109D0A0003717C7 /* #127 kinetic energy.png in Resources */,
+				936C3C642109D0A0003717C7 /* #75 solution.png in Resources */,
+				936C3C792109D0A0003717C7 /* #194 chemical change.png in Resources */,
+				936C3BF12109D0A0003717C7 /* #113 sublimation.png in Resources */,
+				936C3C4C2109D0A0003717C7 /* #59 law.png in Resources */,
+				936C3C7E2109D0A0003717C7 /* #174 atomic mass.png in Resources */,
+				936C3C282109D0A0003717C7 /* #158 tetrahedron form.png in Resources */,
+				936C3BCC2109D0A0003717C7 /* #239 primary battery.png in Resources */,
+				936C3BD02109D0A0003717C7 /* #19 temperature.png in Resources */,
+				936C3C5E2109D0A0003717C7 /* #231 lose electron.png in Resources */,
+				936C3BDB2109D0A0003717C7 /* #1 Periodic table.png in Resources */,
+				936C3BEF2109D0A0003717C7 /* #110 recrystallization.png in Resources */,
+				936C3BFB2109D0A0003717C7 /* #63 align.png in Resources */,
+				936C3C342109D0A0003717C7 /* #52 shell.jpg in Resources */,
+				936C3BD42109D0A0003717C7 /* #88 structure.png in Resources */,
+				936C3BCD2109D0A0003717C7 /* #235 reductant.png in Resources */,
+				936C3C4E2109D0A0003717C7 /* #30 mass number.jpg in Resources */,
+				936C3C2A2109D0A0003717C7 /* #203 definite proportion law.jpg in Resources */,
+				936C3C192109D0A0003717C7 /* #172 free electron.png in Resources */,
+				936C3C302109D0A0003717C7 /* #255 direct current.png in Resources */,
+				936C3C362109D0A0003717C7 /* #139 stabilization.jpg in Resources */,
+				93378999210B92370009D763 /* timer.png in Resources */,
+				936C3C222109D0A0003717C7 /* #207 avogadro law.png in Resources */,
+				936C3BEB2109D0A0003717C7 /* #123 liquid.png in Resources */,
+				936C3C562109D0A0003717C7 /* #177 Mol.png in Resources */,
+				936C3C772109D0A0003717C7 /* #119 ideal.png in Resources */,
+				936C3C422109D0A0003717C7 /* #67 cause and effect.jpg in Resources */,
+				936C3C682109D0A0003717C7 /* #180 molar volume.png in Resources */,
+				936C3BE82109D0A0003717C7 /* #99 atomic nucleus.png in Resources */,
+				936C3C9A2109D0A0003717C7 /* #93 molecule.png in Resources */,
+				936C3C692109D0A0003717C7 /* #209 acid.png in Resources */,
+				936C3C0A2109D0A0003717C7 /* #204 mass ratio.png in Resources */,
+				936C3C662109D0A0003717C7 /* #140 ionication energy.png in Resources */,
+				936C3BD12109D0A0003717C7 /* #29 low.png in Resources */,
+				936C3BC02109D0A0003717C7 /* #254 positive pole.png in Resources */,
+				936C3C5C2109D0A0003717C7 /* #219 hydrolysis.jpg in Resources */,
+				936C3BD82109D0A0003717C7 /* #77 electrical conductivity.png in Resources */,
+				936C3C612109D0A0003717C7 /* #83 equal.png in Resources */,
+				936C3C862109D0A0003717C7 /* #4 laboratory ware.jpg in Resources */,
+				936C3C5B2109D0A0003717C7 /* #252 electrolysis.png in Resources */,
+				936C3C432109D0A0003717C7 /* #176 Relative mass.png in Resources */,
+				936C3BCF2109D0A0003717C7 /* #141 electron affinity.png in Resources */,
+				936C3C842109D0A0003717C7 /* #144 chemical formula.png in Resources */,
+				936C3BC62109D0A0003717C7 /* #188 Procent concentration.jpg in Resources */,
+				936C3BF92109D0A0003717C7 /* #190 molar concentration.jpg in Resources */,
+				936C3C262109D0A0003717C7 /* #80 malleability.png in Resources */,
+				936C3C372109D0A0003717C7 /* #211 ionization.png in Resources */,
+				936C3C8F2109D0A0003717C7 /* #234 oxidant.png in Resources */,
+				936C3C202109D0A0003717C7 /* #197 water vapor.png in Resources */,
+				936C3BCE2109D0A0003717C7 /* #138 negative ion.jpg in Resources */,
+				936C3C852109D0A0003717C7 /* #196 Reactant.png in Resources */,
+				936C3BEA2109D0A0003717C7 /* #56 variety.png in Resources */,
+				936C3BE02109D0A0003717C7 /* #104 pure substance.jpg in Resources */,
+				936C3C072109D0A0003717C7 /* #12 after reaction.png in Resources */,
+				936C3C412109D0A0003717C7 /* #133 ion.png in Resources */,
+				936C3C3C2109D0A0003717C7 /* #171 metal crystal.png in Resources */,
+				936C3BE92109D0A0003717C7 /* #202 mass conservation law.png in Resources */,
+				936C3C142109D0A0003717C7 /* #54 non metals.png in Resources */,
+				936C3BE12109D0A0003717C7 /* #105 mixed substance.jpg in Resources */,
+				936C3BCB2109D0A0003717C7 /* #236 half reaction.png in Resources */,
+				936C3C132109D0A0003717C7 /* #111 extraction.png in Resources */,
+				936C3C712109D0A0003717C7 /* #257 faraday's law.png in Resources */,
+				936C3C6E2109D0A0003717C7 /* #253 negative pole.png in Resources */,
+				936C3C4F2109D0A0003717C7 /* #50 formation.png in Resources */,
+				936C3BDE2109D0A0003717C7 /* #74 neutralization.png in Resources */,
+				93AEE4EF210791B5006D868D /* categories.json in Resources */,
+				936C3C8B2109D0A0003717C7 /* #65 number.png in Resources */,
+				939B2610210005E3008BD339 /* LaunchScreen.storyboard in Resources */,
+				936C3BC22109D0A0003717C7 /* #120 attractive force.png in Resources */,
+				936C3C8D2109D0A0003717C7 /* #185 solubility.png in Resources */,
+				936C3C112109D0A0003717C7 /* #28 high.png in Resources */,
+				936C3BC32109D0A0003717C7 /* #241 voltaic cell.png in Resources */,
+				936C3C762109D0A0003717C7 /* #21 volume.png in Resources */,
+				936C3BF02109D0A0003717C7 /* #256 electrode.png in Resources */,
+				936C3C722109D0A0003717C7 /* #38 chemical property.png in Resources */,
+				936C3C6A2109D0A0003717C7 /* #157 square form.png in Resources */,
+				936C3C322109D0A0003717C7 /* #11 Chemical reaction.jpg in Resources */,
+				936C3CA22109D0A0003717C7 /* #94 electron.jpg in Resources */,
+				936C3BD52109D0A0003717C7 /* #179 Molar mass.png in Resources */,
+				936C3C212109D0A0003717C7 /* #189 ratio.jpg in Resources */,
+				936C3C1B2109D0A0003717C7 /* #33 relation.png in Resources */,
+				936C3C7F2109D0A0003717C7 /* #221 alkanility.png in Resources */,
+				936C3C9E2109D0A0003717C7 /* #205 volume ratio.png in Resources */,
+				936C3C7D2109D0A0003717C7 /* #107 filtration.png in Resources */,
+				936C3BD72109D0A0003717C7 /* #22 container, vessel.jpg in Resources */,
+				936C3C0E2109D0A0003717C7 /* #114 chromatography.png in Resources */,
+				936C3BDC2109D0A0003717C7 /* #70 melting point.png in Resources */,
+				936C3BF32109D0A0003717C7 /* #34 increase.png in Resources */,
+				936C3C2C2109D0A0003717C7 /* #121 solid.png in Resources */,
+				936C3C902109D0A0003717C7 /* #243 daniel cell.png in Resources */,
+				939B261821003B75008BD339 /* RES00000420-L.JPG in Resources */,
+				936C3C8E2109D0A0003717C7 /* #103 compound substance.jpg in Resources */,
+				936C3CA52109D0A0003717C7 /* #215 basic oxide.jpg in Resources */,
+				936C3BF62109D0A0003717C7 /* #122 gas.png in Resources */,
+				936C3C052109D0A0003717C7 /* #129 work.png in Resources */,
+				936C3C442109D0A0003717C7 /* #126 heat quantity.png in Resources */,
+				936C3C082109D0A0003717C7 /* #17 bond.png in Resources */,
+				936C3C0F2109D0A0003717C7 /* #225 neutral point.png in Resources */,
+				936C3C392109D0A0003717C7 /* #76 heat conductivity.png in Resources */,
+				936C3BD22109D0A0003717C7 /* #3 laboratory measurement.jpg in Resources */,
+				936C3C0B2109D0A0003717C7 /* #116 3 phases.png in Resources */,
+				936C3C032109D0A0003717C7 /* #39 physical property.png in Resources */,
+				936C3BEE2109D0A0003717C7 /* #81 reflection.jpg in Resources */,
+				936C3C352109D0A0003717C7 /* #246 current.png in Resources */,
+				936C3C652109D0A0003717C7 /* #135 ionic bonding.jpg in Resources */,
+				936C3C572109D0A0003717C7 /* #49 nucleus.png in Resources */,
+				936C3C812109D0A0003717C7 /* #131 absolute temperature.png in Resources */,
+				936C3C732109D0A0003717C7 /* #143 electrostatic force.png in Resources */,
+				936C3C8A2109D0A0003717C7 /* #149 electrical formula.png in Resources */,
+				9392D5B92101EB0C00CF1695 /* data.json in Resources */,
+				936C3CA32109D0A0003717C7 /* #193 physical change.png in Resources */,
+				936C3C632109D0A0003717C7 /* #199 closed container.jpg in Resources */,
+				936C3C582109D0A0003717C7 /* #112 classification.png in Resources */,
+				936C3C742109D0A0003717C7 /* #228 indicator.jpg in Resources */,
+				936C3BED2109D0A0003717C7 /* #71 compound.png in Resources */,
+				936C3C9D2109D0A0003717C7 /* #48 release elctron.png in Resources */,
+				936C3C932109D0A0003717C7 /* #8 burette.png in Resources */,
+				936C3C6B2109D0A0003717C7 /* #230 redox reaction.png in Resources */,
+				936C3C9F2109D0A0003717C7 /* #145 compositional formula.png in Resources */,
+				936C3C042109D0A0003717C7 /* #53 metals.png in Resources */,
+				936C3CAD2109D0A0003717C7 /* #84 sum.png in Resources */,
+				936C3BDF2109D0A0003717C7 /* #130 heat.png in Resources */,
+				936C3CB52109D3F4003717C7 /* #169 polycondensation.png in Resources */,
+				936C3CB92109DD3C003717C7 /* #169 polycondensation.png in Resources */,
+				936C3C922109D0A0003717C7 /* #175 molecular mass.png in Resources */,
+				936C3CAF2109D0A0003717C7 /* #60 theory.png in Resources */,
+				936C3C482109D0A0003717C7 /* #117 thermal motion.png in Resources */,
+				936C3C752109D0A0003717C7 /* #79 ductility.png in Resources */,
+				936C3BFF2109D0A0003717C7 /* #6 volumetric flask.jpg in Resources */,
+				936C3C182109D0A0003717C7 /* #142 polyatomic ion.png in Resources */,
+				936C3BF82109D0A0003717C7 /* #109 fractional distillation.png in Resources */,
+				936C3BFE2109D0A0003717C7 /* #212 ionization degree.png in Resources */,
+				936C3CAB2109D0A0003717C7 /* #242 dry cell.png in Resources */,
+				936C3C782109D0A0003717C7 /* #101 allotrope.png in Resources */,
+				936C3C252109D0A0003717C7 /* #15 chemical reaction formula.jpg in Resources */,
+				936C3CAC2109D0A0003717C7 /* #168 addition polymerization.png in Resources */,
+				936C3BC92109D0A0003717C7 /* #184 dissolve.png in Resources */,
+				936C3C312109D0A0003717C7 /* #14 reaction formula.png in Resources */,
+				936C3C012109D0A0003717C7 /* #247 electricty.jpg in Resources */,
+				936C3C982109D0A0003717C7 /* #44 illustration.jpeg in Resources */,
+				936C3C4A2109D0A0003717C7 /* #250 impossible.jpg in Resources */,
+				936C3CA92109D0A0003717C7 /* #183 concentration.jpg in Resources */,
+				936C3C942109D0A0003717C7 /* #163 hydrogen bond.png in Resources */,
+				936C3BE22109D0A0003717C7 /* #7 Pipette.jpg in Resources */,
+				936C3C872109D0A0003717C7 /* #68 bylaw .png in Resources */,
+				936C3C242109D0A0003717C7 /* #32 Atom weight.png in Resources */,
+				936C3BF72109D0A0003717C7 /* #78 mechanical property.png in Resources */,
+				9363E3C52113474B0078C03F /* #169 polycondensation.png in Resources */,
+				936C3BF52109D0A0003717C7 /* #187 solvent.png in Resources */,
+				936C3C512109D0A0003717C7 /* #118 state.png in Resources */,
+				936C3BCA2109D0A0003717C7 /* #20 density.jpg in Resources */,
+				936C3BC82109D0A0003717C7 /* #82 crystal.png in Resources */,
+				936C3C912109D0A0003717C7 /* #18 pressure.jpg in Resources */,
+				936C3C092109D0A0003717C7 /* #220 alkanility or acidity.jpg in Resources */,
+				936C3C0D2109D0A0003717C7 /* #72 organic substance.png in Resources */,
+				936C3BF22109D0A0003717C7 /* #248 charge.jpg in Resources */,
+				936C3C882109D0A0003717C7 /* #244 lead battery.png in Resources */,
+				936C3C462109D0A0003717C7 /* #213 oxide.jpg in Resources */,
+				936C3BD62109D0A0003717C7 /* #95 proton.jpg in Resources */,
+				936C3C272109D0A0003717C7 /* #162 van der waals force.png in Resources */,
+				939B260D210005E3008BD339 /* Assets.xcassets in Resources */,
+				936C3C542109D0A0003717C7 /* #27 strong.png in Resources */,
+				936C3C002109D0A0003717C7 /* #85 product.png in Resources */,
+				936C3BFD2109D0A0003717C7 /* #51 outer shell.png in Resources */,
+				936C3BE52109D0A0003717C7 /* #226 formula.jpg in Resources */,
+				936C3C382109D0A0003717C7 /* #36 decrease.png in Resources */,
+				936C3BE32109D0A0003717C7 /* #128 diffusion.png in Resources */,
+				936C3C2F2109D0A0003717C7 /* #40 Constant.png in Resources */,
+				936C3C702109D0A0003717C7 /* #9 Conical beaker.jpg in Resources */,
+				936C3C8C2109D0A0003717C7 /* #206 coefficient.png in Resources */,
+				936C3C3A2109D0A0003717C7 /* #201 basic law.png in Resources */,
+				936C3C7B2109D0A0003717C7 /* #45 diagram.png in Resources */,
+				936C3BC42109D0A0003717C7 /* #66 between.png in Resources */,
+				936C3BC12109D0A0003717C7 /* #167 polymer.png in Resources */,
+				936C3C1D2109D0A0003717C7 /* #210 base.png in Resources */,
+				936C3C832109D0A0003717C7 /* #24 little.png in Resources */,
+				936C3C1E2109D0A0003717C7 /* #245 electrolyte.png in Resources */,
+				936C3C1F2109D0A0003717C7 /* #5 Control, adjustment.jpg in Resources */,
+				936C3C3D2109D0A0003717C7 /* #249 possible.jpg in Resources */,
+				936C3C4B2109D0A0003717C7 /* #152 non-polar molecule.png in Resources */,
+				936C3BF42109D0A0003717C7 /* #195 Product.png in Resources */,
+				936C3C6D2109D0A0003717C7 /* #218 neutralization reaction.png in Resources */,
+				936C3C2B2109D0A0003717C7 /* #102 substance.jpeg in Resources */,
+				936C3CA12109D0A0003717C7 /* #64 Amount.png in Resources */,
+				936C3C2E2109D0A0003717C7 /* #186 solute.png in Resources */,
+				936C3C152109D0A0003717C7 /* #42 stable.jpg in Resources */,
+				937F37D721009487007222CF /* moztw.png in Resources */,
+				936C3C522109D0A0003717C7 /* #37 decrease.png in Resources */,
+				936C3C3B2109D0A0003717C7 /* #216 amphoteric oxide.jpg in Resources */,
+				936C3C0C2109D0A0003717C7 /* #251 polarization.png in Resources */,
+				936C3C2D2109D0A0003717C7 /* #43 piece.png in Resources */,
+				936C3C5D2109D0A0003717C7 /* #134 ion crystal.png in Resources */,
+				936C3CAE2109D0A0003717C7 /* #222 neutral.jpg in Resources */,
+				936C3CA42109D0A0003717C7 /* #57 valence electron.png in Resources */,
+				936C3C972109D0A0003717C7 /* #13 before reaction.png in Resources */,
+				936C3C602109D0A0003717C7 /* #227 titration curve.png in Resources */,
+				936C3CA02109D0A0003717C7 /* #233 oxidation number.png in Resources */,
+				936C3C232109D0A0003717C7 /* #156 linear form.png in Resources */,
+				936C3CA72109D0A0003717C7 /* #23 Unit.PNG in Resources */,
+				936C3BD32109D0A0003717C7 /* #147 covalent bonding.png in Resources */,
+				936C3C402109D0A0003717C7 /* #46 change.png in Resources */,
+				936C3C7A2109D0A0003717C7 /* #16 Property.png in Resources */,
+				936C3C9C2109D0A0003717C7 /* #89 cold water.png in Resources */,
+				936C3C5F2109D0A0003717C7 /* #2 Laboratory experiment.jpg in Resources */,
+				936C3C9B2109D0A0003717C7 /* #96 neutron.jpg in Resources */,
+				936C3CB02109D0A0003717C7 /* #191 molal concentration.jpg in Resources */,
+				936C3C022109D0A0003717C7 /* #214 acidic oxide.jpg in Resources */,
+				936C3BE42109D0A0003717C7 /* #58 Principle.png in Resources */,
+				936C3BC52109D0A0003717C7 /* #124 state change.png in Resources */,
+				936C3BFA2109D0A0003717C7 /* #159 octahedron form.png in Resources */,
+				936C3C332109D0A0003717C7 /* #198 full combustion.jpg in Resources */,
+				936C3C172109D0A0003717C7 /* #35 increase.png in Resources */,
+				936C3C992109D0A0003717C7 /* #165 inorganic substance.png in Resources */,
+				936C3CAA2109D0A0003717C7 /* #92 particle.png in Resources */,
+				936C3BFC2109D0A0003717C7 /* #166 organic substance.png in Resources */,
+				939B260B210005E1008BD339 /* Main.storyboard in Resources */,
+				936C3C3F2109D0A0003717C7 /* #55 Bonding.png in Resources */,
+				936C3C952109D0A0003717C7 /* #106 separation.png in Resources */,
+				936C3C7C2109D0A0003717C7 /* #47 receive electron.png in Resources */,
+				936C3C802109D0A0003717C7 /* #100 isotope.png in Resources */,
+				936C3CB32109D3EC003717C7 /* #137 positive ion.png in Resources */,
+				936C3C452109D0A0003717C7 /* #90 sequence.png in Resources */,
+				936C3CA82109D0A0003717C7 /* #150 polarity.png in Resources */,
+				936C3C6C2109D0A0003717C7 /* #148 structural formula.png in Resources */,
+				936C3C622109D0A0003717C7 /* #240 secondary battery.png in Resources */,
+				936C3C3E2109D0A0003717C7 /* #31 store.png in Resources */,
+				936C3C5A2109D0A0003717C7 /* #238 battery.png in Resources */,
+				936C3BD92109D0A0003717C7 /* #136 electron config.png in Resources */,
+				936C3C592109D0A0003717C7 /* #232 gain electron.png in Resources */,
+				936C3BEC2109D0A0003717C7 /* #223 acidic.png in Resources */,
+				936C3BE72109D0A0003717C7 /* #178 Avogadro constant.png in Resources */,
+				936C3BBF2109D0A0003717C7 /* #182 Solution.png in Resources */,
+				936C3C1C2109D0A0003717C7 /* #86 exponent.png in Resources */,
+				936C3C502109D0A0003717C7 /* #61 Order.png in Resources */,
+				936C3BDA2109D0A0003717C7 /* #10 trend, inclination.png in Resources */,
+				936C3CA62109D0A0003717C7 /* #73 combustion.png in Resources */,
+				936C3C892109D0A0003717C7 /* #26 weak.png in Resources */,
+				936C3C532109D0A0003717C7 /* #125 heat.png in Resources */,
+				936C3C6F2109D0A0003717C7 /* #98 element.jpg in Resources */,
+				936C3C672109D0A0003717C7 /* #160 molecular crystal.png in Resources */,
+				936C3C492109D0A0003717C7 /* #69 boiling point.png in Resources */,
+				936C3C472109D0A0003717C7 /* #41 different.jpg in Resources */,
+				936C3CB12109D0A0003717C7 /* #97 atom.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		939B25FE210005E1008BD339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93378995210B6ED40009D763 /* QuizTableViewController.swift in Sources */,
+				939B2608210005E1008BD339 /* ViewController.swift in Sources */,
+				939B2606210005E1008BD339 /* AppDelegate.swift in Sources */,
+				9392D5BB2101FBF800CF1695 /* Word.swift in Sources */,
+				937545B52108727E0034AE92 /* WordCell.swift in Sources */,
+				937545B321084D2F0034AE92 /* MainTableViewController.swift in Sources */,
+				937DECC4210EF03D007A813A /* Quiz.swift in Sources */,
+				937DECC6210F16AB007A813A /* QuestionView.swift in Sources */,
+				93378997210B8DFB0009D763 /* QuizViewController.swift in Sources */,
+				9392D5BD2102050B00CF1695 /* Category.swift in Sources */,
+				939FCB222108899D0043982F /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		939B2609210005E1008BD339 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				939B260A210005E1008BD339 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		939B260E210005E3008BD339 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				939B260F210005E3008BD339 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		939B2612210005E3008BD339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		939B2613210005E3008BD339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		939B2615210005E3008BD339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5B2N3TZH5;
+				INFOPLIST_FILE = Dictionary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anush.Dictionary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		939B2616210005E3008BD339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5B2N3TZH5;
+				INFOPLIST_FILE = Dictionary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anush.Dictionary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		939B25FD210005E1008BD339 /* Build configuration list for PBXProject "Dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939B2612210005E3008BD339 /* Debug */,
+				939B2613210005E3008BD339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		939B2614210005E3008BD339 /* Build configuration list for PBXNativeTarget "Dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939B2615210005E3008BD339 /* Debug */,
+				939B2616210005E3008BD339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 939B25FA210005E1008BD339 /* Project object */;
+}
