@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - insertionSort",
+            "request": "launch",
+            "mainClass": "insertionSort",
+            "projectName": "CS with purpose_a13bd852"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloWorld1",
+            "request": "launch",
+            "mainClass": "HelloWorld1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloWorld2",
+            "request": "launch",
+            "mainClass": "HelloWorld2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld"
+        }
+    ]
+}
